@@ -1,0 +1,15 @@
+{
+  "seed_id": "wheat_seed",
+  "seed_name": "Wheat Seed",
+  "seed_value": 1,
+  "crop_id": "wheat",
+  "crop_name": "Wheat",
+  "crop_description": "A grain staple.",
+  "crop_type": "food",
+  "crop_value": 2,
+  "crop_heal": 0,
+  "grow_time_minutes": 2,
+  "yield_base": 3,
+  "farming_xp": 4,
+  "min_farming_level": 1
+}

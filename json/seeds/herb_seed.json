@@ -1,0 +1,15 @@
+{
+  "seed_id": "herb_seed",
+  "seed_name": "Herb Seed",
+  "seed_value": 3,
+  "crop_id": "herbs",
+  "crop_name": "Herbs",
+  "crop_description": "Medicinal herbs that restore health.",
+  "crop_type": "consumable",
+  "crop_value": 10,
+  "crop_heal": 20,
+  "grow_time_minutes": 5,
+  "yield_base": 1,
+  "farming_xp": 15,
+  "min_farming_level": 3
+}

@@ -1,0 +1,15 @@
+{
+  "seed_id": "blueberry_seed",
+  "seed_name": "Blueberry Seed",
+  "seed_value": 2,
+  "crop_id": "blueberry",
+  "crop_name": "Blueberry",
+  "crop_description": "Small, sweet berries.",
+  "crop_type": "food",
+  "crop_value": 4,
+  "crop_heal": 5,
+  "grow_time_minutes": 3,
+  "yield_base": 2,
+  "farming_xp": 8,
+  "min_farming_level": 2
+}

@@ -1,0 +1,12 @@
+{
+  "zone_id": "forest",
+  "name": "Forest Hollow",
+  "description": "A spiraling root cavern beneath the forest floor. Three rooms guard the warden's grove.",
+  "spawn_pool": ["orc", "skeleton"],
+  "rooms": [
+    {"enemy_count": [3, 5]},
+    {"enemy_count": [4, 7]},
+    {"enemy_count": [6, 9]}
+  ],
+  "boss_id": "forest_warden"
+}

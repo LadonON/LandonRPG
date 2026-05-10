@@ -1,0 +1,15 @@
+{
+  "seed_id": "moonflower_seed",
+  "seed_name": "Moonflower Seed",
+  "seed_value": 8,
+  "crop_id": "moonflower",
+  "crop_name": "Moonflower",
+  "crop_description": "A rare glowing flower with potent healing.",
+  "crop_type": "consumable",
+  "crop_value": 25,
+  "crop_heal": 50,
+  "grow_time_minutes": 10,
+  "yield_base": 1,
+  "farming_xp": 30,
+  "min_farming_level": 6
+}

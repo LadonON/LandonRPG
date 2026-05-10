@@ -1,0 +1,16 @@
+{
+  "id": "blueberry_picker",
+  "name": "Blueberry Picker",
+  "description": "Gather 5 blueberry seeds. (You need 5 NEW seeds since starting the quest.)",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "blueberry_seed",
+    "amount": 5
+  },
+  "rewards": {
+    "xp": 100,
+    "gold": 50,
+    "items": ["small_potion"]
+  },
+  "requirements": {}
+}

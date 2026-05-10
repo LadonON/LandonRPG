@@ -1,0 +1,15 @@
+{
+  "rarity": "mythic",
+  "pulls": 5,
+  "gold_range": [1200, 3000],
+  "items": [
+    {"item": "dragonslayer", "weight": 20, "amount": [1, 1]},
+    {"item": "dragonscale", "weight": 20, "amount": [1, 1]},
+    {"item": "war_axe", "weight": 10, "amount": [1, 1]},
+    {"item": "large_potion", "weight": 10, "amount": [5, 10]},
+    {"item": "whirlwind_skill", "weight": 15, "amount": [1, 1]},
+    {"item": "power_swing_skill", "weight": 10, "amount": [1, 1]},
+    {"item": "parry_strike_skill", "weight": 10, "amount": [1, 1]},
+    {"item": "moonflower_seed", "weight": 5, "amount": [3, 6]}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "rarity": "uncommon",
+  "pulls": 2,
+  "gold_range": [25, 75],
+  "items": [
+    {"item": "skull", "weight": 25, "amount": [1, 2]},
+    {"item": "small_potion", "weight": 20, "amount": [1, 2]},
+    {"item": "blueberry_seed", "weight": 15, "amount": [1, 3]},
+    {"item": "wheat_seed", "weight": 15, "amount": [2, 4]},
+    {"item": "herb_seed", "weight": 10, "amount": [1, 1]},
+    {"item": "leather_armor", "weight": 8, "amount": [1, 1]},
+    {"item": "rusty_sword", "weight": 7, "amount": [1, 1]}
+  ]
+}

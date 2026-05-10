@@ -1,0 +1,15 @@
+{
+  "seed_id": "sunpetal_seed",
+  "seed_name": "Sunpetal Seed",
+  "seed_value": 3,
+  "crop_id": "sunpetal",
+  "crop_name": "Sunpetal",
+  "crop_description": "A bright meadow flower prized by alchemists.",
+  "crop_type": "food",
+  "crop_value": 7,
+  "crop_heal": 4,
+  "grow_time_minutes": 4,
+  "yield_base": 2,
+  "farming_xp": 10,
+  "min_farming_level": 2
+}

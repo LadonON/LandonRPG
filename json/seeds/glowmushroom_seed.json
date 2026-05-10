@@ -1,0 +1,15 @@
+{
+  "seed_id": "glowmushroom_seed",
+  "seed_name": "Glowmushroom Spore",
+  "seed_value": 8,
+  "crop_id": "glowmushroom",
+  "crop_name": "Glowmushroom",
+  "crop_description": "A faintly luminescent fungus that hums with cave magic.",
+  "crop_type": "food",
+  "crop_value": 20,
+  "crop_heal": 12,
+  "grow_time_minutes": 10,
+  "yield_base": 1,
+  "farming_xp": 25,
+  "min_farming_level": 6
+}

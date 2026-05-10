@@ -1,0 +1,15 @@
+{
+  "rarity": "rare",
+  "pulls": 3,
+  "gold_range": [80, 200],
+  "items": [
+    {"item": "large_potion", "weight": 25, "amount": [1, 2]},
+    {"item": "iron_sword", "weight": 15, "amount": [1, 1]},
+    {"item": "iron_armor", "weight": 12, "amount": [1, 1]},
+    {"item": "moonflower_seed", "weight": 10, "amount": [1, 2]},
+    {"item": "pumpkin_seed", "weight": 12, "amount": [1, 2]},
+    {"item": "glowmushroom_seed", "weight": 10, "amount": [1, 2]},
+    {"item": "power_swing_skill", "weight": 8, "amount": [1, 1]},
+    {"item": "parry_strike_skill", "weight": 8, "amount": [1, 1]}
+  ]
+}

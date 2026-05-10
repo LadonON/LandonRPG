@@ -1,0 +1,14 @@
+{
+  "monster_id": "skeleton",
+  "name": "Skeleton",
+  "max_health": 18,
+  "damage": 4,
+  "attack_msg": "rattles its bones",
+  "xp_reward": 8,
+  "loot": ["bone", "skull"],
+  "damage_die": "1d6",
+  "to_hit_bonus": 3,
+  "defense": 0,
+  "poise": 6,
+  "poise_break": 1
+}

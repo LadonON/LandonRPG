@@ -1,0 +1,54 @@
+{
+  "id": "forest_warden",
+  "name": "Forest Warden",
+  "max_health": 220,
+  "defense": 4,
+  "poise": 18,
+  "poise_break": 3,
+  "initiative_bonus": 3,
+  "xp_reward": 400,
+  "loot": ["large_potion", "skull", "skull", "iron_sword"],
+  "dialogue": {
+    "on_spawn": [
+      "The trees groan as the Warden stalks forth — \"You don't belong here.\"",
+      "Bark splits and roots rise. The Warden has noticed you."
+    ],
+    "on_low_hp": [
+      "\"Enough... games...\" The Warden's bark hardens with rage.",
+      "\"The forest will not fall to the likes of you.\""
+    ],
+    "on_death": [
+      "The Warden crumbles into a heap of moss and bark."
+    ]
+  },
+  "attacks": [
+    {
+      "id": "bramble_lash",
+      "name": "Bramble Lash",
+      "damage_die": "2d8",
+      "damage_bonus": 4,
+      "to_hit_bonus": 3,
+      "poise_break": 3,
+      "target_mode": "single"
+    },
+    {
+      "id": "earthquake",
+      "name": "Root Earthquake",
+      "damage_die": "1d10",
+      "damage_bonus": 2,
+      "to_hit_bonus": 1,
+      "poise_break": 4,
+      "target_mode": "all"
+    },
+    {
+      "id": "summon_pack",
+      "name": "Summon Wolves",
+      "damage_die": "0d0",
+      "damage_bonus": 0,
+      "to_hit_bonus": 99,
+      "poise_break": 0,
+      "target_mode": "single",
+      "summon": {"monster_id": "skeleton", "amount": 2, "level": 1}
+    }
+  ]
+}

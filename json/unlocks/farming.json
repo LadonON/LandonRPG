@@ -1,0 +1,114 @@
+[
+  {
+    "id": "corn_farming",
+    "label": "Corn Farming",
+    "description": "Plant corn seeds (foraged in Forest)",
+    "required_level": 1,
+    "reward_items": ["corn_seed", "corn_seed", "corn_seed"],
+    "reward_gold": 0
+  },
+  {
+    "id": "wheat_farming",
+    "label": "Wheat Farming",
+    "description": "Plant wheat seeds (foraged in Forest)",
+    "required_level": 1,
+    "reward_items": ["wheat_seed", "wheat_seed", "wheat_seed"],
+    "reward_gold": 0
+  },
+  {
+    "id": "blueberry_farming",
+    "label": "Blueberry Farming",
+    "description": "Plant blueberry seeds (foraged in Forest)",
+    "required_level": 2,
+    "reward_items": ["blueberry_seed", "blueberry_seed"],
+    "reward_gold": 10
+  },
+  {
+    "id": "farming_yield_1",
+    "label": "Yield Bonus I",
+    "description": "+1 extra crop per harvest",
+    "required_level": 3,
+    "reward_items": ["herb_seed"],
+    "reward_gold": 20
+  },
+  {
+    "id": "herb_farming",
+    "label": "Herb Farming",
+    "description": "Plant herb seeds (foraged in Forest)",
+    "required_level": 3,
+    "reward_items": ["herb_seed", "herb_seed"],
+    "reward_gold": 25
+  },
+  {
+    "id": "farming_yield_2",
+    "label": "Yield Bonus II",
+    "description": "+2 extra crops per harvest",
+    "required_level": 6,
+    "reward_items": ["moonflower_seed"],
+    "reward_gold": 50
+  },
+  {
+    "id": "moonflower_farming",
+    "label": "Moonflower Farming",
+    "description": "Plant moonflower seeds (foraged in Cave)",
+    "required_level": 6,
+    "reward_items": ["moonflower_seed"],
+    "reward_gold": 50
+  },
+  {
+    "id": "farming_yield_3",
+    "label": "Yield Bonus III",
+    "description": "+3 extra crops per harvest",
+    "required_level": 9,
+    "reward_items": [],
+    "reward_gold": 100
+  },
+  {
+    "id": "farming_yield_4",
+    "label": "Yield Bonus IV",
+    "description": "+4 extra crops per harvest",
+    "required_level": 12,
+    "reward_items": [],
+    "reward_gold": 150
+  },
+  {
+    "id": "farming_yield_5",
+    "label": "Yield Bonus V",
+    "description": "+5 extra crops per harvest",
+    "required_level": 15,
+    "reward_items": [],
+    "reward_gold": 250
+  },
+  {
+    "id": "sunpetal_farming",
+    "label": "Sunpetal Cultivation",
+    "description": "Plant sunpetal seeds (foraged in Meadow).",
+    "required_level": 2,
+    "reward_items": ["sunpetal_seed", "sunpetal_seed"],
+    "reward_gold": 15
+  },
+  {
+    "id": "pumpkin_farming",
+    "label": "Pumpkin Cultivation",
+    "description": "Plant pumpkin seeds (foraged in Meadow/Swamp).",
+    "required_level": 4,
+    "reward_items": ["pumpkin_seed", "pumpkin_seed"],
+    "reward_gold": 40
+  },
+  {
+    "id": "glowmushroom_farming",
+    "label": "Glowmushroom Cultivation",
+    "description": "Plant glowmushroom spores (foraged in Cave/Swamp).",
+    "required_level": 6,
+    "reward_items": ["glowmushroom_seed", "glowmushroom_seed"],
+    "reward_gold": 75
+  },
+  {
+    "id": "farming_zone_meadow",
+    "label": "Meadow Discovery",
+    "description": "Discover the Sunlit Meadow zone.",
+    "required_level": 3,
+    "reward_items": ["sunpetal_seed"],
+    "reward_gold": 30
+  }
+]

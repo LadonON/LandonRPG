@@ -1,0 +1,40 @@
+{
+  "_comment": "Maps (difficulty, zone_difficulty_band) -> rarity-weight map. Zone difficulty bands: 'low' (zone.difficulty 0-2), 'mid' (3-5), 'high' (6+). Weights are RELATIVE percentages within the band; the engine normalises them. THESE PERCENTAGES NEVER CHANGE.",
+  "easy": {
+    "low":  {"common": 80, "uncommon": 20},
+    "mid":  {"common": 60, "uncommon": 35, "rare": 5},
+    "high": {"common": 40, "uncommon": 45, "rare": 15}
+  },
+  "normal": {
+    "low":  {"common": 60, "uncommon": 35, "rare": 5},
+    "mid":  {"common": 35, "uncommon": 45, "rare": 17, "epic": 3},
+    "high": {"common": 20, "uncommon": 40, "rare": 30, "epic": 10}
+  },
+  "hard": {
+    "low":  {"uncommon": 60, "rare": 35, "epic": 5},
+    "mid":  {"uncommon": 35, "rare": 45, "epic": 17, "legendary": 3},
+    "high": {"uncommon": 20, "rare": 40, "epic": 30, "legendary": 10}
+  },
+  "insane": {
+    "low":  {"rare": 50, "epic": 40, "legendary": 10},
+    "mid":  {"rare": 30, "epic": 45, "legendary": 22, "mythic": 3},
+    "high": {"rare": 15, "epic": 40, "legendary": 35, "mythic": 10}
+  },
+  "nightmare": {
+    "low":  {"rare": 40, "epic": 40, "legendary": 18, "mythic": 2},
+    "mid":  {"rare": 25, "epic": 35, "legendary": 30, "mythic": 9, "chroma": 1},
+    "high": {"rare": 15, "epic": 30, "legendary": 35, "mythic": 17, "chroma": 3}
+  },
+  "cataclysm": {
+    "low":  {"epic": 45, "legendary": 35, "mythic": 17, "chroma": 3},
+    "mid":  {"epic": 30, "legendary": 40, "mythic": 24, "chroma": 6},
+    "high": {"epic": 20, "legendary": 40, "mythic": 30, "chroma": 10}
+  },
+  "abyssal": {
+    "low":  {"legendary": 45, "mythic": 40, "chroma": 15},
+    "mid":  {"legendary": 35, "mythic": 45, "chroma": 20},
+    "high": {"legendary": 25, "mythic": 50, "chroma": 25}
+  },
+  "boss_bonus_rarity_steps": 1,
+  "_boss_comment": "When a boss is defeated, its drop is rolled from the same band but shifted up by N rarity steps (capped at chroma)."
+}

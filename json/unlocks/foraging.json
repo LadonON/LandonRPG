@@ -1,0 +1,66 @@
+[
+  {
+    "id": "foraging_starter_pouch",
+    "label": "Forager's Starter Pouch",
+    "description": "A handful of common seeds to get you started.",
+    "required_level": 1,
+    "reward_items": ["corn_seed", "wheat_seed", "blueberry_seed"],
+    "reward_gold": 10
+  },
+  {
+    "id": "foraging_zone_meadow",
+    "label": "Meadow Discovery",
+    "description": "Word of the Sunlit Meadow reaches you. Warp there to forage sunpetals.",
+    "required_level": 2,
+    "reward_items": ["sunpetal_seed", "sunpetal_seed"],
+    "reward_gold": 25
+  },
+  {
+    "id": "foraging_yield_1",
+    "label": "Keen Eyes I",
+    "description": "+1 extra seed per forage (passive at L4).",
+    "required_level": 4,
+    "reward_items": ["herb_seed", "herb_seed"],
+    "reward_gold": 40
+  },
+  {
+    "id": "foraging_zone_swamp",
+    "label": "Swamp Discovery",
+    "description": "You learn safe paths through Murk Swamp.",
+    "required_level": 4,
+    "reward_items": ["pumpkin_seed", "pumpkin_seed"],
+    "reward_gold": 75
+  },
+  {
+    "id": "foraging_pumpkin",
+    "label": "Pumpkin Cultivation",
+    "description": "You can now plant pumpkin seeds.",
+    "required_level": 5,
+    "reward_items": ["pumpkin_seed", "pumpkin_seed", "pumpkin_seed"],
+    "reward_gold": 60
+  },
+  {
+    "id": "foraging_yield_2",
+    "label": "Keen Eyes II",
+    "description": "+2 extra seeds per forage (passive at L8).",
+    "required_level": 8,
+    "reward_items": ["moonflower_seed"],
+    "reward_gold": 120
+  },
+  {
+    "id": "foraging_glowmushroom",
+    "label": "Glowmushroom Cultivation",
+    "description": "You can now plant glowmushroom spores.",
+    "required_level": 8,
+    "reward_items": ["glowmushroom_seed", "glowmushroom_seed"],
+    "reward_gold": 150
+  },
+  {
+    "id": "foraging_master",
+    "label": "Master Forager",
+    "description": "Renowned across the land. A king's purse for your trouble.",
+    "required_level": 12,
+    "reward_items": ["glowmushroom_seed", "moonflower_seed", "pumpkin_seed"],
+    "reward_gold": 500
+  }
+]

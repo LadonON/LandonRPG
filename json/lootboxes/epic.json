@@ -1,0 +1,16 @@
+{
+  "rarity": "epic",
+  "pulls": 3,
+  "gold_range": [200, 500],
+  "items": [
+    {"item": "large_potion", "weight": 20, "amount": [2, 4]},
+    {"item": "iron_sword", "weight": 12, "amount": [1, 1]},
+    {"item": "iron_armor", "weight": 12, "amount": [1, 1]},
+    {"item": "war_axe", "weight": 10, "amount": [1, 1]},
+    {"item": "harvest_scythe", "weight": 8, "amount": [1, 1]},
+    {"item": "forager_sickle", "weight": 8, "amount": [1, 1]},
+    {"item": "whirlwind_skill", "weight": 12, "amount": [1, 1]},
+    {"item": "power_swing_skill", "weight": 10, "amount": [1, 1]},
+    {"item": "parry_strike_skill", "weight": 8, "amount": [1, 1]}
+  ]
+}

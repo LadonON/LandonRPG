@@ -1,0 +1,15 @@
+{
+  "id": "cave_explorer",
+  "name": "Cave Explorer",
+  "description": "Travel to the Damp Cave.",
+  "objective": {
+    "type": "visit_zone",
+    "zone_id": "cave"
+  },
+  "rewards": {
+    "xp": 80,
+    "gold": 30,
+    "items": ["small_potion"]
+  },
+  "requirements": {}
+}

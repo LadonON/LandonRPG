@@ -1,0 +1,15 @@
+{
+  "seed_id": "pumpkin_seed",
+  "seed_name": "Pumpkin Seed",
+  "seed_value": 5,
+  "crop_id": "pumpkin",
+  "crop_name": "Pumpkin",
+  "crop_description": "A hearty orange gourd.",
+  "crop_type": "food",
+  "crop_value": 12,
+  "crop_heal": 8,
+  "grow_time_minutes": 8,
+  "yield_base": 1,
+  "farming_xp": 18,
+  "min_farming_level": 4
+}

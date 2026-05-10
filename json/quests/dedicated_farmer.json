@@ -1,0 +1,16 @@
+{
+  "id": "dedicated_farmer",
+  "name": "Dedicated Farmer",
+  "description": "Reach Farming Level 5.",
+  "objective": {
+    "type": "reach_stat_level",
+    "stat": "farming",
+    "level": 5
+  },
+  "rewards": {
+    "xp": 200,
+    "gold": 75,
+    "items": ["herb_seed", "herb_seed", "herb_seed"]
+  },
+  "requirements": {}
+}

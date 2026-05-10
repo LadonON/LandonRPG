@@ -1,0 +1,19 @@
+{
+  "id": "rusty_sword",
+  "name": "Rusty Sword",
+  "description": "Better than fists.",
+  "weapon_class": "light",
+  "value": 15,
+  "damage_bonus": 3,
+  "requirements": {},
+  "attacks": [
+    {"id": "slash",  "name": "Slash",  "damage_die": "1d6", "damage_bonus": 1, "poise_break": 1, "to_hit_bonus": 2},
+    {"id": "jab",    "name": "Jab",    "damage_die": "1d4", "damage_bonus": 2, "poise_break": 1, "to_hit_bonus": 4}
+  ],
+  "upgrade": {
+    "max_level": 100,
+    "per_level_materials": [{"item": "bone", "amount": 1}],
+    "attack_per_level": 0.3,
+    "poise_per_level": 0.2
+  }
+}

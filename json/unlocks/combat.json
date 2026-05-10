@@ -1,0 +1,58 @@
+[
+  {
+    "id": "combat_loot_1",
+    "label": "Loot Bonus I",
+    "description": "+1 extra drop per kill",
+    "required_level": 3,
+    "reward_items": ["small_potion"],
+    "reward_gold": 20
+  },
+  {
+    "id": "damp_cave",
+    "label": "Damp Cave Access",
+    "description": "Unlocks the Damp Cave zone for exploration",
+    "required_level": 3,
+    "reward_items": [],
+    "reward_gold": 50
+  },
+  {
+    "id": "combat_loot_2",
+    "label": "Loot Bonus II",
+    "description": "+2 extra drops per kill",
+    "required_level": 6,
+    "reward_items": ["large_potion"],
+    "reward_gold": 50
+  },
+  {
+    "id": "combat_loot_3",
+    "label": "Loot Bonus III",
+    "description": "+3 extra drops per kill",
+    "required_level": 9,
+    "reward_items": ["iron_sword"],
+    "reward_gold": 100
+  },
+  {
+    "id": "combat_loot_4",
+    "label": "Loot Bonus IV",
+    "description": "+4 extra drops per kill",
+    "required_level": 12,
+    "reward_items": ["iron_armor"],
+    "reward_gold": 150
+  },
+  {
+    "id": "combat_loot_5",
+    "label": "Loot Bonus V",
+    "description": "+5 extra drops per kill",
+    "required_level": 15,
+    "reward_items": ["war_axe"],
+    "reward_gold": 250
+  },
+  {
+    "id": "combat_zone_swamp",
+    "label": "Murk Swamp Access",
+    "description": "Cleared paths into the Murk Swamp.",
+    "required_level": 5,
+    "reward_items": ["glowmushroom_seed"],
+    "reward_gold": 75
+  }
+]

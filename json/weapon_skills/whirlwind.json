@@ -1,0 +1,14 @@
+{
+  "id": "whirlwind_skill",
+  "name": "Whirlwind Skill",
+  "description": "A spinning slash that's hard to land but devastating.",
+  "value": 120,
+  "attack": {
+    "id": "whirlwind",
+    "name": "Whirlwind",
+    "damage_die": "3d6",
+    "damage_bonus": 2,
+    "poise_break": 4,
+    "to_hit_bonus": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "orc_slayer",
+  "name": "Orc Slayer",
+  "description": "Defeat 5 orcs in PvE encounters.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "orc",
+    "amount": 5
+  },
+  "rewards": {
+    "xp": 250,
+    "gold": 100,
+    "items": ["large_potion"]
+  },
+  "requirements": {
+    "combat": 2
+  }
+}

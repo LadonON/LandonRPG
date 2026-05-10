@@ -1,0 +1,18 @@
+{
+  "id": "swamp_pioneer",
+  "name": "Swamp Pioneer",
+  "description": "Find a way into the Murk Swamp without meeting the usual stat gates.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "skeleton",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 400,
+    "gold": 150,
+    "unlock_zone": "swamp"
+  },
+  "requirements": {
+    "combat": 3
+  }
+}
