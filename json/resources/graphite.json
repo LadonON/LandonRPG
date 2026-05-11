@@ -1,0 +1,11 @@
+{
+  "id": "graphite",
+  "name": "Graphite",
+  "description": "Soft carbon mineral. Leaves dark smears.",
+  "value": 6,
+  "drop_chance": 50,
+  "mining_xp": 7,
+  "min_mining_level": 3,
+  "min_pickaxe_level": 2,
+  "required_pickaxe": ""
+}

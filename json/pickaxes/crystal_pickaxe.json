@@ -1,0 +1,24 @@
+{
+  "id": "crystal_pickaxe",
+  "name": "Crystal Pickaxe",
+  "description": "Resonates with crystalline ore, loosening it on contact.",
+  "pickaxe_level": 9,
+  "value": 4500,
+  "requirements": {
+    "mining": 14
+  },
+  "upgrade": {
+    "max_level": 100,
+    "per_level_materials": [
+      {
+        "item": "glacial_crystal",
+        "amount": 2
+      },
+      {
+        "item": "frostsilver",
+        "amount": 2
+      }
+    ],
+    "level_per_step": 0.16
+  }
+}

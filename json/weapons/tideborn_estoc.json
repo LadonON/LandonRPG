@@ -1,0 +1,52 @@
+{
+  "id": "tideborn_estoc",
+  "name": "Tideborn Estoc",
+  "description": "A needle-point forged from tidal pressure metals.",
+  "weapon_class": "finesse",
+  "value": 7500,
+  "damage_bonus": 90,
+  "requirements": {
+    "combat": 23
+  },
+  "attacks": [
+    {
+      "id": "depth_pierce",
+      "name": "Depth Pierce",
+      "damage_die": "2d10",
+      "damage_bonus": 11,
+      "poise_break": 3,
+      "to_hit_bonus": 10
+    },
+    {
+      "id": "pressure_thrust",
+      "name": "Pressure Thrust",
+      "damage_die": "2d8",
+      "damage_bonus": 12,
+      "poise_break": 3,
+      "to_hit_bonus": 10
+    },
+    {
+      "id": "abyss_feint",
+      "name": "Abyss Feint",
+      "damage_die": "2d6",
+      "damage_bonus": 7,
+      "poise_break": 2,
+      "to_hit_bonus": 13
+    }
+  ],
+  "upgrade": {
+    "max_level": 50,
+    "per_level_materials": [
+      {
+        "item": "pearl_coral",
+        "amount": 1
+      },
+      {
+        "item": "salt_crystal",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 1.35,
+    "poise_per_level": 0.9
+  }
+}

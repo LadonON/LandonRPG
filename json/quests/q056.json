@@ -1,0 +1,15 @@
+{
+  "id": "q056",
+  "name": "Gator Hunter",
+  "description": "Defeat 5 gator brutes.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "gator_brute",
+    "amount": 5
+  },
+  "rewards": {
+    "xp": 280,
+    "gold": 150
+  },
+  "requirements": {}
+}

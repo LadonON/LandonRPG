@@ -1,0 +1,15 @@
+{
+  "seed_id": "ashpetal_seed",
+  "seed_name": "Ashpetal Seed",
+  "seed_value": 8,
+  "crop_id": "ashpetal",
+  "crop_name": "Ashpetal",
+  "crop_description": "Grey flower found in volcanic soil.",
+  "crop_type": "herb",
+  "crop_value": 25,
+  "crop_heal": 30,
+  "grow_time_minutes": 10,
+  "yield_base": 1,
+  "farming_xp": 20,
+  "min_farming_level": 7
+}

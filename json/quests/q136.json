@@ -1,0 +1,15 @@
+{
+  "id": "q136",
+  "name": "Soulstone Run",
+  "description": "Collect 6 soulstone.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "soulstone",
+    "amount": 6
+  },
+  "rewards": {
+    "xp": 1080,
+    "gold": 600
+  },
+  "requirements": {}
+}

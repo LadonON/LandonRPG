@@ -1,0 +1,52 @@
+{
+  "id": "tempest_greatsword",
+  "name": "Tempest Greatsword",
+  "description": "The blade hums in any storm.",
+  "weapon_class": "two_handed",
+  "value": 55000,
+  "damage_bonus": 362,
+  "requirements": {
+    "combat": 36
+  },
+  "attacks": [
+    {
+      "id": "tempest_cleave",
+      "name": "Tempest Cleave",
+      "damage_die": "4d10",
+      "damage_bonus": 23,
+      "poise_break": 8,
+      "to_hit_bonus": 4
+    },
+    {
+      "id": "arc_execute",
+      "name": "Arc Execute",
+      "damage_die": "4d8",
+      "damage_bonus": 25,
+      "poise_break": 7,
+      "to_hit_bonus": 4
+    },
+    {
+      "id": "chain_guard_break",
+      "name": "Chain Guard Break",
+      "damage_die": "3d12",
+      "damage_bonus": 20,
+      "poise_break": 15,
+      "to_hit_bonus": 3
+    }
+  ],
+  "upgrade": {
+    "max_level": 60,
+    "per_level_materials": [
+      {
+        "item": "stormsteel",
+        "amount": 1
+      },
+      {
+        "item": "voltite",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 2.0,
+    "poise_per_level": 1.3
+  }
+}

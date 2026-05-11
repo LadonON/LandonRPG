@@ -1,0 +1,15 @@
+{
+  "id": "q140",
+  "name": "Shadowmoss Picker",
+  "description": "Collect 4 shadowmoss seeds.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "shadowmoss_seed",
+    "amount": 4
+  },
+  "rewards": {
+    "xp": 1020,
+    "gold": 560
+  },
+  "requirements": {}
+}

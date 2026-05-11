@@ -1,0 +1,18 @@
+{
+  "monster_id": "cave_orc",
+  "name": "Cave Orc",
+  "max_health": 48,
+  "damage": 5,
+  "attack_msg": "swings a stone club",
+  "xp_reward": 28,
+  "loot": [
+    "bone",
+    "club_fragment",
+    "stone"
+  ],
+  "damage_die": "1d10",
+  "to_hit_bonus": 2,
+  "defense": 2,
+  "poise": 8,
+  "poise_break": 2
+}

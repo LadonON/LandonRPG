@@ -1,0 +1,15 @@
+{
+  "id": "q165",
+  "name": "Star Revenant Hunt",
+  "description": "Defeat 10 star revenants.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "star_revenant",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 1720,
+    "gold": 1010
+  },
+  "requirements": {}
+}

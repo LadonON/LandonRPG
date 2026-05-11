@@ -1,0 +1,15 @@
+{
+  "id": "q031",
+  "name": "Onion Basket",
+  "description": "Collect 4 onions.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "onion",
+    "amount": 4
+  },
+  "rewards": {
+    "xp": 90,
+    "gold": 45
+  },
+  "requirements": {}
+}

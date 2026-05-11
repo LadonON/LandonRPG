@@ -1,0 +1,15 @@
+{
+  "id": "q164",
+  "name": "Warden Culling",
+  "description": "Defeat 10 crucible wardens.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "crucible_warden",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 1700,
+    "gold": 1000
+  },
+  "requirements": {}
+}

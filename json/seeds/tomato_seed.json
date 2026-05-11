@@ -1,0 +1,15 @@
+{
+  "seed_id": "tomato_seed",
+  "seed_name": "Tomato Seed",
+  "seed_value": 2,
+  "crop_id": "tomato",
+  "crop_name": "Tomato",
+  "crop_description": "Bright red and juicy.",
+  "crop_type": "food",
+  "crop_value": 4,
+  "crop_heal": 6,
+  "grow_time_minutes": 4,
+  "yield_base": 2,
+  "farming_xp": 6,
+  "min_farming_level": 3
+}

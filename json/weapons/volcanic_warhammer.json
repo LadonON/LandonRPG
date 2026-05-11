@@ -1,0 +1,52 @@
+{
+  "id": "volcanic_warhammer",
+  "name": "Volcanic Warhammer",
+  "description": "The head is filled with lava. Literally.",
+  "weapon_class": "heavy",
+  "value": 2500,
+  "damage_bonus": 75,
+  "requirements": {
+    "combat": 13
+  },
+  "attacks": [
+    {
+      "id": "lava_slam",
+      "name": "Lava Slam",
+      "damage_die": "2d12",
+      "damage_bonus": 10,
+      "poise_break": 8,
+      "to_hit_bonus": 1
+    },
+    {
+      "id": "eruption",
+      "name": "Eruption",
+      "damage_die": "3d6",
+      "damage_bonus": 9,
+      "poise_break": 6,
+      "to_hit_bonus": 0
+    },
+    {
+      "id": "overhead_crush",
+      "name": "Overhead Crush",
+      "damage_die": "2d10",
+      "damage_bonus": 11,
+      "poise_break": 9,
+      "to_hit_bonus": -1
+    }
+  ],
+  "upgrade": {
+    "max_level": 40,
+    "per_level_materials": [
+      {
+        "item": "obsidian",
+        "amount": 1
+      },
+      {
+        "item": "sulfur_chunk",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 0.9,
+    "poise_per_level": 0.6
+  }
+}

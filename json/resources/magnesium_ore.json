@@ -1,0 +1,11 @@
+{
+  "id": "magnesium_ore",
+  "name": "Magnesium Ore",
+  "description": "Burns white-hot when struck. Dangerous to mine.",
+  "value": 24,
+  "drop_chance": 22,
+  "mining_xp": 19,
+  "min_mining_level": 11,
+  "min_pickaxe_level": 5,
+  "required_pickaxe": ""
+}

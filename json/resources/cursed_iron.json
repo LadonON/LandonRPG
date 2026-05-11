@@ -1,0 +1,11 @@
+{
+  "id": "cursed_iron",
+  "name": "Cursed Iron",
+  "description": "Iron warped by necrotic energy.",
+  "value": 32,
+  "drop_chance": 18,
+  "mining_xp": 32,
+  "min_mining_level": 19,
+  "min_pickaxe_level": 7,
+  "required_pickaxe": ""
+}

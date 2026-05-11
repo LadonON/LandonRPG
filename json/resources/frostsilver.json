@@ -1,0 +1,11 @@
+{
+  "id": "frostsilver",
+  "name": "Frostsilver",
+  "description": "Silver ore infused with arctic cold.",
+  "value": 22,
+  "drop_chance": 22,
+  "mining_xp": 22,
+  "min_mining_level": 13,
+  "min_pickaxe_level": 5,
+  "required_pickaxe": ""
+}

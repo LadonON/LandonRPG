@@ -1,0 +1,57 @@
+{
+  "id": "magmaw_the_sundering",
+  "name": "Magmaw the Sundering",
+  "max_health": 720,
+  "defense": 6,
+  "poise": 50,
+  "poise_break": 5,
+  "initiative_bonus": 2,
+  "xp_reward": 2000,
+  "loot": [
+    "large_potion",
+    "sundering_core",
+    "obsidian",
+    "molten_core"
+  ],
+  "dialogue": {
+    "on_spawn": [
+      "The plateau cracks. Lava surges. A titan of fire steps forth.",
+      "\"BURN.\""
+    ],
+    "on_low_hp": [
+      "Magmaw erupts. \"ERUPTION PHASE \u2014 ALL SHALL BURN!\""
+    ],
+    "on_death": [
+      "Magmaw collapses inward, cooling into basalt."
+    ]
+  },
+  "attacks": [
+    {
+      "id": "lava_smash",
+      "name": "Lava Smash",
+      "damage_die": "3d6",
+      "damage_bonus": 5,
+      "to_hit_bonus": 2,
+      "poise_break": 6,
+      "target_mode": "single"
+    },
+    {
+      "id": "eruption_wave",
+      "name": "Eruption Wave",
+      "damage_die": "2d6",
+      "damage_bonus": 3,
+      "to_hit_bonus": 2,
+      "poise_break": 3,
+      "target_mode": "all"
+    },
+    {
+      "id": "magma_shard",
+      "name": "Magma Shard",
+      "damage_die": "2d8",
+      "damage_bonus": 4,
+      "to_hit_bonus": 3,
+      "poise_break": 4,
+      "target_mode": "single"
+    }
+  ]
+}

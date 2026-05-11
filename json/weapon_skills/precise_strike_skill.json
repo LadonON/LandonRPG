@@ -1,0 +1,14 @@
+{
+  "id": "precise_strike_skill",
+  "name": "Precise Strike",
+  "description": "A measured thrust aimed at the gap between plates.",
+  "value": 90,
+  "attack": {
+    "id": "precise_strike",
+    "name": "Precise Strike",
+    "damage_die": "1d8",
+    "damage_bonus": 3,
+    "poise_break": 2,
+    "to_hit_bonus": 8
+  }
+}

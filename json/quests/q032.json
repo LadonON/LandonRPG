@@ -1,0 +1,15 @@
+{
+  "id": "q032",
+  "name": "Tomato Run",
+  "description": "Collect 6 tomatoes.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "tomato",
+    "amount": 6
+  },
+  "rewards": {
+    "xp": 90,
+    "gold": 45
+  },
+  "requirements": {}
+}

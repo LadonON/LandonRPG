@@ -1,0 +1,15 @@
+{
+  "id": "q050",
+  "name": "Pickaxe Fragments",
+  "description": "Collect 5 pickaxe fragments.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "pickaxe_fragment",
+    "amount": 5
+  },
+  "rewards": {
+    "xp": 160,
+    "gold": 80
+  },
+  "requirements": {}
+}

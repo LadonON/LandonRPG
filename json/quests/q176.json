@@ -1,0 +1,18 @@
+{
+  "id": "q176",
+  "name": "Celestial Oath",
+  "description": "Reach Combat Level 42.",
+  "objective": {
+    "type": "reach_stat_level",
+    "stat": "combat",
+    "level": 42
+  },
+  "rewards": {
+    "xp": 2200,
+    "gold": 1300,
+    "items": [
+      "skyborn_sword"
+    ]
+  },
+  "requirements": {}
+}

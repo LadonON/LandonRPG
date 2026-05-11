@@ -1,0 +1,15 @@
+{
+  "id": "q172",
+  "name": "Herald Eye Run",
+  "description": "Collect 5 herald eyes.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "herald_eye",
+    "amount": 5
+  },
+  "rewards": {
+    "xp": 2000,
+    "gold": 1150
+  },
+  "requirements": {}
+}

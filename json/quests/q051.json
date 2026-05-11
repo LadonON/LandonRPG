@@ -1,0 +1,18 @@
+{
+  "id": "q051",
+  "name": "Cavern Explorer",
+  "description": "Reach Mining Level 6.",
+  "objective": {
+    "type": "reach_stat_level",
+    "stat": "mining",
+    "level": 6
+  },
+  "rewards": {
+    "xp": 250,
+    "gold": 130,
+    "items": [
+      "lootbox_uncommon"
+    ]
+  },
+  "requirements": {}
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q106",
+  "name": "Hoar Throne",
+  "description": "Defeat Glacien, Frostfanged.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "glacien_frostfanged",
+    "amount": 1
+  },
+  "rewards": {
+    "xp": 1100,
+    "gold": 700,
+    "items": [
+      "frostfang"
+    ],
+    "unlock_zone": "tidewreck"
+  },
+  "requirements": {}
+}

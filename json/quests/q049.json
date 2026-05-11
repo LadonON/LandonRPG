@@ -1,0 +1,15 @@
+{
+  "id": "q049",
+  "name": "Cave Skeleton Culling",
+  "description": "Defeat 12 cave skeletons.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "cave_skeleton",
+    "amount": 12
+  },
+  "rewards": {
+    "xp": 220,
+    "gold": 110
+  },
+  "requirements": {}
+}

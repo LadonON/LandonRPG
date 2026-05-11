@@ -1,0 +1,48 @@
+{
+  "id": "meadow_maul",
+  "name": "Meadow Maul",
+  "description": "Heavy maul favored by meadow bruisers.",
+  "weapon_class": "heavy",
+  "value": 160,
+  "damage_bonus": 19,
+  "requirements": {
+    "combat": 3
+  },
+  "attacks": [
+    {
+      "id": "cleave",
+      "name": "Cleave",
+      "damage_die": "1d12",
+      "damage_bonus": 4,
+      "poise_break": 4,
+      "to_hit_bonus": 1
+    },
+    {
+      "id": "overhead",
+      "name": "Overhead Slam",
+      "damage_die": "1d10",
+      "damage_bonus": 5,
+      "poise_break": 5,
+      "to_hit_bonus": 0
+    },
+    {
+      "id": "ground_pound",
+      "name": "Ground Pound",
+      "damage_die": "2d6",
+      "damage_bonus": 3,
+      "poise_break": 3,
+      "to_hit_bonus": -1
+    }
+  ],
+  "upgrade": {
+    "max_level": 25,
+    "per_level_materials": [
+      {
+        "item": "tooth",
+        "amount": 2
+      }
+    ],
+    "attack_per_level": 0.4,
+    "poise_per_level": 0.3
+  }
+}

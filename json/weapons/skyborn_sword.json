@@ -1,0 +1,52 @@
+{
+  "id": "skyborn_sword",
+  "name": "Skyborn Sword",
+  "description": "Forged in sky-iron at the edge of the heavens.",
+  "weapon_class": "light",
+  "value": 60000,
+  "damage_bonus": 200,
+  "requirements": {
+    "combat": 43
+  },
+  "attacks": [
+    {
+      "id": "celestial_slash",
+      "name": "Celestial Slash",
+      "damage_die": "3d8",
+      "damage_bonus": 12,
+      "poise_break": 6,
+      "to_hit_bonus": 8
+    },
+    {
+      "id": "starcut",
+      "name": "Starcut",
+      "damage_die": "3d6",
+      "damage_bonus": 16,
+      "poise_break": 5,
+      "to_hit_bonus": 10
+    },
+    {
+      "id": "void_jab",
+      "name": "Void Jab",
+      "damage_die": "2d10",
+      "damage_bonus": 9,
+      "poise_break": 3,
+      "to_hit_bonus": 13
+    }
+  ],
+  "upgrade": {
+    "max_level": 70,
+    "per_level_materials": [
+      {
+        "item": "celestium",
+        "amount": 1
+      },
+      {
+        "item": "stardust",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 2.5,
+    "poise_per_level": 1.6
+  }
+}

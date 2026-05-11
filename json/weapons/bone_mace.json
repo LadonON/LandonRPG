@@ -1,0 +1,38 @@
+{
+  "id": "bone_mace",
+  "name": "Bone Mace",
+  "description": "A femur lashed with stone.",
+  "weapon_class": "heavy",
+  "value": 60,
+  "damage_bonus": 11,
+  "requirements": {},
+  "attacks": [
+    {
+      "id": "bludgeon",
+      "name": "Bludgeon",
+      "damage_die": "1d8",
+      "damage_bonus": 3,
+      "poise_break": 4,
+      "to_hit_bonus": 1
+    },
+    {
+      "id": "smash",
+      "name": "Smash",
+      "damage_die": "1d6",
+      "damage_bonus": 4,
+      "poise_break": 5,
+      "to_hit_bonus": 0
+    }
+  ],
+  "upgrade": {
+    "max_level": 20,
+    "per_level_materials": [
+      {
+        "item": "bone",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 0.3,
+    "poise_per_level": 0.2
+  }
+}

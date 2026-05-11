@@ -72,6 +72,22 @@ DEFINITIONS: list[StatDefinition] = [
         xp_exp=1.3,
         bonus_divisor=4,
     ),
+    StatDefinition(
+        name="mining",
+        unit="XP",
+        bonus_label="extra ore/swing",
+        xp_coeff=15,
+        xp_exp=1.3,
+        bonus_divisor=4,
+    ),
+    StatDefinition(
+        name="fishing",
+        unit="XP",
+        bonus_label="extra catch/cast",
+        xp_coeff=15,
+        xp_exp=1.3,
+        bonus_divisor=4,
+    ),
 ]
 
 

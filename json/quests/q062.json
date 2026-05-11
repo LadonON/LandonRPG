@@ -1,0 +1,15 @@
+{
+  "id": "q062",
+  "name": "Bog Orc Hunt",
+  "description": "Defeat 8 bog orcs.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "bog_orc",
+    "amount": 8
+  },
+  "rewards": {
+    "xp": 300,
+    "gold": 160
+  },
+  "requirements": {}
+}

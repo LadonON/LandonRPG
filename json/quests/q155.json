@@ -1,0 +1,15 @@
+{
+  "id": "q155",
+  "name": "Voltflower Picker",
+  "description": "Collect 4 voltflower seeds.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "voltflower_seed",
+    "amount": 4
+  },
+  "rewards": {
+    "xp": 1320,
+    "gold": 740
+  },
+  "requirements": {}
+}

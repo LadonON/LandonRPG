@@ -1,0 +1,15 @@
+{
+  "seed_id": "cabbage_seed",
+  "seed_name": "Cabbage Seed",
+  "seed_value": 2,
+  "crop_id": "cabbage",
+  "crop_name": "Cabbage",
+  "crop_description": "Dense leafy vegetable.",
+  "crop_type": "food",
+  "crop_value": 5,
+  "crop_heal": 10,
+  "grow_time_minutes": 5,
+  "yield_base": 1,
+  "farming_xp": 7,
+  "min_farming_level": 3
+}

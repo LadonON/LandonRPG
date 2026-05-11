@@ -1,0 +1,15 @@
+{
+  "seed_id": "mooncress_seed",
+  "seed_name": "Mooncress Seed",
+  "seed_value": 7,
+  "crop_id": "mooncress",
+  "crop_name": "Mooncress",
+  "crop_description": "Blooms only under moonlight.",
+  "crop_type": "herb",
+  "crop_value": 22,
+  "crop_heal": 45,
+  "grow_time_minutes": 12,
+  "yield_base": 1,
+  "farming_xp": 20,
+  "min_farming_level": 8
+}

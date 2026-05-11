@@ -1,0 +1,15 @@
+{
+  "id": "q005",
+  "name": "Orcish Problem",
+  "description": "Defeat 6 young orcs.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "young_orc",
+    "amount": 6
+  },
+  "rewards": {
+    "xp": 70,
+    "gold": 40
+  },
+  "requirements": {}
+}

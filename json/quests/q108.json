@@ -1,0 +1,20 @@
+{
+  "id": "q108",
+  "name": "Glacien Avenger",
+  "description": "Defeat Glacien, Frostfanged again.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "glacien_frostfanged",
+    "amount": 1
+  },
+  "rewards": {
+    "xp": 800,
+    "gold": 400,
+    "items": [
+      "lootbox_epic"
+    ]
+  },
+  "requirements": {
+    "combat": 18
+  }
+}

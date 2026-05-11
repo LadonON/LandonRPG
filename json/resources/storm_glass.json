@@ -1,0 +1,11 @@
+{
+  "id": "storm_glass",
+  "name": "Storm Glass",
+  "description": "Glass fused by repeated lightning strikes.",
+  "value": 58,
+  "drop_chance": 16,
+  "mining_xp": 42,
+  "min_mining_level": 22,
+  "min_pickaxe_level": 8,
+  "required_pickaxe": ""
+}

@@ -1,0 +1,58 @@
+{
+  "id": "astralith_forgegod",
+  "name": "Astralith, Forgegod",
+  "max_health": 7500,
+  "defense": 12,
+  "poise": 150,
+  "poise_break": 10,
+  "initiative_bonus": 8,
+  "xp_reward": 20000,
+  "loot": [
+    "large_potion",
+    "forgegod_essence",
+    "celestium",
+    "stardust",
+    "aether_crystal"
+  ],
+  "dialogue": {
+    "on_spawn": [
+      "The Anvil at the End glows white-hot. Astralith coalesces from starfire.",
+      "\"You seek to forge yourself worthy? Then be tested.\""
+    ],
+    "on_low_hp": [
+      "\"Three Anvils remain.\" Reality cracks around Astralith."
+    ],
+    "on_death": [
+      "Astralith dissolves into a rain of stars. The forge falls silent."
+    ]
+  },
+  "attacks": [
+    {
+      "id": "anvil_strike",
+      "name": "Anvil Strike",
+      "damage_die": "5d10",
+      "damage_bonus": 9,
+      "to_hit_bonus": 6,
+      "poise_break": 10,
+      "target_mode": "single"
+    },
+    {
+      "id": "stellar_flare",
+      "name": "Stellar Flare",
+      "damage_die": "4d10",
+      "damage_bonus": 7,
+      "to_hit_bonus": 5,
+      "poise_break": 6,
+      "target_mode": "all"
+    },
+    {
+      "id": "forge_nova",
+      "name": "Forge Nova",
+      "damage_die": "5d8",
+      "damage_bonus": 8,
+      "to_hit_bonus": 7,
+      "poise_break": 8,
+      "target_mode": "all"
+    }
+  ]
+}

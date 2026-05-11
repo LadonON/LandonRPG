@@ -1,0 +1,11 @@
+{
+  "id": "adamantite",
+  "name": "Adamantite",
+  "description": "The hardest natural metal.",
+  "value": 55,
+  "drop_chance": 10,
+  "mining_xp": 55,
+  "min_mining_level": 24,
+  "min_pickaxe_level": 8,
+  "required_pickaxe": "adamantite_pickaxe"
+}

@@ -1,0 +1,15 @@
+{
+  "seed_id": "onion_seed",
+  "seed_name": "Onion Seed",
+  "seed_value": 1,
+  "crop_id": "onion",
+  "crop_name": "Onion",
+  "crop_description": "Pungent layered bulb.",
+  "crop_type": "food",
+  "crop_value": 3,
+  "crop_heal": 4,
+  "grow_time_minutes": 3,
+  "yield_base": 2,
+  "farming_xp": 5,
+  "min_farming_level": 2
+}

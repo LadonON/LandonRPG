@@ -1,0 +1,15 @@
+{
+  "id": "q077",
+  "name": "Obsidian Haul",
+  "description": "Collect 10 obsidian.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "obsidian",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 420,
+    "gold": 220
+  },
+  "requirements": {}
+}

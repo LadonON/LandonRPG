@@ -1,0 +1,17 @@
+{
+  "monster_id": "shark_brood",
+  "name": "Shark Brood",
+  "max_health": 360,
+  "damage": 14,
+  "attack_msg": "bites with rows of teeth",
+  "xp_reward": 242,
+  "loot": [
+    "shark_fang",
+    "shark_hide"
+  ],
+  "damage_die": "3d8",
+  "to_hit_bonus": 4,
+  "defense": 6,
+  "poise": 18,
+  "poise_break": 4
+}

@@ -1,0 +1,57 @@
+{
+  "id": "volthrax_the_unbound",
+  "name": "Volthrax the Unbound",
+  "max_health": 4200,
+  "defense": 10,
+  "poise": 110,
+  "poise_break": 8,
+  "initiative_bonus": 6,
+  "xp_reward": 12000,
+  "loot": [
+    "large_potion",
+    "storm_crown",
+    "stormsteel",
+    "voltite"
+  ],
+  "dialogue": {
+    "on_spawn": [
+      "Every arc-lamp in the Citadel shatters. Volthrax descends on a bolt of lightning.",
+      "\"BOUND NO MORE!\""
+    ],
+    "on_low_hp": [
+      "Chain lightning arcs between the party. \"CHAIN \u2014 LIGHTNING!\""
+    ],
+    "on_death": [
+      "Volthrax dissipates into grounding sparks, silencing the storm."
+    ]
+  },
+  "attacks": [
+    {
+      "id": "arc_blade",
+      "name": "Arc Blade",
+      "damage_die": "4d10",
+      "damage_bonus": 6,
+      "to_hit_bonus": 5,
+      "poise_break": 8,
+      "target_mode": "single"
+    },
+    {
+      "id": "chain_lightning",
+      "name": "Chain Lightning",
+      "damage_die": "3d10",
+      "damage_bonus": 5,
+      "to_hit_bonus": 4,
+      "poise_break": 5,
+      "target_mode": "all"
+    },
+    {
+      "id": "thunder_crash",
+      "name": "Thunder Crash",
+      "damage_die": "4d8",
+      "damage_bonus": 7,
+      "to_hit_bonus": 6,
+      "poise_break": 9,
+      "target_mode": "single"
+    }
+  ]
+}

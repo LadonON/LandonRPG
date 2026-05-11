@@ -1,0 +1,18 @@
+{
+  "id": "q029",
+  "name": "Golden Haul",
+  "description": "Collect 5 golden carp.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "golden_carp",
+    "amount": 5
+  },
+  "rewards": {
+    "xp": 140,
+    "gold": 80,
+    "items": [
+      "lootbox_uncommon"
+    ]
+  },
+  "requirements": {}
+}

@@ -1,0 +1,15 @@
+{
+  "seed_id": "voltflower_seed",
+  "seed_name": "Voltflower Seed",
+  "seed_value": 30,
+  "crop_id": "voltflower",
+  "crop_name": "Voltflower",
+  "crop_description": "Electric-yellow blooms.",
+  "crop_type": "herb",
+  "crop_value": 100,
+  "crop_heal": 120,
+  "grow_time_minutes": 25,
+  "yield_base": 1,
+  "farming_xp": 60,
+  "min_farming_level": 16
+}

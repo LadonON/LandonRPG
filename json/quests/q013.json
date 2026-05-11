@@ -1,0 +1,15 @@
+{
+  "id": "q013",
+  "name": "Skull Collector I",
+  "description": "Collect 5 skulls.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "skull",
+    "amount": 5
+  },
+  "rewards": {
+    "xp": 70,
+    "gold": 35
+  },
+  "requirements": {}
+}

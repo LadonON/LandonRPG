@@ -1,0 +1,15 @@
+{
+  "id": "q120",
+  "name": "Deepsquid Run",
+  "description": "Collect 5 deepsquid.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "deepsquid",
+    "amount": 5
+  },
+  "rewards": {
+    "xp": 700,
+    "gold": 380
+  },
+  "requirements": {}
+}

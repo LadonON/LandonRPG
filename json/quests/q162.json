@@ -1,0 +1,20 @@
+{
+  "id": "q162",
+  "name": "Volthrax Avenger",
+  "description": "Defeat Volthrax the Unbound again.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "volthrax_the_unbound",
+    "amount": 1
+  },
+  "rewards": {
+    "xp": 1700,
+    "gold": 950,
+    "items": [
+      "lootbox_mythic"
+    ]
+  },
+  "requirements": {
+    "combat": 35
+  }
+}

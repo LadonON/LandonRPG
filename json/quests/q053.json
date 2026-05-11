@@ -1,0 +1,15 @@
+{
+  "id": "q053",
+  "name": "Tin Ore Run",
+  "description": "Collect 12 tin ore.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "tin_ore",
+    "amount": 12
+  },
+  "rewards": {
+    "xp": 140,
+    "gold": 70
+  },
+  "requirements": {}
+}

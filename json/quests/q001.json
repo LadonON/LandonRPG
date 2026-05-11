@@ -1,0 +1,14 @@
+{
+  "id": "q001",
+  "name": "Forest First Steps",
+  "description": "Enter the Whispering Forest.",
+  "objective": {
+    "type": "visit_zone",
+    "zone_id": "forest"
+  },
+  "rewards": {
+    "xp": 30,
+    "gold": 20
+  },
+  "requirements": {}
+}

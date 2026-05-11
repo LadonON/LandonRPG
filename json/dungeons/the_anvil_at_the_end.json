@@ -1,0 +1,62 @@
+{
+  "zone_id": "skyforge",
+  "name": "The Anvil at the End",
+  "description": "The cosmic forge where Astralith shapes destiny.",
+  "spawn_pool": [
+    "crucible_warden",
+    "star_revenant",
+    "void_herald",
+    "forgewraith"
+  ],
+  "rooms": [
+    {
+      "enemy_count": [
+        4,
+        6
+      ]
+    },
+    {
+      "enemy_count": [
+        4,
+        6
+      ]
+    },
+    {
+      "enemy_count": [
+        4,
+        6
+      ]
+    },
+    {
+      "enemy_count": [
+        4,
+        6
+      ]
+    },
+    {
+      "enemy_count": [
+        4,
+        6
+      ]
+    },
+    {
+      "enemy_count": [
+        4,
+        6
+      ]
+    },
+    {
+      "enemy_count": [
+        4,
+        6
+      ]
+    },
+    {
+      "enemy_count": [
+        4,
+        6
+      ]
+    }
+  ],
+  "boss_id": "astralith_forgegod"
+}

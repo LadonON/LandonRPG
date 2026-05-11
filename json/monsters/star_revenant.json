@@ -1,0 +1,17 @@
+{
+  "monster_id": "star_revenant",
+  "name": "Star Revenant",
+  "max_health": 1100,
+  "damage": 22,
+  "attack_msg": "blasts with stellar energy",
+  "xp_reward": 742,
+  "loot": [
+    "stardust",
+    "soul_fragment"
+  ],
+  "damage_die": "5d8",
+  "to_hit_bonus": 7,
+  "defense": 10,
+  "poise": 30,
+  "poise_break": 5
+}

@@ -1,0 +1,11 @@
+{
+  "id": "copper_ore",
+  "name": "Copper Ore",
+  "description": "Reddish-brown nuggets flecked with green.",
+  "value": 4,
+  "drop_chance": 55,
+  "mining_xp": 6,
+  "min_mining_level": 2,
+  "min_pickaxe_level": 1,
+  "required_pickaxe": ""
+}

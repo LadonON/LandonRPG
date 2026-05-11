@@ -1,0 +1,57 @@
+{
+  "id": "glacien_frostfanged",
+  "name": "Glacien, Frostfanged",
+  "max_health": 1100,
+  "defense": 7,
+  "poise": 60,
+  "poise_break": 5,
+  "initiative_bonus": 5,
+  "xp_reward": 3200,
+  "loot": [
+    "large_potion",
+    "frostfang",
+    "glacial_crystal",
+    "iceshard"
+  ],
+  "dialogue": {
+    "on_spawn": [
+      "The air freezes solid. A dragon of living ice descends.",
+      "\"Warmth... I shall extinguish it.\""
+    ],
+    "on_low_hp": [
+      "Glacien roars, ice crystals exploding outward. \"You dare wound ME?\""
+    ],
+    "on_death": [
+      "Glacien shatters into ten thousand shards of ice."
+    ]
+  },
+  "attacks": [
+    {
+      "id": "frost_bite",
+      "name": "Frost Bite",
+      "damage_die": "3d8",
+      "damage_bonus": 4,
+      "to_hit_bonus": 4,
+      "poise_break": 5,
+      "target_mode": "single"
+    },
+    {
+      "id": "blizzard_breath",
+      "name": "Blizzard Breath",
+      "damage_die": "2d8",
+      "damage_bonus": 3,
+      "to_hit_bonus": 3,
+      "poise_break": 3,
+      "target_mode": "all"
+    },
+    {
+      "id": "glacial_lock",
+      "name": "Glacial Lock",
+      "damage_die": "3d6",
+      "damage_bonus": 5,
+      "to_hit_bonus": 5,
+      "poise_break": 8,
+      "target_mode": "single"
+    }
+  ]
+}

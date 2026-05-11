@@ -1,0 +1,52 @@
+{
+  "id": "tideborn_glaive",
+  "name": "Tideborn Glaive",
+  "description": "A sea-metal glaive that cuts like a riptide.",
+  "weapon_class": "two_handed",
+  "value": 13000,
+  "damage_bonus": 162,
+  "requirements": {
+    "combat": 23
+  },
+  "attacks": [
+    {
+      "id": "tide_sweep",
+      "name": "Tide Sweep",
+      "damage_die": "3d10",
+      "damage_bonus": 15,
+      "poise_break": 7,
+      "to_hit_bonus": 3
+    },
+    {
+      "id": "riptide_cleave",
+      "name": "Riptide Cleave",
+      "damage_die": "4d6",
+      "damage_bonus": 13,
+      "poise_break": 6,
+      "to_hit_bonus": 3
+    },
+    {
+      "id": "surge_slam",
+      "name": "Surge Slam",
+      "damage_die": "3d8",
+      "damage_bonus": 16,
+      "poise_break": 9,
+      "to_hit_bonus": 2
+    }
+  ],
+  "upgrade": {
+    "max_level": 50,
+    "per_level_materials": [
+      {
+        "item": "pearl_coral",
+        "amount": 1
+      },
+      {
+        "item": "salt_crystal",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 1.35,
+    "poise_per_level": 0.9
+  }
+}

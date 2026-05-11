@@ -1,0 +1,15 @@
+{
+  "id": "q089",
+  "name": "Ash Collector",
+  "description": "Collect 12 ash dust.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "ash_dust",
+    "amount": 12
+  },
+  "rewards": {
+    "xp": 380,
+    "gold": 200
+  },
+  "requirements": {}
+}

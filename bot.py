@@ -13,22 +13,27 @@ from .services import players
 from .world import seeds as _seeds                # registers seed/crop items at import time
 from .world import weapons as _weapons            # registers weapon items at import time
 from .world import weapon_skills as _weapon_skills  # registers weapon-skill items at import time
+from .world import pickaxes as _pickaxes          # registers pickaxe items at import time
+from .world import resources as _resources        # registers resource items at import time
 from .world import quests as _quests              # registers quests at import time
 from .world import lootboxes as _lootboxes        # registers lootbox items + drop tiers
 from .world import bosses as _bosses              # registers bosses
 from .world import dungeons as _dungeons          # registers dungeons
 
 EXTENSIONS = [
+    "landonrpg.commands.help",
     "landonrpg.commands.combat",
     "landonrpg.commands.exploration",
     "landonrpg.commands.shop",
     "landonrpg.commands.inventory",
     "landonrpg.commands.crafting",
     "landonrpg.commands.farming",
+    "landonrpg.commands.gathering",
     "landonrpg.commands.trading",
     "landonrpg.commands.pvp",
     "landonrpg.commands.quests",
     "landonrpg.commands.dungeon",
+    "landonrpg.commands.lootbox",
 ]
 
 
@@ -60,6 +65,26 @@ def make_bot() -> commands.Bot:
         if isinstance(error, commands.CommandNotFound):
             return
         raise error
+
+    @bot.event
+    async def on_member_join(member: discord.Member):
+        try:
+            await member.send(
+                f"**Welcome to LandonRPG, {member.display_name}.**\n\n"
+                "You've just arrived in a persistent text-based RPG world with combat, "
+                "crafting, gathering, quests, dungeons, and more.\n\n"
+                "**Quick start:**\n"
+                "1. Head to the game channel and run `!equip rusty_sword`\n"
+                "2. Travel to the forest: `!warp Whispering Forest`\n"
+                "3. Start fighting: `!attack` → `!rusty_sword slash`\n\n"
+                "For a full interactive walkthrough of every feature, run:\n"
+                "```\n!tutorial\n```\n"
+                "For a command reference at any time:\n"
+                "```\n!help\n```\n"
+                "Good luck, adventurer!"
+            )
+        except discord.Forbidden:
+            pass  # DMs disabled — silently skip
 
     @bot.after_invoke
     async def _autosave(ctx):

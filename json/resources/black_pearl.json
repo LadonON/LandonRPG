@@ -1,0 +1,11 @@
+{
+  "id": "black_pearl",
+  "name": "Black Pearl",
+  "description": "A rare deep-sea pearl with a dark lustre.",
+  "value": 50,
+  "drop_chance": 18,
+  "mining_xp": 34,
+  "min_mining_level": 15,
+  "min_pickaxe_level": 6,
+  "required_pickaxe": ""
+}

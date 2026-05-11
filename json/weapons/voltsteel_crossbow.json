@@ -1,0 +1,52 @@
+{
+  "id": "voltsteel_crossbow",
+  "name": "Voltsteel Crossbow",
+  "description": "Each bolt is magnetized and accelerated by voltage.",
+  "weapon_class": "ranged",
+  "value": 32000,
+  "damage_bonus": 195,
+  "requirements": {
+    "combat": 36
+  },
+  "attacks": [
+    {
+      "id": "volt_bolt",
+      "name": "Volt Bolt",
+      "damage_die": "3d10",
+      "damage_bonus": 22,
+      "poise_break": 6,
+      "to_hit_bonus": 7
+    },
+    {
+      "id": "rapid_volt",
+      "name": "Rapid Volt",
+      "damage_die": "2d12",
+      "damage_bonus": 17,
+      "poise_break": 2,
+      "to_hit_bonus": 10
+    },
+    {
+      "id": "arc_shot",
+      "name": "Arc Shot",
+      "damage_die": "3d8",
+      "damage_bonus": 23,
+      "poise_break": 6,
+      "to_hit_bonus": 7
+    }
+  ],
+  "upgrade": {
+    "max_level": 60,
+    "per_level_materials": [
+      {
+        "item": "stormsteel",
+        "amount": 1
+      },
+      {
+        "item": "voltite",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 2.0,
+    "poise_per_level": 1.3
+  }
+}

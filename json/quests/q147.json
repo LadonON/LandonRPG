@@ -1,0 +1,15 @@
+{
+  "id": "q147",
+  "name": "Thunderkin Hunt",
+  "description": "Defeat 10 thunderkin.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "thunderkin",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 1220,
+    "gold": 690
+  },
+  "requirements": {}
+}

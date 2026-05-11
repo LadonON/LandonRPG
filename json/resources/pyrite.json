@@ -1,0 +1,11 @@
+{
+  "id": "pyrite",
+  "name": "Pyrite",
+  "description": "Fool's gold. Shimmers like the real thing.",
+  "value": 8,
+  "drop_chance": 45,
+  "mining_xp": 8,
+  "min_mining_level": 3,
+  "min_pickaxe_level": 2,
+  "required_pickaxe": ""
+}

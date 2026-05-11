@@ -1,0 +1,15 @@
+{
+  "id": "q115",
+  "name": "Seabed Quartz Haul",
+  "description": "Collect 10 seabed quartz.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "seabed_quartz",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 780,
+    "gold": 420
+  },
+  "requirements": {}
+}

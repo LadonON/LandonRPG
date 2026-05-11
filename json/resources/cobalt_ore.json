@@ -1,0 +1,11 @@
+{
+  "id": "cobalt_ore",
+  "name": "Cobalt Ore",
+  "description": "Deep blue ore found in volcanic regions.",
+  "value": 18,
+  "drop_chance": 22,
+  "mining_xp": 18,
+  "min_mining_level": 4,
+  "min_pickaxe_level": 5,
+  "required_pickaxe": ""
+}

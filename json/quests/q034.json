@@ -1,0 +1,18 @@
+{
+  "id": "q034",
+  "name": "Sunpetal Master",
+  "description": "Reach Foraging Level 6.",
+  "objective": {
+    "type": "reach_stat_level",
+    "stat": "foraging",
+    "level": 6
+  },
+  "rewards": {
+    "xp": 180,
+    "gold": 90,
+    "items": [
+      "lootbox_uncommon"
+    ]
+  },
+  "requirements": {}
+}

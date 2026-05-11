@@ -1,0 +1,15 @@
+{
+  "id": "q094",
+  "name": "Yeti Hunt",
+  "description": "Defeat 5 yeti brutes.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "yeti_brute",
+    "amount": 5
+  },
+  "rewards": {
+    "xp": 600,
+    "gold": 320
+  },
+  "requirements": {}
+}

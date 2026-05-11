@@ -1,0 +1,52 @@
+{
+  "id": "voltsteel_rapier",
+  "name": "Voltsteel Rapier",
+  "description": "Every hit discharges voltage into the target.",
+  "weapon_class": "finesse",
+  "value": 30000,
+  "damage_bonus": 175,
+  "requirements": {
+    "combat": 36
+  },
+  "attacks": [
+    {
+      "id": "shock_thrust",
+      "name": "Shock Thrust",
+      "damage_die": "2d10",
+      "damage_bonus": 16,
+      "poise_break": 3,
+      "to_hit_bonus": 13
+    },
+    {
+      "id": "chain_pierce",
+      "name": "Chain Pierce",
+      "damage_die": "3d6",
+      "damage_bonus": 15,
+      "poise_break": 4,
+      "to_hit_bonus": 13
+    },
+    {
+      "id": "static_feint",
+      "name": "Static Feint",
+      "damage_die": "2d8",
+      "damage_bonus": 11,
+      "poise_break": 2,
+      "to_hit_bonus": 15
+    }
+  ],
+  "upgrade": {
+    "max_level": 60,
+    "per_level_materials": [
+      {
+        "item": "stormsteel",
+        "amount": 1
+      },
+      {
+        "item": "voltite",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 2.0,
+    "poise_per_level": 1.3
+  }
+}

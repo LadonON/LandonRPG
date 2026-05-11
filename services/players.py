@@ -73,6 +73,9 @@ def _row_to_player(row: PlayerRow) -> Player:
     p.active_quests = dict(row.active_quests or {})
     p.completed_quests = list(row.completed_quests or [])
     p.unlocked_zones = list(row.unlocked_zones or [])
+    p.equipped_pickaxe = row.equipped_pickaxe
+    p.pickaxe_instances = dict(row.pickaxe_instances or {})
+    p.equipped_fishing_rod = row.equipped_fishing_rod
     return p
 
 
@@ -98,3 +101,6 @@ def _player_to_row(p: Player, row: PlayerRow) -> None:
     row.active_quests = dict(p.active_quests)
     row.completed_quests = list(p.completed_quests)
     row.unlocked_zones = list(p.unlocked_zones)
+    row.equipped_pickaxe = p.equipped_pickaxe
+    row.pickaxe_instances = dict(p.pickaxe_instances)
+    row.equipped_fishing_rod = p.equipped_fishing_rod

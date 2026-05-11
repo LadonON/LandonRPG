@@ -1,0 +1,15 @@
+{
+  "id": "q139",
+  "name": "Soulroot Picker",
+  "description": "Collect 4 soulroot seeds.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "soulroot_seed",
+    "amount": 4
+  },
+  "rewards": {
+    "xp": 1020,
+    "gold": 560
+  },
+  "requirements": {}
+}

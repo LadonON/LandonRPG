@@ -1,0 +1,17 @@
+{
+  "monster_id": "bog_orc",
+  "name": "Bog Orc",
+  "max_health": 90,
+  "damage": 7,
+  "attack_msg": "hurls a mud-caked club",
+  "xp_reward": 55,
+  "loot": [
+    "club_fragment",
+    "swamp_essence"
+  ],
+  "damage_die": "2d6",
+  "to_hit_bonus": 3,
+  "defense": 3,
+  "poise": 12,
+  "poise_break": 3
+}

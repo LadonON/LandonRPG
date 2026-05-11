@@ -1,0 +1,15 @@
+{
+  "seed_id": "foxglove_seed",
+  "seed_name": "Foxglove Seed",
+  "seed_value": 4,
+  "crop_id": "foxglove",
+  "crop_name": "Foxglove",
+  "crop_description": "Toxic beauty.",
+  "crop_type": "herb",
+  "crop_value": 18,
+  "crop_heal": 25,
+  "grow_time_minutes": 7,
+  "yield_base": 1,
+  "farming_xp": 13,
+  "min_farming_level": 5
+}

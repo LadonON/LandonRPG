@@ -1,0 +1,52 @@
+{
+  "id": "stormbreaker_maul",
+  "name": "Stormbreaker Maul",
+  "description": "Every swing breaks the sound barrier.",
+  "weapon_class": "heavy",
+  "value": 45000,
+  "damage_bonus": 265,
+  "requirements": {
+    "combat": 36
+  },
+  "attacks": [
+    {
+      "id": "storm_slam",
+      "name": "Storm Slam",
+      "damage_die": "4d8",
+      "damage_bonus": 20,
+      "poise_break": 11,
+      "to_hit_bonus": 2
+    },
+    {
+      "id": "thunder_crush",
+      "name": "Thunder Crush",
+      "damage_die": "4d6",
+      "damage_bonus": 22,
+      "poise_break": 12,
+      "to_hit_bonus": 1
+    },
+    {
+      "id": "lightning_blow",
+      "name": "Lightning Blow",
+      "damage_die": "3d10",
+      "damage_bonus": 24,
+      "poise_break": 13,
+      "to_hit_bonus": 0
+    }
+  ],
+  "upgrade": {
+    "max_level": 60,
+    "per_level_materials": [
+      {
+        "item": "stormsteel",
+        "amount": 1
+      },
+      {
+        "item": "voltite",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 2.0,
+    "poise_per_level": 1.3
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "iron_pickaxe",
+  "name": "Iron Pickaxe",
+  "description": "Heavier, sharper, and won't shatter against stone.",
+  "pickaxe_level": 3,
+  "value": 120,
+  "requirements": {"mining": 3},
+  "upgrade": {
+    "max_level": 100,
+    "per_level_materials": [{"item": "tooth", "amount": 2}],
+    "level_per_step": 0.06
+  }
+}

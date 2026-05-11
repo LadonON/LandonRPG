@@ -1,0 +1,15 @@
+{
+  "id": "q168",
+  "name": "Celestium Haul",
+  "description": "Collect 12 celestium.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "celestium",
+    "amount": 12
+  },
+  "rewards": {
+    "xp": 1900,
+    "gold": 1100
+  },
+  "requirements": {}
+}

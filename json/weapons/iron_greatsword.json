@@ -1,0 +1,48 @@
+{
+  "id": "iron_greatsword",
+  "name": "Iron Greatsword",
+  "description": "A wide-bladed greatsword of dependable iron.",
+  "weapon_class": "two_handed",
+  "value": 280,
+  "damage_bonus": 22,
+  "requirements": {
+    "combat": 3
+  },
+  "attacks": [
+    {
+      "id": "great_cleave",
+      "name": "Great Cleave",
+      "damage_die": "2d8",
+      "damage_bonus": 5,
+      "poise_break": 4,
+      "to_hit_bonus": 2
+    },
+    {
+      "id": "execute",
+      "name": "Execute",
+      "damage_die": "2d6",
+      "damage_bonus": 7,
+      "poise_break": 4,
+      "to_hit_bonus": 2
+    },
+    {
+      "id": "guard_break",
+      "name": "Guard Break",
+      "damage_die": "1d10",
+      "damage_bonus": 4,
+      "poise_break": 8,
+      "to_hit_bonus": 3
+    }
+  ],
+  "upgrade": {
+    "max_level": 25,
+    "per_level_materials": [
+      {
+        "item": "tooth",
+        "amount": 2
+      }
+    ],
+    "attack_per_level": 0.4,
+    "poise_per_level": 0.3
+  }
+}

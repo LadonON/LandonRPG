@@ -1,0 +1,14 @@
+{
+  "id": "stance_breaker_skill",
+  "name": "Stance Breaker",
+  "description": "A lateral strike that disrupts footing completely.",
+  "value": 150,
+  "attack": {
+    "id": "stance_breaker",
+    "name": "Stance Breaker",
+    "damage_die": "1d10",
+    "damage_bonus": 2,
+    "poise_break": 11,
+    "to_hit_bonus": 2
+  }
+}

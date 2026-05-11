@@ -1,0 +1,15 @@
+{
+  "id": "q113",
+  "name": "Tide Skel Culling",
+  "description": "Defeat 10 tide skeletons.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "tide_skeleton",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 760,
+    "gold": 420
+  },
+  "requirements": {}
+}

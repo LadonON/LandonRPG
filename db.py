@@ -32,6 +32,9 @@ _PLAYER_ROW_ATTRS: dict = {
     "active_quests":    Column(JSON, default=dict),
     "completed_quests": Column(JSON, default=list),
     "unlocked_zones":   Column(JSON, default=list),
+    "equipped_pickaxe": Column(String, nullable=True),
+    "pickaxe_instances": Column(JSON, default=dict),
+    "equipped_fishing_rod": Column(String, nullable=True),
 }
 
 for _d in stats_mod.DEFINITIONS:
@@ -50,6 +53,9 @@ _MIGRATIONS = [
     "ALTER TABLE players ADD COLUMN active_quests JSON DEFAULT '{}'",
     "ALTER TABLE players ADD COLUMN completed_quests JSON DEFAULT '[]'",
     "ALTER TABLE players ADD COLUMN unlocked_zones JSON DEFAULT '[]'",
+    "ALTER TABLE players ADD COLUMN equipped_pickaxe VARCHAR",
+    "ALTER TABLE players ADD COLUMN pickaxe_instances JSON DEFAULT '{}'",
+    "ALTER TABLE players ADD COLUMN equipped_fishing_rod VARCHAR",
 ]
 for _d in stats_mod.DEFINITIONS:
     _MIGRATIONS.append(

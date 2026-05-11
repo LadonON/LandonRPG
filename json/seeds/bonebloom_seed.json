@@ -1,0 +1,15 @@
+{
+  "seed_id": "bonebloom_seed",
+  "seed_name": "Bonebloom Seed",
+  "seed_value": 18,
+  "crop_id": "bonebloom",
+  "crop_name": "Bonebloom",
+  "crop_description": "White flower that grows from bone.",
+  "crop_type": "herb",
+  "crop_value": 55,
+  "crop_heal": 80,
+  "grow_time_minutes": 18,
+  "yield_base": 1,
+  "farming_xp": 36,
+  "min_farming_level": 12
+}

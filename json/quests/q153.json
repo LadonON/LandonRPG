@@ -1,0 +1,15 @@
+{
+  "id": "q153",
+  "name": "Adamantite Run",
+  "description": "Collect 6 adamantite.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "adamantite",
+    "amount": 6
+  },
+  "rewards": {
+    "xp": 1440,
+    "gold": 800
+  },
+  "requirements": {}
+}

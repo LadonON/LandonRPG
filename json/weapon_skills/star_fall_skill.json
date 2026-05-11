@@ -1,0 +1,14 @@
+{
+  "id": "star_fall_skill",
+  "name": "Star Fall",
+  "description": "Strike like a falling star. Once.",
+  "value": 1200,
+  "attack": {
+    "id": "star_fall",
+    "name": "Star Fall",
+    "damage_die": "5d6",
+    "damage_bonus": 5,
+    "poise_break": 5,
+    "to_hit_bonus": 2
+  }
+}

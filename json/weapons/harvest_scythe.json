@@ -5,14 +5,36 @@
   "weapon_class": "two_handed",
   "value": 180,
   "damage_bonus": 12,
-  "requirements": {"farming": 5, "combat": 3},
+  "requirements": {
+    "farming": 5,
+    "combat": 3
+  },
   "attacks": [
-    {"id": "wide_sweep", "name": "Wide Sweep", "damage_die": "2d8", "damage_bonus": 5, "poise_break": 3, "to_hit_bonus": 2},
-    {"id": "reaper",     "name": "Reaper",     "damage_die": "1d12","damage_bonus": 6, "poise_break": 5, "to_hit_bonus": 1}
+    {
+      "id": "wide_sweep",
+      "name": "Wide Sweep",
+      "damage_die": "2d8",
+      "damage_bonus": 5,
+      "poise_break": 3,
+      "to_hit_bonus": 2
+    },
+    {
+      "id": "reaper",
+      "name": "Reaper",
+      "damage_die": "1d12",
+      "damage_bonus": 6,
+      "poise_break": 5,
+      "to_hit_bonus": 1
+    }
   ],
   "upgrade": {
-    "max_level": 100,
-    "per_level_materials": [{"item": "wheat", "amount": 3}],
+    "max_level": 25,
+    "per_level_materials": [
+      {
+        "item": "wheat",
+        "amount": 3
+      }
+    ],
     "attack_per_level": 0.5,
     "poise_per_level": 0.3
   }

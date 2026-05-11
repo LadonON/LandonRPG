@@ -1,0 +1,18 @@
+{
+  "id": "q178",
+  "name": "Astralith Trial",
+  "description": "Defeat Astralith, Forgegod.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "astralith_forgegod",
+    "amount": 1
+  },
+  "rewards": {
+    "xp": 4000,
+    "gold": 3000,
+    "items": [
+      "forgegod_essence"
+    ]
+  },
+  "requirements": {}
+}

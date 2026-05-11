@@ -1,0 +1,20 @@
+{
+  "id": "q025",
+  "name": "Farmer Friend",
+  "description": "Reach Farming Level 4.",
+  "objective": {
+    "type": "reach_stat_level",
+    "stat": "farming",
+    "level": 4
+  },
+  "rewards": {
+    "xp": 140,
+    "gold": 70,
+    "items": [
+      "pumpkin_seed",
+      "pumpkin_seed",
+      "pumpkin_seed"
+    ]
+  },
+  "requirements": {}
+}

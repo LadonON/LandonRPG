@@ -1,0 +1,15 @@
+{
+  "id": "q021",
+  "name": "Sunpetal Garden",
+  "description": "Collect 8 sunpetal seeds.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "sunpetal_seed",
+    "amount": 8
+  },
+  "rewards": {
+    "xp": 100,
+    "gold": 50
+  },
+  "requirements": {}
+}

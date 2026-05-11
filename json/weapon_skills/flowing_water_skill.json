@@ -1,0 +1,14 @@
+{
+  "id": "flowing_water_skill",
+  "name": "Flowing Water",
+  "description": "Strike that bends around defenses like a river.",
+  "value": 100,
+  "attack": {
+    "id": "flowing_water",
+    "name": "Flowing Water",
+    "damage_die": "1d8",
+    "damage_bonus": 2,
+    "poise_break": 1,
+    "to_hit_bonus": 9
+  }
+}

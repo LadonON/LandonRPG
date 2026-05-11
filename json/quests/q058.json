@@ -1,0 +1,15 @@
+{
+  "id": "q058",
+  "name": "Mandrake Picker",
+  "description": "Collect 6 mandrake seeds.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "mandrake_seed",
+    "amount": 6
+  },
+  "rewards": {
+    "xp": 240,
+    "gold": 120
+  },
+  "requirements": {}
+}

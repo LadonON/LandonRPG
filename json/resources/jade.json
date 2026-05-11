@@ -1,0 +1,11 @@
+{
+  "id": "jade",
+  "name": "Jade",
+  "description": "A tough green stone prized by craftsmen.",
+  "value": 20,
+  "drop_chance": 22,
+  "mining_xp": 15,
+  "min_mining_level": 6,
+  "min_pickaxe_level": 3,
+  "required_pickaxe": ""
+}

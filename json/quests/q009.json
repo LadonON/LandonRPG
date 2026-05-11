@@ -1,0 +1,20 @@
+{
+  "id": "q009",
+  "name": "Forager Pup",
+  "description": "Reach Foraging Level 2.",
+  "objective": {
+    "type": "reach_stat_level",
+    "stat": "foraging",
+    "level": 2
+  },
+  "rewards": {
+    "xp": 80,
+    "gold": 40,
+    "items": [
+      "herb_seed",
+      "herb_seed",
+      "herb_seed"
+    ]
+  },
+  "requirements": {}
+}

@@ -1,0 +1,11 @@
+{
+  "id": "azurite",
+  "name": "Azurite",
+  "description": "Deep blue copper ore. Crumbles easily.",
+  "value": 14,
+  "drop_chance": 30,
+  "mining_xp": 11,
+  "min_mining_level": 5,
+  "min_pickaxe_level": 3,
+  "required_pickaxe": ""
+}

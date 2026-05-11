@@ -1,0 +1,11 @@
+{
+  "id": "tin_ore",
+  "name": "Tin Ore",
+  "description": "Dull grey ore, common in shallow caves.",
+  "value": 3,
+  "drop_chance": 50,
+  "mining_xp": 5,
+  "min_mining_level": 2,
+  "min_pickaxe_level": 1,
+  "required_pickaxe": ""
+}

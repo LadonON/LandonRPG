@@ -1,0 +1,15 @@
+{
+  "id": "q041",
+  "name": "Copper Run",
+  "description": "Collect 15 copper ore.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "copper_ore",
+    "amount": 15
+  },
+  "rewards": {
+    "xp": 140,
+    "gold": 70
+  },
+  "requirements": {}
+}

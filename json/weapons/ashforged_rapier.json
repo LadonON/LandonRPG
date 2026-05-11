@@ -1,0 +1,52 @@
+{
+  "id": "ashforged_rapier",
+  "name": "Ashforged Rapier",
+  "description": "Volcanic steel in rapier form. Nimble and hot.",
+  "weapon_class": "finesse",
+  "value": 1700,
+  "damage_bonus": 44,
+  "requirements": {
+    "combat": 13
+  },
+  "attacks": [
+    {
+      "id": "ash_thrust",
+      "name": "Ash Thrust",
+      "damage_die": "2d6",
+      "damage_bonus": 7,
+      "poise_break": 3,
+      "to_hit_bonus": 8
+    },
+    {
+      "id": "molten_lunge",
+      "name": "Molten Lunge",
+      "damage_die": "1d12",
+      "damage_bonus": 8,
+      "poise_break": 3,
+      "to_hit_bonus": 9
+    },
+    {
+      "id": "cinder_feint",
+      "name": "Cinder Feint",
+      "damage_die": "1d10",
+      "damage_bonus": 5,
+      "poise_break": 1,
+      "to_hit_bonus": 11
+    }
+  ],
+  "upgrade": {
+    "max_level": 40,
+    "per_level_materials": [
+      {
+        "item": "obsidian",
+        "amount": 1
+      },
+      {
+        "item": "sulfur_chunk",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 0.9,
+    "poise_per_level": 0.6
+  }
+}

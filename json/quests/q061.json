@@ -1,0 +1,15 @@
+{
+  "id": "q061",
+  "name": "Swamp Skel Culling",
+  "description": "Defeat 10 swamp skeletons.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "swamp_skeleton",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 280,
+    "gold": 140
+  },
+  "requirements": {}
+}

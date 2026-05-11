@@ -1,0 +1,15 @@
+{
+  "seed_id": "mandrake_seed",
+  "seed_name": "Mandrake Seed",
+  "seed_value": 5,
+  "crop_id": "mandrake",
+  "crop_name": "Mandrake",
+  "crop_description": "A screaming root of power.",
+  "crop_type": "herb",
+  "crop_value": 20,
+  "crop_heal": 30,
+  "grow_time_minutes": 8,
+  "yield_base": 1,
+  "farming_xp": 14,
+  "min_farming_level": 5
+}

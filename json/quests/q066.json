@@ -1,0 +1,18 @@
+{
+  "id": "q066",
+  "name": "Hardened Miner",
+  "description": "Reach Mining Level 9.",
+  "objective": {
+    "type": "reach_stat_level",
+    "stat": "mining",
+    "level": 9
+  },
+  "rewards": {
+    "xp": 320,
+    "gold": 160,
+    "items": [
+      "mythril_pickaxe"
+    ]
+  },
+  "requirements": {}
+}

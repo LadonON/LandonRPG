@@ -1,0 +1,20 @@
+{
+  "id": "q065",
+  "name": "Rot Pilgrim",
+  "description": "Reach Foraging Level 8.",
+  "objective": {
+    "type": "reach_stat_level",
+    "stat": "foraging",
+    "level": 8
+  },
+  "rewards": {
+    "xp": 300,
+    "gold": 150,
+    "items": [
+      "moonflower_seed",
+      "moonflower_seed",
+      "moonflower_seed"
+    ]
+  },
+  "requirements": {}
+}

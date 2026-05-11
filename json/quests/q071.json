@@ -1,0 +1,18 @@
+{
+  "id": "q071",
+  "name": "Swamp Essence Run",
+  "description": "Collect 10 swamp essence.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "swamp_essence",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 320,
+    "gold": 160,
+    "items": [
+      "lootbox_rare"
+    ]
+  },
+  "requirements": {}
+}

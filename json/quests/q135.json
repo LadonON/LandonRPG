@@ -1,0 +1,15 @@
+{
+  "id": "q135",
+  "name": "Lich Culling",
+  "description": "Defeat 6 lich acolytes.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "lich_acolyte",
+    "amount": 6
+  },
+  "rewards": {
+    "xp": 1040,
+    "gold": 580
+  },
+  "requirements": {}
+}

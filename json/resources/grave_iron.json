@@ -1,0 +1,11 @@
+{
+  "id": "grave_iron",
+  "name": "Grave Iron",
+  "description": "Iron forged in burial grounds. Cold to the touch.",
+  "value": 44,
+  "drop_chance": 18,
+  "mining_xp": 34,
+  "min_mining_level": 19,
+  "min_pickaxe_level": 7,
+  "required_pickaxe": ""
+}

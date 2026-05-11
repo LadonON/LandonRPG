@@ -1,0 +1,11 @@
+{
+  "id": "white_sapphire",
+  "name": "White Sapphire",
+  "description": "A flawless gem found deep in ice cave walls.",
+  "value": 45,
+  "drop_chance": 12,
+  "mining_xp": 32,
+  "min_mining_level": 15,
+  "min_pickaxe_level": 6,
+  "required_pickaxe": ""
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q125",
+  "name": "Krakora Trial",
+  "description": "Defeat Krakora, Tide-Spawn.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "krakora_tide_spawn",
+    "amount": 1
+  },
+  "rewards": {
+    "xp": 1400,
+    "gold": 900,
+    "items": [
+      "krakora_eye"
+    ],
+    "unlock_zone": "hollow"
+  },
+  "requirements": {}
+}

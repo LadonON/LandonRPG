@@ -1,0 +1,15 @@
+{
+  "id": "q033",
+  "name": "Meadow Eel Hunter",
+  "description": "Collect 3 meadow eels.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "meadow_eel",
+    "amount": 3
+  },
+  "rewards": {
+    "xp": 110,
+    "gold": 60
+  },
+  "requirements": {}
+}

@@ -1,0 +1,11 @@
+{
+  "id": "basalt_shard",
+  "name": "Basalt Shard",
+  "description": "Dark volcanic igneous rock, dense and tough.",
+  "value": 18,
+  "drop_chance": 32,
+  "mining_xp": 16,
+  "min_mining_level": 10,
+  "min_pickaxe_level": 5,
+  "required_pickaxe": ""
+}

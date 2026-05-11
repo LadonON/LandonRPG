@@ -1,0 +1,52 @@
+{
+  "id": "cinder_estoc",
+  "name": "Cinder Estoc",
+  "description": "A needle blade that runs hot with volcanic metal.",
+  "weapon_class": "finesse",
+  "value": 1700,
+  "damage_bonus": 38,
+  "requirements": {
+    "combat": 13
+  },
+  "attacks": [
+    {
+      "id": "ember_pierce",
+      "name": "Ember Pierce",
+      "damage_die": "1d12",
+      "damage_bonus": 7,
+      "poise_break": 3,
+      "to_hit_bonus": 8
+    },
+    {
+      "id": "flame_thrust",
+      "name": "Flame Thrust",
+      "damage_die": "2d6",
+      "damage_bonus": 6,
+      "poise_break": 3,
+      "to_hit_bonus": 7
+    },
+    {
+      "id": "quick_burn",
+      "name": "Quick Burn",
+      "damage_die": "1d10",
+      "damage_bonus": 5,
+      "poise_break": 2,
+      "to_hit_bonus": 10
+    }
+  ],
+  "upgrade": {
+    "max_level": 40,
+    "per_level_materials": [
+      {
+        "item": "obsidian",
+        "amount": 1
+      },
+      {
+        "item": "sulfur_chunk",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 0.9,
+    "poise_per_level": 0.6
+  }
+}

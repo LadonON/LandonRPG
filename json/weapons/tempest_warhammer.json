@@ -1,0 +1,52 @@
+{
+  "id": "tempest_warhammer",
+  "name": "Tempest Warhammer",
+  "description": "The head crackles with perpetual storm.",
+  "weapon_class": "heavy",
+  "value": 45000,
+  "damage_bonus": 300,
+  "requirements": {
+    "combat": 36
+  },
+  "attacks": [
+    {
+      "id": "tempest_slam",
+      "name": "Tempest Slam",
+      "damage_die": "4d8",
+      "damage_bonus": 23,
+      "poise_break": 12,
+      "to_hit_bonus": 2
+    },
+    {
+      "id": "arc_crush",
+      "name": "Arc Crush",
+      "damage_die": "4d10",
+      "damage_bonus": 20,
+      "poise_break": 13,
+      "to_hit_bonus": 1
+    },
+    {
+      "id": "chain_slam",
+      "name": "Chain Slam",
+      "damage_die": "3d12",
+      "damage_bonus": 25,
+      "poise_break": 14,
+      "to_hit_bonus": 0
+    }
+  ],
+  "upgrade": {
+    "max_level": 60,
+    "per_level_materials": [
+      {
+        "item": "stormsteel",
+        "amount": 1
+      },
+      {
+        "item": "voltite",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 2.0,
+    "poise_per_level": 1.3
+  }
+}

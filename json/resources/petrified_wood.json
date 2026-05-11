@@ -1,0 +1,11 @@
+{
+  "id": "petrified_wood",
+  "name": "Petrified Wood",
+  "description": "Ancient wood turned to stone. Perfectly preserved.",
+  "value": 16,
+  "drop_chance": 32,
+  "mining_xp": 14,
+  "min_mining_level": 7,
+  "min_pickaxe_level": 4,
+  "required_pickaxe": ""
+}

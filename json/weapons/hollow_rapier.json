@@ -1,0 +1,52 @@
+{
+  "id": "hollow_rapier",
+  "name": "Hollow Rapier",
+  "description": "A cursed rapier that feeds on life force.",
+  "weapon_class": "finesse",
+  "value": 15000,
+  "damage_bonus": 110,
+  "requirements": {
+    "combat": 29
+  },
+  "attacks": [
+    {
+      "id": "hollow_thrust",
+      "name": "Hollow Thrust",
+      "damage_die": "2d10",
+      "damage_bonus": 12,
+      "poise_break": 4,
+      "to_hit_bonus": 11
+    },
+    {
+      "id": "soul_pierce",
+      "name": "Soul Pierce",
+      "damage_die": "3d6",
+      "damage_bonus": 11,
+      "poise_break": 4,
+      "to_hit_bonus": 10
+    },
+    {
+      "id": "curse_feint",
+      "name": "Curse Feint",
+      "damage_die": "2d8",
+      "damage_bonus": 8,
+      "poise_break": 2,
+      "to_hit_bonus": 13
+    }
+  ],
+  "upgrade": {
+    "max_level": 55,
+    "per_level_materials": [
+      {
+        "item": "shadowsteel",
+        "amount": 1
+      },
+      {
+        "item": "bonemarble",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 1.6,
+    "poise_per_level": 1.1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "chalk",
+  "name": "Chalk",
+  "description": "Soft white stone. Leaves marks on cave walls.",
+  "value": 2,
+  "drop_chance": 65,
+  "mining_xp": 3,
+  "min_mining_level": 1,
+  "min_pickaxe_level": 1,
+  "required_pickaxe": ""
+}

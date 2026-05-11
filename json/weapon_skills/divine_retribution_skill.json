@@ -1,0 +1,14 @@
+{
+  "id": "divine_retribution_skill",
+  "name": "Divine Retribution",
+  "description": "Called down from somewhere above.",
+  "value": 1000,
+  "attack": {
+    "id": "divine_retribution",
+    "name": "Divine Retribution",
+    "damage_die": "4d6",
+    "damage_bonus": 8,
+    "poise_break": 5,
+    "to_hit_bonus": 4
+  }
+}

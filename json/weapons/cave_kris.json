@@ -1,0 +1,52 @@
+{
+  "id": "cave_kris",
+  "name": "Cave Kris",
+  "description": "A wavy blade forged from cave steel.",
+  "weapon_class": "light",
+  "value": 300,
+  "damage_bonus": 18,
+  "requirements": {
+    "combat": 5
+  },
+  "attacks": [
+    {
+      "id": "serpentine",
+      "name": "Serpentine Cut",
+      "damage_die": "1d8",
+      "damage_bonus": 3,
+      "poise_break": 2,
+      "to_hit_bonus": 4
+    },
+    {
+      "id": "pierce",
+      "name": "Pierce",
+      "damage_die": "1d10",
+      "damage_bonus": 4,
+      "poise_break": 2,
+      "to_hit_bonus": 3
+    },
+    {
+      "id": "feint",
+      "name": "Feint",
+      "damage_die": "1d6",
+      "damage_bonus": 2,
+      "poise_break": 1,
+      "to_hit_bonus": 7
+    }
+  ],
+  "upgrade": {
+    "max_level": 30,
+    "per_level_materials": [
+      {
+        "item": "skull",
+        "amount": 1
+      },
+      {
+        "item": "copper_ore",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 0.55,
+    "poise_per_level": 0.4
+  }
+}

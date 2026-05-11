@@ -1,0 +1,15 @@
+{
+  "id": "q082",
+  "name": "Molten Golem Breaker",
+  "description": "Defeat 4 molten golems.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "molten_golem",
+    "amount": 4
+  },
+  "rewards": {
+    "xp": 520,
+    "gold": 280
+  },
+  "requirements": {}
+}

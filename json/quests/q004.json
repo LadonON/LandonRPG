@@ -1,0 +1,19 @@
+{
+  "id": "q004",
+  "name": "Spider Hunter",
+  "description": "Defeat 3 giant spiders.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "giant_spider",
+    "amount": 3
+  },
+  "rewards": {
+    "xp": 70,
+    "gold": 40,
+    "items": [
+      "spider_silk",
+      "spider_silk"
+    ]
+  },
+  "requirements": {}
+}

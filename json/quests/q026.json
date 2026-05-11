@@ -1,0 +1,15 @@
+{
+  "id": "q026",
+  "name": "Wisp Chaser",
+  "description": "Defeat 6 pollen wisps.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "pollen_wisp",
+    "amount": 6
+  },
+  "rewards": {
+    "xp": 100,
+    "gold": 60
+  },
+  "requirements": {}
+}

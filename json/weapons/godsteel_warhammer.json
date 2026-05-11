@@ -1,0 +1,52 @@
+{
+  "id": "godsteel_warhammer",
+  "name": "Godsteel Warhammer",
+  "description": "Hammered into existence by a god.",
+  "weapon_class": "heavy",
+  "value": 100000,
+  "damage_bonus": 420,
+  "requirements": {
+    "combat": 43
+  },
+  "attacks": [
+    {
+      "id": "divine_slam",
+      "name": "Divine Slam",
+      "damage_die": "5d8",
+      "damage_bonus": 28,
+      "poise_break": 13,
+      "to_hit_bonus": 3
+    },
+    {
+      "id": "god_crush",
+      "name": "God Crush",
+      "damage_die": "4d10",
+      "damage_bonus": 30,
+      "poise_break": 14,
+      "to_hit_bonus": 2
+    },
+    {
+      "id": "apocalypse_blow",
+      "name": "Apocalypse Blow",
+      "damage_die": "5d10",
+      "damage_bonus": 26,
+      "poise_break": 15,
+      "to_hit_bonus": 1
+    }
+  ],
+  "upgrade": {
+    "max_level": 70,
+    "per_level_materials": [
+      {
+        "item": "celestium",
+        "amount": 1
+      },
+      {
+        "item": "stardust",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 2.5,
+    "poise_per_level": 1.6
+  }
+}

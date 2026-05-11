@@ -1,0 +1,52 @@
+{
+  "id": "steel_greatsword",
+  "name": "Steel Greatsword",
+  "description": "Heavy-grade steel greatsword.",
+  "weapon_class": "two_handed",
+  "value": 650,
+  "damage_bonus": 35,
+  "requirements": {
+    "combat": 5
+  },
+  "attacks": [
+    {
+      "id": "great_cleave",
+      "name": "Great Cleave",
+      "damage_die": "2d10",
+      "damage_bonus": 6,
+      "poise_break": 5,
+      "to_hit_bonus": 2
+    },
+    {
+      "id": "execute",
+      "name": "Execute",
+      "damage_die": "3d6",
+      "damage_bonus": 7,
+      "poise_break": 5,
+      "to_hit_bonus": 2
+    },
+    {
+      "id": "guard_break",
+      "name": "Guard Break",
+      "damage_die": "1d12",
+      "damage_bonus": 5,
+      "poise_break": 10,
+      "to_hit_bonus": 3
+    }
+  ],
+  "upgrade": {
+    "max_level": 30,
+    "per_level_materials": [
+      {
+        "item": "skull",
+        "amount": 1
+      },
+      {
+        "item": "copper_ore",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 0.55,
+    "poise_per_level": 0.4
+  }
+}

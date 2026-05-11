@@ -1,0 +1,18 @@
+{
+  "id": "q039",
+  "name": "First Pick",
+  "description": "Reach Mining Level 2.",
+  "objective": {
+    "type": "reach_stat_level",
+    "stat": "mining",
+    "level": 2
+  },
+  "rewards": {
+    "xp": 120,
+    "gold": 60,
+    "items": [
+      "copper_pickaxe"
+    ]
+  },
+  "requirements": {}
+}

@@ -1,0 +1,11 @@
+{
+  "id": "charged_iron",
+  "name": "Charged Iron",
+  "description": "Iron that crackles with stored static energy.",
+  "value": 54,
+  "drop_chance": 18,
+  "mining_xp": 40,
+  "min_mining_level": 23,
+  "min_pickaxe_level": 8,
+  "required_pickaxe": ""
+}

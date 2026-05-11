@@ -1,0 +1,15 @@
+{
+  "id": "q129",
+  "name": "Wraith Hunt",
+  "description": "Defeat 10 wraiths.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "wraith",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 920,
+    "gold": 510
+  },
+  "requirements": {}
+}

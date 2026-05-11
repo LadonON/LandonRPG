@@ -1,0 +1,15 @@
+{
+  "seed_id": "celestial_lily_seed",
+  "seed_name": "Celestial Lily Seed",
+  "seed_value": 60,
+  "crop_id": "celestial_lily",
+  "crop_name": "Celestial Lily",
+  "crop_description": "Full heal. Glows with impossible light.",
+  "crop_type": "herb",
+  "crop_value": 220,
+  "crop_heal": 250,
+  "grow_time_minutes": 40,
+  "yield_base": 1,
+  "farming_xp": 130,
+  "min_farming_level": 20
+}

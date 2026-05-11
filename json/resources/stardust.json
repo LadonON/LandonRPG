@@ -1,0 +1,11 @@
+{
+  "id": "stardust",
+  "name": "Stardust",
+  "description": "Compressed matter from dying stars.",
+  "value": 70,
+  "drop_chance": 10,
+  "mining_xp": 70,
+  "min_mining_level": 27,
+  "min_pickaxe_level": 10,
+  "required_pickaxe": "celestial_pickaxe"
+}

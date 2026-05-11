@@ -1,0 +1,15 @@
+{
+  "id": "q137",
+  "name": "Dark Tome Run",
+  "description": "Collect 4 dark tomes.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "dark_tome",
+    "amount": 4
+  },
+  "rewards": {
+    "xp": 1020,
+    "gold": 560
+  },
+  "requirements": {}
+}

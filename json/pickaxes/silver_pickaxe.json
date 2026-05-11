@@ -1,0 +1,24 @@
+{
+  "id": "silver_pickaxe",
+  "name": "Silver Pickaxe",
+  "description": "A silver head that conducts energy into the rock.",
+  "pickaxe_level": 6,
+  "value": 500,
+  "requirements": {
+    "mining": 6
+  },
+  "upgrade": {
+    "max_level": 100,
+    "per_level_materials": [
+      {
+        "item": "iron_ore",
+        "amount": 2
+      },
+      {
+        "item": "stone",
+        "amount": 3
+      }
+    ],
+    "level_per_step": 0.09
+  }
+}

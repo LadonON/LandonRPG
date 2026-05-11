@@ -1,0 +1,15 @@
+{
+  "id": "q084",
+  "name": "Magmacarp Haul",
+  "description": "Collect 6 magmacarp.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "magmacarp",
+    "amount": 6
+  },
+  "rewards": {
+    "xp": 380,
+    "gold": 200
+  },
+  "requirements": {}
+}

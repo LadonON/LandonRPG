@@ -1,0 +1,15 @@
+{
+  "seed_id": "soulroot_seed",
+  "seed_name": "Soulroot Seed",
+  "seed_value": 22,
+  "crop_id": "soulroot",
+  "crop_name": "Soulroot",
+  "crop_description": "Root that hums with captured spirit.",
+  "crop_type": "herb",
+  "crop_value": 70,
+  "crop_heal": 100,
+  "grow_time_minutes": 20,
+  "yield_base": 1,
+  "farming_xp": 44,
+  "min_farming_level": 13
+}

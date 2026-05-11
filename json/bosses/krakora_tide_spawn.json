@@ -1,0 +1,62 @@
+{
+  "id": "krakora_tide_spawn",
+  "name": "Krakora, Tide-Spawn",
+  "max_health": 1800,
+  "defense": 8,
+  "poise": 75,
+  "poise_break": 6,
+  "initiative_bonus": 3,
+  "xp_reward": 5000,
+  "loot": [
+    "large_potion",
+    "krakora_eye",
+    "kraken_tendril",
+    "abyssal_stone"
+  ],
+  "dialogue": {
+    "on_spawn": [
+      "The sea splits. Krakora rises, tentacles blotting out the horizon.",
+      "\"The tide answers... to ME.\""
+    ],
+    "on_low_hp": [
+      "\"TENDRILS \u2014 RISE!\" Krakora summons its spawning mass."
+    ],
+    "on_death": [
+      "Krakora sinks with a final crash of waves."
+    ]
+  },
+  "attacks": [
+    {
+      "id": "tentacle_slam",
+      "name": "Tentacle Slam",
+      "damage_die": "3d10",
+      "damage_bonus": 5,
+      "to_hit_bonus": 3,
+      "poise_break": 7,
+      "target_mode": "single"
+    },
+    {
+      "id": "tidal_wave",
+      "name": "Tidal Wave",
+      "damage_die": "2d10",
+      "damage_bonus": 4,
+      "to_hit_bonus": 2,
+      "poise_break": 4,
+      "target_mode": "all"
+    },
+    {
+      "id": "summon_tendrils",
+      "name": "Summon Tendrils",
+      "damage_die": "0d0",
+      "damage_bonus": 0,
+      "to_hit_bonus": 99,
+      "poise_break": 0,
+      "target_mode": "single",
+      "summon": {
+        "monster_id": "kraken_tendril",
+        "amount": 3,
+        "level": 24
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "q101",
+  "name": "Mooncress Master",
+  "description": "Collect 6 mooncress seeds.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "mooncress_seed",
+    "amount": 6
+  },
+  "rewards": {
+    "xp": 560,
+    "gold": 300
+  },
+  "requirements": {}
+}

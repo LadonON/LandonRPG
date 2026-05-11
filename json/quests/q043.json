@@ -1,0 +1,15 @@
+{
+  "id": "q043",
+  "name": "Bat Swarm Culling",
+  "description": "Defeat 8 bat swarms.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "bat_swarm",
+    "amount": 8
+  },
+  "rewards": {
+    "xp": 160,
+    "gold": 80
+  },
+  "requirements": {}
+}

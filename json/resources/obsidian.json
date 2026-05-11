@@ -1,0 +1,11 @@
+{
+  "id": "obsidian",
+  "name": "Obsidian",
+  "description": "Volcanic glass. Sharp and hard.",
+  "value": 20,
+  "drop_chance": 18,
+  "mining_xp": 20,
+  "min_mining_level": 11,
+  "min_pickaxe_level": 7,
+  "required_pickaxe": "obsidian_pickaxe"
+}

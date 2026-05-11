@@ -1,0 +1,11 @@
+{
+  "id": "iceshard",
+  "name": "Iceshard",
+  "description": "Crystalline ice harder than iron.",
+  "value": 18,
+  "drop_chance": 26,
+  "mining_xp": 18,
+  "min_mining_level": 13,
+  "min_pickaxe_level": 5,
+  "required_pickaxe": ""
+}

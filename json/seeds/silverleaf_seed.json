@@ -1,0 +1,15 @@
+{
+  "seed_id": "silverleaf_seed",
+  "seed_name": "Silverleaf Seed",
+  "seed_value": 10,
+  "crop_id": "silverleaf",
+  "crop_name": "Silverleaf",
+  "crop_description": "Leaf edges shine like polished metal.",
+  "crop_type": "herb",
+  "crop_value": 35,
+  "crop_heal": 60,
+  "grow_time_minutes": 14,
+  "yield_base": 1,
+  "farming_xp": 26,
+  "min_farming_level": 9
+}

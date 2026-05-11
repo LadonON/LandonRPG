@@ -1,0 +1,15 @@
+{
+  "id": "q080",
+  "name": "Volcanic Shard Haul",
+  "description": "Collect 6 volcanic shards.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "volcanic_shard",
+    "amount": 6
+  },
+  "rewards": {
+    "xp": 460,
+    "gold": 250
+  },
+  "requirements": {}
+}

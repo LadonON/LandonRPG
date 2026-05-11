@@ -1,0 +1,15 @@
+{
+  "id": "q133",
+  "name": "Cursed Iron Haul",
+  "description": "Collect 10 cursed iron.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "cursed_iron",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 980,
+    "gold": 540
+  },
+  "requirements": {}
+}

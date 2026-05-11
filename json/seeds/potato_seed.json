@@ -1,0 +1,15 @@
+{
+  "seed_id": "potato_seed",
+  "seed_name": "Potato Seed",
+  "seed_value": 1,
+  "crop_id": "potato",
+  "crop_name": "Potato",
+  "crop_description": "A filling starchy tuber.",
+  "crop_type": "food",
+  "crop_value": 4,
+  "crop_heal": 6,
+  "grow_time_minutes": 3,
+  "yield_base": 3,
+  "farming_xp": 5,
+  "min_farming_level": 2
+}

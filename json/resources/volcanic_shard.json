@@ -1,0 +1,11 @@
+{
+  "id": "volcanic_shard",
+  "name": "Volcanic Shard",
+  "description": "Jagged piece of hardened lava.",
+  "value": 16,
+  "drop_chance": 14,
+  "mining_xp": 16,
+  "min_mining_level": 12,
+  "min_pickaxe_level": 7,
+  "required_pickaxe": "obsidian_pickaxe"
+}

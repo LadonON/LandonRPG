@@ -1,0 +1,11 @@
+{
+  "id": "permafrost_shard",
+  "name": "Permafrost Shard",
+  "description": "A shard of earth so cold it resists all heat.",
+  "value": 32,
+  "drop_chance": 18,
+  "mining_xp": 26,
+  "min_mining_level": 14,
+  "min_pickaxe_level": 5,
+  "required_pickaxe": ""
+}

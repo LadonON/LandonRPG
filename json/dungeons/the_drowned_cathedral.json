@@ -1,0 +1,50 @@
+{
+  "zone_id": "tidewreck",
+  "name": "The Drowned Cathedral",
+  "description": "A submerged cathedral where Krakora is worshipped.",
+  "spawn_pool": [
+    "reef_drowner",
+    "siren_thrall",
+    "tide_skeleton",
+    "shark_brood"
+  ],
+  "rooms": [
+    {
+      "enemy_count": [
+        3,
+        5
+      ]
+    },
+    {
+      "enemy_count": [
+        3,
+        5
+      ]
+    },
+    {
+      "enemy_count": [
+        3,
+        5
+      ]
+    },
+    {
+      "enemy_count": [
+        3,
+        5
+      ]
+    },
+    {
+      "enemy_count": [
+        3,
+        5
+      ]
+    },
+    {
+      "enemy_count": [
+        3,
+        5
+      ]
+    }
+  ],
+  "boss_id": "krakora_tide_spawn"
+}

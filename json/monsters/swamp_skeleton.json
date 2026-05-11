@@ -1,0 +1,18 @@
+{
+  "monster_id": "swamp_skeleton",
+  "name": "Swamp Skeleton",
+  "max_health": 70,
+  "damage": 6,
+  "attack_msg": "rattles dripping bones",
+  "xp_reward": 44,
+  "loot": [
+    "bone",
+    "skull",
+    "swamp_essence"
+  ],
+  "damage_die": "2d6",
+  "to_hit_bonus": 3,
+  "defense": 3,
+  "poise": 10,
+  "poise_break": 3
+}

@@ -1,0 +1,11 @@
+{
+  "id": "pearl_coral",
+  "name": "Pearl Coral",
+  "description": "Sea-hardened coral with a pearlescent sheen.",
+  "value": 28,
+  "drop_chance": 20,
+  "mining_xp": 28,
+  "min_mining_level": 16,
+  "min_pickaxe_level": 6,
+  "required_pickaxe": ""
+}

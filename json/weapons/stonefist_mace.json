@@ -1,0 +1,52 @@
+{
+  "id": "stonefist_mace",
+  "name": "Stonefist Mace",
+  "description": "A granite head forged in cave depths.",
+  "weapon_class": "heavy",
+  "value": 500,
+  "damage_bonus": 30,
+  "requirements": {
+    "combat": 5
+  },
+  "attacks": [
+    {
+      "id": "stone_smash",
+      "name": "Stone Smash",
+      "damage_die": "2d6",
+      "damage_bonus": 6,
+      "poise_break": 6,
+      "to_hit_bonus": 1
+    },
+    {
+      "id": "crack",
+      "name": "Crack",
+      "damage_die": "1d12",
+      "damage_bonus": 7,
+      "poise_break": 7,
+      "to_hit_bonus": 0
+    },
+    {
+      "id": "overhead",
+      "name": "Overhead",
+      "damage_die": "2d8",
+      "damage_bonus": 5,
+      "poise_break": 5,
+      "to_hit_bonus": -1
+    }
+  ],
+  "upgrade": {
+    "max_level": 30,
+    "per_level_materials": [
+      {
+        "item": "skull",
+        "amount": 1
+      },
+      {
+        "item": "copper_ore",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 0.55,
+    "poise_per_level": 0.4
+  }
+}

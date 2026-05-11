@@ -1,0 +1,48 @@
+{
+  "id": "meadow_glaive",
+  "name": "Meadow Glaive",
+  "description": "A long polearm favored by meadow wardens.",
+  "weapon_class": "two_handed",
+  "value": 280,
+  "damage_bonus": 26,
+  "requirements": {
+    "combat": 3
+  },
+  "attacks": [
+    {
+      "id": "sweep",
+      "name": "Wide Sweep",
+      "damage_die": "2d6",
+      "damage_bonus": 6,
+      "poise_break": 4,
+      "to_hit_bonus": 2
+    },
+    {
+      "id": "pole_thrust",
+      "name": "Pole Thrust",
+      "damage_die": "2d4",
+      "damage_bonus": 8,
+      "poise_break": 3,
+      "to_hit_bonus": 3
+    },
+    {
+      "id": "spinning",
+      "name": "Spinning Slash",
+      "damage_die": "2d8",
+      "damage_bonus": 5,
+      "poise_break": 5,
+      "to_hit_bonus": 1
+    }
+  ],
+  "upgrade": {
+    "max_level": 25,
+    "per_level_materials": [
+      {
+        "item": "tooth",
+        "amount": 2
+      }
+    ],
+    "attack_per_level": 0.4,
+    "poise_per_level": 0.3
+  }
+}

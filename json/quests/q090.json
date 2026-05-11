@@ -1,0 +1,20 @@
+{
+  "id": "q090",
+  "name": "Magmaw Avenger",
+  "description": "Defeat Magmaw the Sundering again.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "magmaw_the_sundering",
+    "amount": 1
+  },
+  "rewards": {
+    "xp": 550,
+    "gold": 280,
+    "items": [
+      "lootbox_epic"
+    ]
+  },
+  "requirements": {
+    "combat": 14
+  }
+}

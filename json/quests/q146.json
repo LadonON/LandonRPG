@@ -1,0 +1,15 @@
+{
+  "id": "q146",
+  "name": "Sentinel Culling",
+  "description": "Defeat 10 storm sentinels.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "storm_sentinel",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 1200,
+    "gold": 680
+  },
+  "requirements": {}
+}

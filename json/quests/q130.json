@@ -1,0 +1,15 @@
+{
+  "id": "q130",
+  "name": "Bone Collector II",
+  "description": "Collect 30 bones.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "bone",
+    "amount": 30
+  },
+  "rewards": {
+    "xp": 880,
+    "gold": 480
+  },
+  "requirements": {}
+}

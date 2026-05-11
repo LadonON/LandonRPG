@@ -1,0 +1,11 @@
+{
+  "id": "void_iron",
+  "name": "Void Iron",
+  "description": "Iron smelted in the gap between worlds.",
+  "value": 105,
+  "drop_chance": 10,
+  "mining_xp": 72,
+  "min_mining_level": 26,
+  "min_pickaxe_level": 10,
+  "required_pickaxe": "celestial_pickaxe"
+}

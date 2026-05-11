@@ -1,0 +1,15 @@
+{
+  "id": "q154",
+  "name": "Stormvine Picker",
+  "description": "Collect 5 stormvine seeds.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "stormvine_seed",
+    "amount": 5
+  },
+  "rewards": {
+    "xp": 1240,
+    "gold": 700
+  },
+  "requirements": {}
+}

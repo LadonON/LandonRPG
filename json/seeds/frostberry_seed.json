@@ -1,0 +1,15 @@
+{
+  "seed_id": "frostberry_seed",
+  "seed_name": "Frostberry Seed",
+  "seed_value": 9,
+  "crop_id": "frostberry",
+  "crop_name": "Frostberry",
+  "crop_description": "Icy blue berries that numb the mouth.",
+  "crop_type": "food",
+  "crop_value": 28,
+  "crop_heal": 25,
+  "grow_time_minutes": 12,
+  "yield_base": 2,
+  "farming_xp": 22,
+  "min_farming_level": 9
+}

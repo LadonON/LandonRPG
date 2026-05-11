@@ -1,0 +1,15 @@
+{
+  "seed_id": "stormvine_seed",
+  "seed_name": "Stormvine Seed",
+  "seed_value": 28,
+  "crop_id": "stormvine",
+  "crop_name": "Stormvine",
+  "crop_description": "Crackles with static when touched.",
+  "crop_type": "herb",
+  "crop_value": 90,
+  "crop_heal": 110,
+  "grow_time_minutes": 25,
+  "yield_base": 1,
+  "farming_xp": 56,
+  "min_farming_level": 15
+}

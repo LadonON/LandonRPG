@@ -1,0 +1,11 @@
+{
+  "id": "stormsteel",
+  "name": "Stormsteel",
+  "description": "Steel that hums with stored lightning.",
+  "value": 45,
+  "drop_chance": 18,
+  "mining_xp": 45,
+  "min_mining_level": 22,
+  "min_pickaxe_level": 8,
+  "required_pickaxe": ""
+}

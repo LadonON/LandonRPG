@@ -1,0 +1,11 @@
+{
+  "id": "clay",
+  "name": "Clay",
+  "description": "Soft earthy material. Holds its shape when wet.",
+  "value": 3,
+  "drop_chance": 60,
+  "mining_xp": 4,
+  "min_mining_level": 1,
+  "min_pickaxe_level": 1,
+  "required_pickaxe": ""
+}

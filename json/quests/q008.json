@@ -1,0 +1,18 @@
+{
+  "id": "q008",
+  "name": "Berry Basket",
+  "description": "Collect 6 blueberries.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "blueberry",
+    "amount": 6
+  },
+  "rewards": {
+    "xp": 40,
+    "gold": 20,
+    "items": [
+      "small_potion"
+    ]
+  },
+  "requirements": {}
+}

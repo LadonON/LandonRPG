@@ -1,0 +1,14 @@
+{
+  "id": "counter_skill",
+  "name": "Counter",
+  "description": "Catch your attacker mid-swing and answer.",
+  "value": 200,
+  "attack": {
+    "id": "counter",
+    "name": "Counter",
+    "damage_die": "1d8",
+    "damage_bonus": 8,
+    "poise_break": 2,
+    "to_hit_bonus": 6
+  }
+}

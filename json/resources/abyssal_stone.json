@@ -1,0 +1,11 @@
+{
+  "id": "abyssal_stone",
+  "name": "Abyssal Stone",
+  "description": "Dense black rock from the deepest trenches.",
+  "value": 26,
+  "drop_chance": 16,
+  "mining_xp": 26,
+  "min_mining_level": 18,
+  "min_pickaxe_level": 6,
+  "required_pickaxe": ""
+}

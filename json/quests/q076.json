@@ -1,0 +1,15 @@
+{
+  "id": "q076",
+  "name": "Molten Core Run",
+  "description": "Collect 4 molten cores.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "molten_core",
+    "amount": 4
+  },
+  "rewards": {
+    "xp": 440,
+    "gold": 240
+  },
+  "requirements": {}
+}

@@ -1,0 +1,15 @@
+{
+  "id": "q114",
+  "name": "Shark Hunt",
+  "description": "Defeat 6 shark broods.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "shark_brood",
+    "amount": 6
+  },
+  "rewards": {
+    "xp": 820,
+    "gold": 460
+  },
+  "requirements": {}
+}

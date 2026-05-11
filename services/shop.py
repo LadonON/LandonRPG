@@ -9,6 +9,11 @@ SHOP_INVENTORY: list[str] = [
     "iron_sword",
     "leather_armor",
     "iron_armor",
+    # Gathering tools — the village smith stocks the basics.
+    "wood_pickaxe",
+    "iron_pickaxe",
+    "wood_fishing_rod",
+    "iron_fishing_rod",
 ]
 BUY_MARKUP = 2  # buy at 2x the sell value
 

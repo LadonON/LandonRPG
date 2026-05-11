@@ -1,0 +1,15 @@
+{
+  "id": "q161",
+  "name": "Voltcatfish Run",
+  "description": "Collect 3 voltcatfish.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "voltcatfish",
+    "amount": 3
+  },
+  "rewards": {
+    "xp": 1200,
+    "gold": 680
+  },
+  "requirements": {}
+}

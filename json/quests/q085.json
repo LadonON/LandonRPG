@@ -1,0 +1,15 @@
+{
+  "id": "q085",
+  "name": "Ashpetal Picker",
+  "description": "Collect 5 ashpetal seeds.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "ashpetal_seed",
+    "amount": 5
+  },
+  "rewards": {
+    "xp": 400,
+    "gold": 220
+  },
+  "requirements": {}
+}

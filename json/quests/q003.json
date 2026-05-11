@@ -1,0 +1,15 @@
+{
+  "id": "q003",
+  "name": "Bone Collector I",
+  "description": "Gather 8 bones.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "bone",
+    "amount": 8
+  },
+  "rewards": {
+    "xp": 50,
+    "gold": 25
+  },
+  "requirements": {}
+}

@@ -1,0 +1,15 @@
+{
+  "seed_id": "starbloom_seed",
+  "seed_name": "Starbloom Seed",
+  "seed_value": 40,
+  "crop_id": "starbloom",
+  "crop_name": "Starbloom",
+  "crop_description": "Petals glow like constellations.",
+  "crop_type": "herb",
+  "crop_value": 140,
+  "crop_heal": 150,
+  "grow_time_minutes": 30,
+  "yield_base": 1,
+  "farming_xp": 80,
+  "min_farming_level": 18
+}

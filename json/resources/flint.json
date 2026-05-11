@@ -1,0 +1,11 @@
+{
+  "id": "flint",
+  "name": "Flint",
+  "description": "Sharp grey stone that sparks when struck.",
+  "value": 2,
+  "drop_chance": 70,
+  "mining_xp": 3,
+  "min_mining_level": 1,
+  "min_pickaxe_level": 1,
+  "required_pickaxe": ""
+}

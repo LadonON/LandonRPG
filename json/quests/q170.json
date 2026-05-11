@@ -1,0 +1,15 @@
+{
+  "id": "q170",
+  "name": "Aether Crystal Haul",
+  "description": "Collect 8 aether crystals.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "aether_crystal",
+    "amount": 8
+  },
+  "rewards": {
+    "xp": 2200,
+    "gold": 1300
+  },
+  "requirements": {}
+}

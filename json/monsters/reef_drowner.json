@@ -1,0 +1,17 @@
+{
+  "monster_id": "reef_drowner",
+  "name": "Reef Drowner",
+  "max_health": 280,
+  "damage": 12,
+  "attack_msg": "grapples and drowns",
+  "xp_reward": 190,
+  "loot": [
+    "drowner_pearl",
+    "kelp"
+  ],
+  "damage_die": "3d6",
+  "to_hit_bonus": 4,
+  "defense": 5,
+  "poise": 16,
+  "poise_break": 4
+}

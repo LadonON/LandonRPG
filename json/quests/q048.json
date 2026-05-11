@@ -1,0 +1,15 @@
+{
+  "id": "q048",
+  "name": "Blind Haul",
+  "description": "Collect 5 blind eels.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "blind_eel",
+    "amount": 5
+  },
+  "rewards": {
+    "xp": 150,
+    "gold": 75
+  },
+  "requirements": {}
+}

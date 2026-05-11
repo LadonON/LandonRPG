@@ -1,0 +1,19 @@
+{
+  "id": "q088",
+  "name": "Magmaw Trial",
+  "description": "Defeat Magmaw the Sundering.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "magmaw_the_sundering",
+    "amount": 1
+  },
+  "rewards": {
+    "xp": 800,
+    "gold": 500,
+    "items": [
+      "sundering_core"
+    ],
+    "unlock_zone": "frostbound"
+  },
+  "requirements": {}
+}

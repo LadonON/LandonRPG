@@ -1,0 +1,52 @@
+{
+  "id": "coral_rapier",
+  "name": "Coral Rapier",
+  "description": "A living coral blade \u2014 razor-sharp and regenerating.",
+  "weapon_class": "finesse",
+  "value": 7500,
+  "damage_bonus": 78,
+  "requirements": {
+    "combat": 23
+  },
+  "attacks": [
+    {
+      "id": "coral_thrust",
+      "name": "Coral Thrust",
+      "damage_die": "2d8",
+      "damage_bonus": 11,
+      "poise_break": 4,
+      "to_hit_bonus": 10
+    },
+    {
+      "id": "tide_lunge",
+      "name": "Tide Lunge",
+      "damage_die": "2d10",
+      "damage_bonus": 9,
+      "poise_break": 3,
+      "to_hit_bonus": 9
+    },
+    {
+      "id": "sea_feint",
+      "name": "Sea Feint",
+      "damage_die": "2d6",
+      "damage_bonus": 7,
+      "poise_break": 2,
+      "to_hit_bonus": 12
+    }
+  ],
+  "upgrade": {
+    "max_level": 50,
+    "per_level_materials": [
+      {
+        "item": "pearl_coral",
+        "amount": 1
+      },
+      {
+        "item": "salt_crystal",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 1.35,
+    "poise_per_level": 0.9
+  }
+}

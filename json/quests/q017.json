@@ -1,0 +1,18 @@
+{
+  "id": "q017",
+  "name": "Ranger's Eye",
+  "description": "Reach Fishing Level 3.",
+  "objective": {
+    "type": "reach_stat_level",
+    "stat": "fishing",
+    "level": 3
+  },
+  "rewards": {
+    "xp": 100,
+    "gold": 50,
+    "items": [
+      "iron_fishing_rod"
+    ]
+  },
+  "requirements": {}
+}

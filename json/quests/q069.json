@@ -1,0 +1,15 @@
+{
+  "id": "q069",
+  "name": "Gator Hide Run",
+  "description": "Collect 6 gator hides.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "gator_hide",
+    "amount": 6
+  },
+  "rewards": {
+    "xp": 280,
+    "gold": 140
+  },
+  "requirements": {}
+}

@@ -1,0 +1,17 @@
+{
+  "monster_id": "pyre_orc",
+  "name": "Pyre Orc",
+  "max_health": 180,
+  "damage": 9,
+  "attack_msg": "hurls a flaming brand",
+  "xp_reward": 115,
+  "loot": [
+    "club_fragment",
+    "cinder_brand"
+  ],
+  "damage_die": "2d8",
+  "to_hit_bonus": 3,
+  "defense": 4,
+  "poise": 14,
+  "poise_break": 3
+}

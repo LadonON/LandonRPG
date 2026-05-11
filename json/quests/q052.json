@@ -1,0 +1,15 @@
+{
+  "id": "q052",
+  "name": "Glow Shrimp Haul",
+  "description": "Collect 6 glow shrimp.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "glow_shrimp",
+    "amount": 6
+  },
+  "rewards": {
+    "xp": 140,
+    "gold": 70
+  },
+  "requirements": {}
+}

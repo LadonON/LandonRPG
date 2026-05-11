@@ -1,0 +1,15 @@
+{
+  "id": "q105",
+  "name": "Trout Run",
+  "description": "Collect 6 glacier trout.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "glacier_trout",
+    "amount": 6
+  },
+  "rewards": {
+    "xp": 540,
+    "gold": 290
+  },
+  "requirements": {}
+}

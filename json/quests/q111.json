@@ -1,0 +1,15 @@
+{
+  "id": "q111",
+  "name": "Siren Culling",
+  "description": "Defeat 8 siren thralls.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "siren_thrall",
+    "amount": 8
+  },
+  "rewards": {
+    "xp": 740,
+    "gold": 410
+  },
+  "requirements": {}
+}

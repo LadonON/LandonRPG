@@ -1,0 +1,11 @@
+{
+  "id": "voltite",
+  "name": "Voltite",
+  "description": "Pure compressed electrical energy in ore form.",
+  "value": 42,
+  "drop_chance": 16,
+  "mining_xp": 42,
+  "min_mining_level": 22,
+  "min_pickaxe_level": 8,
+  "required_pickaxe": ""
+}

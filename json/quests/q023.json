@@ -1,0 +1,15 @@
+{
+  "id": "q023",
+  "name": "Pumpkin Run",
+  "description": "Collect 4 pumpkins.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "pumpkin",
+    "amount": 4
+  },
+  "rewards": {
+    "xp": 100,
+    "gold": 50
+  },
+  "requirements": {}
+}

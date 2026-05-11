@@ -1,0 +1,14 @@
+{
+  "id": "storm_strike_skill",
+  "name": "Storm Strike",
+  "description": "Three rapid strikes compressed into one fluid motion.",
+  "value": 170,
+  "attack": {
+    "id": "storm_strike",
+    "name": "Storm Strike",
+    "damage_die": "2d8",
+    "damage_bonus": 3,
+    "poise_break": 4,
+    "to_hit_bonus": 3
+  }
+}

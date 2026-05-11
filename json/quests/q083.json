@@ -1,0 +1,15 @@
+{
+  "id": "q083",
+  "name": "Cobalt Run",
+  "description": "Collect 10 cobalt ore.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "cobalt_ore",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 440,
+    "gold": 230
+  },
+  "requirements": {}
+}

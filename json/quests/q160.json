@@ -1,0 +1,19 @@
+{
+  "id": "q160",
+  "name": "Volthrax Trial",
+  "description": "Defeat Volthrax the Unbound.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "volthrax_the_unbound",
+    "amount": 1
+  },
+  "rewards": {
+    "xp": 2400,
+    "gold": 1600,
+    "items": [
+      "storm_crown"
+    ],
+    "unlock_zone": "skyforge"
+  },
+  "requirements": {}
+}

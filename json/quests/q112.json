@@ -1,0 +1,15 @@
+{
+  "id": "q112",
+  "name": "Pearl Coral Haul",
+  "description": "Collect 12 pearl coral.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "pearl_coral",
+    "amount": 12
+  },
+  "rewards": {
+    "xp": 780,
+    "gold": 420
+  },
+  "requirements": {}
+}

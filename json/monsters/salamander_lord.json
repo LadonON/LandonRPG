@@ -1,0 +1,17 @@
+{
+  "monster_id": "salamander_lord",
+  "name": "Salamander Lord",
+  "max_health": 160,
+  "damage": 9,
+  "attack_msg": "lashes with a fire tail",
+  "xp_reward": 105,
+  "loot": [
+    "salamander_hide",
+    "fire_gland"
+  ],
+  "damage_die": "2d10",
+  "to_hit_bonus": 3,
+  "defense": 4,
+  "poise": 14,
+  "poise_break": 3
+}

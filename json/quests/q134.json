@@ -1,0 +1,15 @@
+{
+  "id": "q134",
+  "name": "Grave Orc Hunt",
+  "description": "Defeat 8 grave orcs.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "grave_orc",
+    "amount": 8
+  },
+  "rewards": {
+    "xp": 1000,
+    "gold": 560
+  },
+  "requirements": {}
+}

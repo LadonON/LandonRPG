@@ -1,0 +1,20 @@
+{
+  "id": "q180",
+  "name": "Astralith Avenger",
+  "description": "Defeat Astralith, Forgegod again.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "astralith_forgegod",
+    "amount": 1
+  },
+  "rewards": {
+    "xp": 2800,
+    "gold": 1700,
+    "items": [
+      "lootbox_chroma"
+    ]
+  },
+  "requirements": {
+    "combat": 43
+  }
+}

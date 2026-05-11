@@ -1,0 +1,11 @@
+{
+  "id": "pumice",
+  "name": "Pumice",
+  "description": "Lightweight porous volcanic rock. Floats.",
+  "value": 14,
+  "drop_chance": 36,
+  "mining_xp": 14,
+  "min_mining_level": 10,
+  "min_pickaxe_level": 5,
+  "required_pickaxe": ""
+}

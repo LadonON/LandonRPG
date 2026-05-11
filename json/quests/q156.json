@@ -1,0 +1,18 @@
+{
+  "id": "q156",
+  "name": "Hardened Miner III",
+  "description": "Reach Mining Level 22.",
+  "objective": {
+    "type": "reach_stat_level",
+    "stat": "mining",
+    "level": 22
+  },
+  "rewards": {
+    "xp": 1500,
+    "gold": 840,
+    "items": [
+      "adamantite_pickaxe"
+    ]
+  },
+  "requirements": {}
+}

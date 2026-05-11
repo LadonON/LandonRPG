@@ -1,0 +1,11 @@
+{
+  "id": "quartz",
+  "name": "Quartz",
+  "description": "A clear crystalline mineral. Common but useful.",
+  "value": 5,
+  "drop_chance": 55,
+  "mining_xp": 5,
+  "min_mining_level": 2,
+  "min_pickaxe_level": 1,
+  "required_pickaxe": ""
+}

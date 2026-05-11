@@ -1,0 +1,47 @@
+{
+  "id": "mossback_ogre",
+  "name": "Mossback Ogre",
+  "max_health": 80,
+  "defense": 2,
+  "poise": 20,
+  "poise_break": 3,
+  "initiative_bonus": 1,
+  "xp_reward": 300,
+  "loot": [
+    "large_potion",
+    "hollow_charm"
+  ],
+  "dialogue": {
+    "on_spawn": [
+      "Moss cracks across the ogre's hide as it turns toward you.",
+      "\"Intruder...\" the Ogre rumbles."
+    ],
+    "on_low_hp": [
+      "The ogre roars and stamps its feet.",
+      "\"Feel the earth!\""
+    ],
+    "on_death": [
+      "The Mossback Ogre crashes to the ground, moss scattering."
+    ]
+  },
+  "attacks": [
+    {
+      "id": "club_smash",
+      "name": "Club Smash",
+      "damage_die": "1d10",
+      "damage_bonus": 3,
+      "to_hit_bonus": 2,
+      "poise_break": 3,
+      "target_mode": "single"
+    },
+    {
+      "id": "earthquake_stomp",
+      "name": "Earthquake Stomp",
+      "damage_die": "1d6",
+      "damage_bonus": 0,
+      "to_hit_bonus": 1,
+      "poise_break": 2,
+      "target_mode": "all"
+    }
+  ]
+}

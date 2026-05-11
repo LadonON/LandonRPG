@@ -1,0 +1,18 @@
+{
+  "id": "q123",
+  "name": "Drowned Oath",
+  "description": "Reach Combat Level 22.",
+  "objective": {
+    "type": "reach_stat_level",
+    "stat": "combat",
+    "level": 22
+  },
+  "rewards": {
+    "xp": 900,
+    "gold": 500,
+    "items": [
+      "tideborn_sword"
+    ]
+  },
+  "requirements": {}
+}

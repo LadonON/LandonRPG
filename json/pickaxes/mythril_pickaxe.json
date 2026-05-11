@@ -1,0 +1,13 @@
+{
+  "id": "mythril_pickaxe",
+  "name": "Mythril Pickaxe",
+  "description": "A faintly humming pickaxe that splits stone like soft fruit.",
+  "pickaxe_level": 6,
+  "value": 600,
+  "requirements": {"mining": 7},
+  "upgrade": {
+    "max_level": 100,
+    "per_level_materials": [{"item": "skull", "amount": 1}, {"item": "tooth", "amount": 2}],
+    "level_per_step": 0.1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "q070",
+  "name": "Mire Culler",
+  "description": "Defeat 12 mire serpents.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "mire_serpent",
+    "amount": 12
+  },
+  "rewards": {
+    "xp": 300,
+    "gold": 150
+  },
+  "requirements": {}
+}

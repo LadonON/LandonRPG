@@ -1,0 +1,14 @@
+{
+  "id": "storm_fang_skill",
+  "name": "Storm Fang",
+  "description": "A crackling diagonal slash trailing lightning.",
+  "value": 440,
+  "attack": {
+    "id": "storm_fang",
+    "name": "Storm Fang",
+    "damage_die": "3d8",
+    "damage_bonus": 5,
+    "poise_break": 5,
+    "to_hit_bonus": 3
+  }
+}

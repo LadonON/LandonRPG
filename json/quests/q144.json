@@ -1,0 +1,20 @@
+{
+  "id": "q144",
+  "name": "Hollow King Avenger",
+  "description": "Defeat The Hollowed King again.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "the_hollowed_king",
+    "amount": 1
+  },
+  "rewards": {
+    "xp": 1300,
+    "gold": 700,
+    "items": [
+      "lootbox_legendary"
+    ]
+  },
+  "requirements": {
+    "combat": 28
+  }
+}

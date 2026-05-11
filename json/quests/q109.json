@@ -1,0 +1,14 @@
+{
+  "id": "q109",
+  "name": "Salt Breath",
+  "description": "Enter the Tidewreck Reef.",
+  "objective": {
+    "type": "visit_zone",
+    "zone_id": "tidewreck"
+  },
+  "rewards": {
+    "xp": 400,
+    "gold": 240
+  },
+  "requirements": {}
+}

@@ -1,0 +1,38 @@
+{
+  "id": "hunter_shortbow",
+  "name": "Hunter Shortbow",
+  "description": "A simple recurve for hunting prey.",
+  "weapon_class": "ranged",
+  "value": 30,
+  "damage_bonus": 5,
+  "requirements": {},
+  "attacks": [
+    {
+      "id": "shoot",
+      "name": "Shoot",
+      "damage_die": "1d6",
+      "damage_bonus": 1,
+      "poise_break": 1,
+      "to_hit_bonus": 3
+    },
+    {
+      "id": "aimed_shot",
+      "name": "Aimed Shot",
+      "damage_die": "1d8",
+      "damage_bonus": 2,
+      "poise_break": 1,
+      "to_hit_bonus": 2
+    }
+  ],
+  "upgrade": {
+    "max_level": 20,
+    "per_level_materials": [
+      {
+        "item": "bone",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 0.3,
+    "poise_per_level": 0.2
+  }
+}

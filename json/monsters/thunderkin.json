@@ -1,0 +1,17 @@
+{
+  "monster_id": "thunderkin",
+  "name": "Thunderkin",
+  "max_health": 600,
+  "damage": 17,
+  "attack_msg": "delivers a thunderous punch",
+  "xp_reward": 404,
+  "loot": [
+    "voltite",
+    "lightning_rod"
+  ],
+  "damage_die": "4d8",
+  "to_hit_bonus": 6,
+  "defense": 8,
+  "poise": 24,
+  "poise_break": 5
+}

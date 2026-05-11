@@ -1,0 +1,15 @@
+{
+  "id": "q143",
+  "name": "Bonefish Haul",
+  "description": "Collect 5 bonefish.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "bonefish",
+    "amount": 5
+  },
+  "rewards": {
+    "xp": 880,
+    "gold": 480
+  },
+  "requirements": {}
+}

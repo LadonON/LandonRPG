@@ -1,0 +1,15 @@
+{
+  "id": "q118",
+  "name": "Coral Picker",
+  "description": "Collect 4 coral seeds.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "coral_seed",
+    "amount": 4
+  },
+  "rewards": {
+    "xp": 740,
+    "gold": 400
+  },
+  "requirements": {}
+}

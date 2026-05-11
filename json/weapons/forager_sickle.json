@@ -5,14 +5,35 @@
   "weapon_class": "finesse",
   "value": 80,
   "damage_bonus": 6,
-  "requirements": {"foraging": 3},
+  "requirements": {
+    "foraging": 3
+  },
   "attacks": [
-    {"id": "harvest_swing", "name": "Harvest Swing", "damage_die": "1d8", "damage_bonus": 3, "poise_break": 2, "to_hit_bonus": 4},
-    {"id": "vine_cutter",   "name": "Vine Cutter",   "damage_die": "1d6", "damage_bonus": 2, "poise_break": 1, "to_hit_bonus": 6}
+    {
+      "id": "harvest_swing",
+      "name": "Harvest Swing",
+      "damage_die": "1d8",
+      "damage_bonus": 3,
+      "poise_break": 2,
+      "to_hit_bonus": 4
+    },
+    {
+      "id": "vine_cutter",
+      "name": "Vine Cutter",
+      "damage_die": "1d6",
+      "damage_bonus": 2,
+      "poise_break": 1,
+      "to_hit_bonus": 6
+    }
   ],
   "upgrade": {
-    "max_level": 100,
-    "per_level_materials": [{"item": "herb", "amount": 2}],
+    "max_level": 20,
+    "per_level_materials": [
+      {
+        "item": "herb",
+        "amount": 2
+      }
+    ],
     "attack_per_level": 0.4,
     "poise_per_level": 0.2
   }

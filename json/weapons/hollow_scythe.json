@@ -1,0 +1,52 @@
+{
+  "id": "hollow_scythe",
+  "name": "Hollow Scythe",
+  "description": "A scythe that harvests souls.",
+  "weapon_class": "two_handed",
+  "value": 26000,
+  "damage_bonus": 228,
+  "requirements": {
+    "combat": 29
+  },
+  "attacks": [
+    {
+      "id": "soul_reap",
+      "name": "Soul Reap",
+      "damage_die": "4d8",
+      "damage_bonus": 17,
+      "poise_break": 7,
+      "to_hit_bonus": 3
+    },
+    {
+      "id": "hollow_sweep",
+      "name": "Hollow Sweep",
+      "damage_die": "4d6",
+      "damage_bonus": 19,
+      "poise_break": 6,
+      "to_hit_bonus": 3
+    },
+    {
+      "id": "curse_slam",
+      "name": "Curse Slam",
+      "damage_die": "3d10",
+      "damage_bonus": 20,
+      "poise_break": 11,
+      "to_hit_bonus": 2
+    }
+  ],
+  "upgrade": {
+    "max_level": 55,
+    "per_level_materials": [
+      {
+        "item": "shadowsteel",
+        "amount": 1
+      },
+      {
+        "item": "bonemarble",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 1.6,
+    "poise_per_level": 1.1
+  }
+}

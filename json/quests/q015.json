@@ -1,0 +1,15 @@
+{
+  "id": "q015",
+  "name": "The Lost Axe",
+  "description": "Collect 1 club fragment.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "club_fragment",
+    "amount": 1
+  },
+  "rewards": {
+    "xp": 50,
+    "gold": 30
+  },
+  "requirements": {}
+}

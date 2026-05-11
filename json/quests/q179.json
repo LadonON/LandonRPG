@@ -1,0 +1,15 @@
+{
+  "id": "q179",
+  "name": "Wraith Dust Run",
+  "description": "Collect 10 wraith dust.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "wraith_dust",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 2000,
+    "gold": 1150
+  },
+  "requirements": {}
+}

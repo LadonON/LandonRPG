@@ -1,0 +1,15 @@
+{
+  "id": "q028",
+  "name": "Drake Scales",
+  "description": "Collect 5 drake scales.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "drake_scale",
+    "amount": 5
+  },
+  "rewards": {
+    "xp": 130,
+    "gold": 70
+  },
+  "requirements": {}
+}

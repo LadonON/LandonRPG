@@ -1,0 +1,46 @@
+{
+  "zone_id": "skyforge",
+  "name": "Crucible of Reckoning",
+  "description": "The endgame gauntlet \u2014 no respawns, no mercy.",
+  "spawn_pool": [
+    "arc_construct",
+    "storm_giant",
+    "forgewraith",
+    "void_herald",
+    "crucible_warden",
+    "star_revenant"
+  ],
+  "rooms": [
+    {
+      "enemy_count": [
+        3,
+        4
+      ]
+    },
+    {
+      "enemy_count": [
+        2,
+        3
+      ]
+    },
+    {
+      "enemy_count": [
+        3,
+        3
+      ]
+    },
+    {
+      "enemy_count": [
+        4,
+        4
+      ]
+    },
+    {
+      "enemy_count": [
+        1,
+        1
+      ]
+    }
+  ],
+  "boss_id": "sun_eater"
+}

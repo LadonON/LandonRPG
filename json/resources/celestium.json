@@ -1,0 +1,11 @@
+{
+  "id": "celestium",
+  "name": "Celestium",
+  "description": "Ore from beyond the mortal world.",
+  "value": 80,
+  "drop_chance": 12,
+  "mining_xp": 80,
+  "min_mining_level": 26,
+  "min_pickaxe_level": 10,
+  "required_pickaxe": "celestial_pickaxe"
+}

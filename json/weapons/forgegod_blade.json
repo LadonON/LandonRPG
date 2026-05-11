@@ -1,0 +1,52 @@
+{
+  "id": "forgegod_blade",
+  "name": "Forgegod Blade",
+  "description": "A blade shaped by Astralith itself.",
+  "weapon_class": "light",
+  "value": 60000,
+  "damage_bonus": 228,
+  "requirements": {
+    "combat": 43
+  },
+  "attacks": [
+    {
+      "id": "divine_slash",
+      "name": "Divine Slash",
+      "damage_die": "3d8",
+      "damage_bonus": 16,
+      "poise_break": 6,
+      "to_hit_bonus": 9
+    },
+    {
+      "id": "forge_cut",
+      "name": "Forge Cut",
+      "damage_die": "4d6",
+      "damage_bonus": 14,
+      "poise_break": 6,
+      "to_hit_bonus": 10
+    },
+    {
+      "id": "star_jab",
+      "name": "Star Jab",
+      "damage_die": "2d10",
+      "damage_bonus": 10,
+      "poise_break": 3,
+      "to_hit_bonus": 13
+    }
+  ],
+  "upgrade": {
+    "max_level": 70,
+    "per_level_materials": [
+      {
+        "item": "celestium",
+        "amount": 1
+      },
+      {
+        "item": "stardust",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 2.5,
+    "poise_per_level": 1.6
+  }
+}

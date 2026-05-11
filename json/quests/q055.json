@@ -1,0 +1,14 @@
+{
+  "id": "q055",
+  "name": "Swampwalker",
+  "description": "Enter the Murk Swamp.",
+  "objective": {
+    "type": "visit_zone",
+    "zone_id": "swamp"
+  },
+  "rewards": {
+    "xp": 150,
+    "gold": 90
+  },
+  "requirements": {}
+}

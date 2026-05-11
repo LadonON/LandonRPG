@@ -1,0 +1,18 @@
+{
+  "id": "q047",
+  "name": "Miner Initiate",
+  "description": "Reach Mining Level 4.",
+  "objective": {
+    "type": "reach_stat_level",
+    "stat": "mining",
+    "level": 4
+  },
+  "rewards": {
+    "xp": 200,
+    "gold": 100,
+    "items": [
+      "iron_pickaxe"
+    ]
+  },
+  "requirements": {}
+}

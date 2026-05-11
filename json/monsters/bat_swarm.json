@@ -1,0 +1,17 @@
+{
+  "monster_id": "bat_swarm",
+  "name": "Bat Swarm",
+  "max_health": 26,
+  "damage": 3,
+  "attack_msg": "buffets with wings",
+  "xp_reward": 14,
+  "loot": [
+    "bat_wing",
+    "glow_dust"
+  ],
+  "damage_die": "1d6",
+  "to_hit_bonus": 4,
+  "defense": 0,
+  "poise": 4,
+  "poise_break": 1
+}

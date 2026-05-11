@@ -43,7 +43,7 @@ class Exploration(commands.Cog):
         player.x, player.y = coords
         # Quest hook: any visit_zone quests targeting this zone are now satisfied.
         quests_engine.on_zone_entered(player, zone.zone_id)
-        await ctx.send(zone_summary(zone))
+        await ctx.send(embed=zone_summary(zone))
 
 
 async def setup(bot):

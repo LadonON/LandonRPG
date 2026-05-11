@@ -1,0 +1,15 @@
+{
+  "id": "q116",
+  "name": "Abyssal Stone Run",
+  "description": "Collect 8 abyssal stone.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "abyssal_stone",
+    "amount": 8
+  },
+  "rewards": {
+    "xp": 800,
+    "gold": 440
+  },
+  "requirements": {}
+}

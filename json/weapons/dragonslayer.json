@@ -5,15 +5,47 @@
   "weapon_class": "two_handed",
   "value": 500,
   "damage_bonus": 28,
-  "requirements": {"combat": 8},
+  "requirements": {
+    "combat": 8
+  },
   "attacks": [
-    {"id": "great_cleave", "name": "Great Cleave", "damage_die": "2d12", "damage_bonus": 8, "poise_break": 5, "to_hit_bonus": 2},
-    {"id": "execute",      "name": "Execute",      "damage_die": "3d8",  "damage_bonus": 10, "poise_break": 4, "to_hit_bonus": 3},
-    {"id": "guard_break",  "name": "Guard Break",  "damage_die": "1d10", "damage_bonus": 4, "poise_break": 10, "to_hit_bonus": 4}
+    {
+      "id": "great_cleave",
+      "name": "Great Cleave",
+      "damage_die": "2d12",
+      "damage_bonus": 8,
+      "poise_break": 5,
+      "to_hit_bonus": 2
+    },
+    {
+      "id": "execute",
+      "name": "Execute",
+      "damage_die": "3d8",
+      "damage_bonus": 10,
+      "poise_break": 4,
+      "to_hit_bonus": 3
+    },
+    {
+      "id": "guard_break",
+      "name": "Guard Break",
+      "damage_die": "1d10",
+      "damage_bonus": 4,
+      "poise_break": 10,
+      "to_hit_bonus": 4
+    }
   ],
   "upgrade": {
-    "max_level": 100,
-    "per_level_materials": [{"item": "skull", "amount": 3}, {"item": "club_fragment", "amount": 2}],
+    "max_level": 35,
+    "per_level_materials": [
+      {
+        "item": "skull",
+        "amount": 3
+      },
+      {
+        "item": "club_fragment",
+        "amount": 2
+      }
+    ],
     "attack_per_level": 1.0,
     "poise_per_level": 0.8
   }

@@ -1,0 +1,15 @@
+{
+  "id": "q102",
+  "name": "Silverleaf Picker",
+  "description": "Collect 4 silverleaf seeds.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "silverleaf_seed",
+    "amount": 4
+  },
+  "rewards": {
+    "xp": 600,
+    "gold": 320
+  },
+  "requirements": {}
+}

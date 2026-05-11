@@ -1,0 +1,15 @@
+{
+  "seed_id": "shadowmoss_seed",
+  "seed_name": "Shadowmoss Seed",
+  "seed_value": 20,
+  "crop_id": "shadowmoss",
+  "crop_name": "Shadowmoss",
+  "crop_description": "Absorbs light. Found on cursed ground.",
+  "crop_type": "herb",
+  "crop_value": 65,
+  "crop_heal": 90,
+  "grow_time_minutes": 20,
+  "yield_base": 1,
+  "farming_xp": 42,
+  "min_farming_level": 13
+}

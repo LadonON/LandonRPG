@@ -1,0 +1,11 @@
+{
+  "id": "hex_stone",
+  "name": "Hex Stone",
+  "description": "A stone imbued with dark binding magic.",
+  "value": 46,
+  "drop_chance": 17,
+  "mining_xp": 35,
+  "min_mining_level": 19,
+  "min_pickaxe_level": 7,
+  "required_pickaxe": ""
+}

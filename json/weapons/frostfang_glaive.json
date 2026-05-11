@@ -1,0 +1,52 @@
+{
+  "id": "frostfang_glaive",
+  "name": "Frostfang Glaive",
+  "description": "A glaive tipped with glacial dragon fang.",
+  "weapon_class": "two_handed",
+  "value": 6500,
+  "damage_bonus": 132,
+  "requirements": {
+    "combat": 18
+  },
+  "attacks": [
+    {
+      "id": "fang_sweep",
+      "name": "Fang Sweep",
+      "damage_die": "3d10",
+      "damage_bonus": 13,
+      "poise_break": 6,
+      "to_hit_bonus": 3
+    },
+    {
+      "id": "cryo_reap",
+      "name": "Cryo Reap",
+      "damage_die": "3d8",
+      "damage_bonus": 14,
+      "poise_break": 6,
+      "to_hit_bonus": 3
+    },
+    {
+      "id": "glacial_slam",
+      "name": "Glacial Slam",
+      "damage_die": "3d6",
+      "damage_bonus": 15,
+      "poise_break": 9,
+      "to_hit_bonus": 2
+    }
+  ],
+  "upgrade": {
+    "max_level": 45,
+    "per_level_materials": [
+      {
+        "item": "frostsilver",
+        "amount": 1
+      },
+      {
+        "item": "iceshard",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 1.1,
+    "poise_per_level": 0.75
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "q012",
+  "name": "Wolf Pelts",
+  "description": "Collect 4 wolf pelts.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "wolf_pelt",
+    "amount": 4
+  },
+  "rewards": {
+    "xp": 70,
+    "gold": 35
+  },
+  "requirements": {}
+}

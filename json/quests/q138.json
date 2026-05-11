@@ -1,0 +1,15 @@
+{
+  "id": "q138",
+  "name": "Bonebloom Picker",
+  "description": "Collect 5 bonebloom seeds.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "bonebloom_seed",
+    "amount": 5
+  },
+  "rewards": {
+    "xp": 940,
+    "gold": 520
+  },
+  "requirements": {}
+}

@@ -1,0 +1,15 @@
+{
+  "id": "q059",
+  "name": "Gold Run",
+  "description": "Collect 8 gold ore.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "gold_ore",
+    "amount": 8
+  },
+  "rewards": {
+    "xp": 280,
+    "gold": 140
+  },
+  "requirements": {}
+}

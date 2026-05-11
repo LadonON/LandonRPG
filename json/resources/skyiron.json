@@ -1,0 +1,11 @@
+{
+  "id": "skyiron",
+  "name": "Skyiron",
+  "description": "Iron smelted at high altitude; lighter than normal.",
+  "value": 40,
+  "drop_chance": 14,
+  "mining_xp": 40,
+  "min_mining_level": 23,
+  "min_pickaxe_level": 8,
+  "required_pickaxe": ""
+}

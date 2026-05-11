@@ -1,0 +1,38 @@
+{
+  "id": "crude_sling",
+  "name": "Crude Sling",
+  "description": "A leather pouch on a string. Hurts more than it looks.",
+  "weapon_class": "ranged",
+  "value": 30,
+  "damage_bonus": 4,
+  "requirements": {},
+  "attacks": [
+    {
+      "id": "hurl",
+      "name": "Hurl",
+      "damage_die": "1d4",
+      "damage_bonus": 1,
+      "poise_break": 1,
+      "to_hit_bonus": 4
+    },
+    {
+      "id": "ricochet",
+      "name": "Ricochet",
+      "damage_die": "1d6",
+      "damage_bonus": 1,
+      "poise_break": 1,
+      "to_hit_bonus": 3
+    }
+  ],
+  "upgrade": {
+    "max_level": 20,
+    "per_level_materials": [
+      {
+        "item": "bone",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 0.3,
+    "poise_per_level": 0.2
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "meadow_recurve",
+  "name": "Meadow Recurve",
+  "description": "Lightweight recurve balanced for fast shots.",
+  "weapon_class": "ranged",
+  "value": 110,
+  "damage_bonus": 14,
+  "requirements": {
+    "combat": 3
+  },
+  "attacks": [
+    {
+      "id": "quick_shot",
+      "name": "Quick Shot",
+      "damage_die": "1d8",
+      "damage_bonus": 3,
+      "poise_break": 1,
+      "to_hit_bonus": 5
+    },
+    {
+      "id": "volley",
+      "name": "Volley",
+      "damage_die": "1d6",
+      "damage_bonus": 2,
+      "poise_break": 1,
+      "to_hit_bonus": 6
+    },
+    {
+      "id": "aimed",
+      "name": "Aimed Shot",
+      "damage_die": "1d10",
+      "damage_bonus": 4,
+      "poise_break": 2,
+      "to_hit_bonus": 3
+    }
+  ],
+  "upgrade": {
+    "max_level": 25,
+    "per_level_materials": [
+      {
+        "item": "tooth",
+        "amount": 2
+      }
+    ],
+    "attack_per_level": 0.4,
+    "poise_per_level": 0.3
+  }
+}

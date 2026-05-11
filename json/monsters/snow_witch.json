@@ -1,0 +1,17 @@
+{
+  "monster_id": "snow_witch",
+  "name": "Snow Witch",
+  "max_health": 180,
+  "damage": 11,
+  "attack_msg": "casts a frost bolt",
+  "xp_reward": 120,
+  "loot": [
+    "hex_charm",
+    "mooncress_seed"
+  ],
+  "damage_die": "3d6",
+  "to_hit_bonus": 5,
+  "defense": 4,
+  "poise": 12,
+  "poise_break": 3
+}

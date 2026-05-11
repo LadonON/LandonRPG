@@ -1,0 +1,52 @@
+{
+  "id": "frostbound_recurve",
+  "name": "Frostbound Recurve",
+  "description": "Arrows fired from this bow trail ice crystals.",
+  "weapon_class": "ranged",
+  "value": 4000,
+  "damage_bonus": 62,
+  "requirements": {
+    "combat": 18
+  },
+  "attacks": [
+    {
+      "id": "frost_arrow",
+      "name": "Frost Arrow",
+      "damage_die": "2d8",
+      "damage_bonus": 11,
+      "poise_break": 3,
+      "to_hit_bonus": 6
+    },
+    {
+      "id": "rapid",
+      "name": "Rapid Fire",
+      "damage_die": "2d6",
+      "damage_bonus": 9,
+      "poise_break": 2,
+      "to_hit_bonus": 8
+    },
+    {
+      "id": "glacial_shot",
+      "name": "Glacial Shot",
+      "damage_die": "2d10",
+      "damage_bonus": 11,
+      "poise_break": 5,
+      "to_hit_bonus": 5
+    }
+  ],
+  "upgrade": {
+    "max_level": 45,
+    "per_level_materials": [
+      {
+        "item": "frostsilver",
+        "amount": 1
+      },
+      {
+        "item": "iceshard",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 1.1,
+    "poise_per_level": 0.75
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "zone_id": "swamp",
+  "name": "Cradle of Rot",
+  "description": "The festering heart of the swamp, where the Bogfather rests.",
+  "spawn_pool": [
+    "swamp_skeleton",
+    "mire_serpent",
+    "will_o_wisp",
+    "gator_brute"
+  ],
+  "rooms": [
+    {
+      "enemy_count": [
+        2,
+        4
+      ]
+    },
+    {
+      "enemy_count": [
+        2,
+        4
+      ]
+    },
+    {
+      "enemy_count": [
+        2,
+        4
+      ]
+    },
+    {
+      "enemy_count": [
+        2,
+        4
+      ]
+    }
+  ],
+  "boss_id": "bogfather"
+}

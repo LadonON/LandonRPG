@@ -1,0 +1,15 @@
+{
+  "seed_id": "kelp_seed",
+  "seed_name": "Kelp Seed",
+  "seed_value": 8,
+  "crop_id": "kelp",
+  "crop_name": "Kelp",
+  "crop_description": "Long sea plant, harvested wet.",
+  "crop_type": "food",
+  "crop_value": 20,
+  "crop_heal": 20,
+  "grow_time_minutes": 12,
+  "yield_base": 2,
+  "farming_xp": 18,
+  "min_farming_level": 9
+}

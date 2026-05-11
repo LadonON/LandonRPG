@@ -1,0 +1,11 @@
+{
+  "id": "amber",
+  "name": "Amber",
+  "description": "Fossilized resin with a trapped insect inside.",
+  "value": 14,
+  "drop_chance": 28,
+  "mining_xp": 10,
+  "min_mining_level": 4,
+  "min_pickaxe_level": 2,
+  "required_pickaxe": ""
+}

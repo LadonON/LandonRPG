@@ -1,0 +1,18 @@
+{
+  "id": "q086",
+  "name": "Fire Initiate",
+  "description": "Reach Combat Level 14.",
+  "objective": {
+    "type": "reach_stat_level",
+    "stat": "combat",
+    "level": 14
+  },
+  "rewards": {
+    "xp": 500,
+    "gold": 280,
+    "items": [
+      "obsidian_pickaxe"
+    ]
+  },
+  "requirements": {}
+}

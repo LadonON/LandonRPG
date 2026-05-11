@@ -1,0 +1,11 @@
+{
+  "id": "necrotic_shard",
+  "name": "Necrotic Shard",
+  "description": "A shard saturated with undead energy.",
+  "value": 50,
+  "drop_chance": 16,
+  "mining_xp": 36,
+  "min_mining_level": 20,
+  "min_pickaxe_level": 7,
+  "required_pickaxe": ""
+}

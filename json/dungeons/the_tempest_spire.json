@@ -1,0 +1,55 @@
+{
+  "zone_id": "stormvault",
+  "name": "The Tempest Spire",
+  "description": "A lightning-wreathed spire where Volthrax was imprisoned.",
+  "spawn_pool": [
+    "storm_sentinel",
+    "thunderkin",
+    "arc_construct"
+  ],
+  "rooms": [
+    {
+      "enemy_count": [
+        4,
+        5
+      ]
+    },
+    {
+      "enemy_count": [
+        4,
+        5
+      ]
+    },
+    {
+      "enemy_count": [
+        4,
+        5
+      ]
+    },
+    {
+      "enemy_count": [
+        4,
+        5
+      ]
+    },
+    {
+      "enemy_count": [
+        4,
+        5
+      ]
+    },
+    {
+      "enemy_count": [
+        4,
+        5
+      ]
+    },
+    {
+      "enemy_count": [
+        4,
+        5
+      ]
+    }
+  ],
+  "boss_id": "volthrax_the_unbound"
+}

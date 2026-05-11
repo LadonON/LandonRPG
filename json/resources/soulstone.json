@@ -1,0 +1,11 @@
+{
+  "id": "soulstone",
+  "name": "Soulstone",
+  "description": "A stone that traps fragments of souls.",
+  "value": 40,
+  "drop_chance": 14,
+  "mining_xp": 40,
+  "min_mining_level": 19,
+  "min_pickaxe_level": 9,
+  "required_pickaxe": "voidsteel_pickaxe"
+}

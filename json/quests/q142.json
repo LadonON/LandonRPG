@@ -1,0 +1,19 @@
+{
+  "id": "q142",
+  "name": "Hollow King's Court",
+  "description": "Defeat The Hollowed King.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "the_hollowed_king",
+    "amount": 1
+  },
+  "rewards": {
+    "xp": 1800,
+    "gold": 1200,
+    "items": [
+      "crown_shard"
+    ],
+    "unlock_zone": "stormvault"
+  },
+  "requirements": {}
+}

@@ -1,0 +1,15 @@
+{
+  "id": "q075",
+  "name": "Ashwalker Hunt",
+  "description": "Defeat 8 ash walkers.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "ash_walker",
+    "amount": 8
+  },
+  "rewards": {
+    "xp": 400,
+    "gold": 220
+  },
+  "requirements": {}
+}

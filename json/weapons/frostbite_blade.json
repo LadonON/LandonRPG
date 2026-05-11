@@ -1,0 +1,52 @@
+{
+  "id": "frostbite_blade",
+  "name": "Frostbite Blade",
+  "description": "A blue-tinted blade that numbs on contact.",
+  "weapon_class": "light",
+  "value": 3500,
+  "damage_bonus": 52,
+  "requirements": {
+    "combat": 18
+  },
+  "attacks": [
+    {
+      "id": "frost_slash",
+      "name": "Frost Slash",
+      "damage_die": "2d6",
+      "damage_bonus": 6,
+      "poise_break": 4,
+      "to_hit_bonus": 5
+    },
+    {
+      "id": "chill_thrust",
+      "name": "Chill Thrust",
+      "damage_die": "2d4",
+      "damage_bonus": 8,
+      "poise_break": 3,
+      "to_hit_bonus": 7
+    },
+    {
+      "id": "ice_jab",
+      "name": "Ice Jab",
+      "damage_die": "1d10",
+      "damage_bonus": 5,
+      "poise_break": 2,
+      "to_hit_bonus": 8
+    }
+  ],
+  "upgrade": {
+    "max_level": 45,
+    "per_level_materials": [
+      {
+        "item": "frostsilver",
+        "amount": 1
+      },
+      {
+        "item": "iceshard",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 1.1,
+    "poise_per_level": 0.75
+  }
+}

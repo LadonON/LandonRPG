@@ -1,0 +1,52 @@
+{
+  "id": "cave_throwing_axe",
+  "name": "Cave Throwing Axe",
+  "description": "Balanced for throwing. Also fine to swing.",
+  "weapon_class": "ranged",
+  "value": 340,
+  "damage_bonus": 20,
+  "requirements": {
+    "combat": 5
+  },
+  "attacks": [
+    {
+      "id": "throw",
+      "name": "Throw",
+      "damage_die": "1d10",
+      "damage_bonus": 6,
+      "poise_break": 4,
+      "to_hit_bonus": 3
+    },
+    {
+      "id": "ricochet_throw",
+      "name": "Ricochet Throw",
+      "damage_die": "1d8",
+      "damage_bonus": 5,
+      "poise_break": 3,
+      "to_hit_bonus": 4
+    },
+    {
+      "id": "overhead_throw",
+      "name": "Overhead Throw",
+      "damage_die": "1d12",
+      "damage_bonus": 6,
+      "poise_break": 5,
+      "to_hit_bonus": 2
+    }
+  ],
+  "upgrade": {
+    "max_level": 30,
+    "per_level_materials": [
+      {
+        "item": "skull",
+        "amount": 1
+      },
+      {
+        "item": "copper_ore",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 0.55,
+    "poise_per_level": 0.4
+  }
+}

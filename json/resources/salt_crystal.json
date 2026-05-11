@@ -1,0 +1,11 @@
+{
+  "id": "salt_crystal",
+  "name": "Salt Crystal",
+  "description": "Perfectly cubic salt deposits.",
+  "value": 22,
+  "drop_chance": 22,
+  "mining_xp": 22,
+  "min_mining_level": 16,
+  "min_pickaxe_level": 8,
+  "required_pickaxe": "crystal_pickaxe"
+}

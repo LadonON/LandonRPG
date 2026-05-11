@@ -1,0 +1,15 @@
+{
+  "id": "q040",
+  "name": "Stone Basket",
+  "description": "Collect 30 stone.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "stone",
+    "amount": 30
+  },
+  "rewards": {
+    "xp": 100,
+    "gold": 50
+  },
+  "requirements": {}
+}

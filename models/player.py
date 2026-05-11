@@ -19,6 +19,12 @@ class Player(Entity):
     claimed_unlocks: list = field(default_factory=list)
     # Per-player weapon state: {weapon_id: {"level": int, "attacks": [...], "skill": skill_id|None}}
     weapon_instances: dict = field(default_factory=dict)
+    # Equipped pickaxe slot (separate from weapon — pickaxes are gathering tools).
+    equipped_pickaxe: str | None = None
+    # Per-player pickaxe state: {pickaxe_id: {"level": int}}. Mirrors weapon_instances.
+    pickaxe_instances: dict = field(default_factory=dict)
+    # Equipped fishing rod slot. Required to use !fish. Static tool — no per-instance level.
+    equipped_fishing_rod: str | None = None
     # Set to a battle id while in a PVP arena. Not persisted (battles are
     # in-memory only); cleared when the battle ends.
     pvp_battle_id: str | None = None

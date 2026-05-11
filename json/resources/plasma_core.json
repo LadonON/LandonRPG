@@ -1,0 +1,11 @@
+{
+  "id": "plasma_core",
+  "name": "Plasma Core",
+  "description": "A core of solidified plasma. Hums dangerously.",
+  "value": 74,
+  "drop_chance": 10,
+  "mining_xp": 52,
+  "min_mining_level": 24,
+  "min_pickaxe_level": 8,
+  "required_pickaxe": ""
+}

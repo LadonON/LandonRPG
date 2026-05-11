@@ -1,0 +1,15 @@
+{
+  "id": "q063",
+  "name": "Serpent Venom",
+  "description": "Collect 5 venom sacs.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "venom_sac",
+    "amount": 5
+  },
+  "rewards": {
+    "xp": 260,
+    "gold": 130
+  },
+  "requirements": {}
+}

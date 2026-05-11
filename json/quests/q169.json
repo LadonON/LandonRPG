@@ -1,0 +1,15 @@
+{
+  "id": "q169",
+  "name": "Stardust Run",
+  "description": "Collect 10 stardust.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "stardust",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 2000,
+    "gold": 1150
+  },
+  "requirements": {}
+}

@@ -1,0 +1,20 @@
+{
+  "id": "stone_pickaxe",
+  "name": "Stone Pickaxe",
+  "description": "Chipped stone mounted on a handle. Holds up better than wood.",
+  "pickaxe_level": 2,
+  "value": 35,
+  "requirements": {
+    "mining": 1
+  },
+  "upgrade": {
+    "max_level": 100,
+    "per_level_materials": [
+      {
+        "item": "stone",
+        "amount": 2
+      }
+    ],
+    "level_per_step": 0.05
+  }
+}

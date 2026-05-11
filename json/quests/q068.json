@@ -1,0 +1,15 @@
+{
+  "id": "q068",
+  "name": "Mooncress Picker",
+  "description": "Collect 4 mooncress seeds.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "mooncress_seed",
+    "amount": 4
+  },
+  "rewards": {
+    "xp": 280,
+    "gold": 140
+  },
+  "requirements": {}
+}

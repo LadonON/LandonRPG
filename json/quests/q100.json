@@ -1,0 +1,15 @@
+{
+  "id": "q100",
+  "name": "Hex Charm Run",
+  "description": "Collect 4 hex charms.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "hex_charm",
+    "amount": 4
+  },
+  "rewards": {
+    "xp": 560,
+    "gold": 300
+  },
+  "requirements": {}
+}

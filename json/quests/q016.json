@@ -1,0 +1,15 @@
+{
+  "id": "q016",
+  "name": "Forest Guard",
+  "description": "Defeat 10 forest skeletons.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "forest_skeleton",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 120,
+    "gold": 60
+  },
+  "requirements": {}
+}

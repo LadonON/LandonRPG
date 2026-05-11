@@ -1,0 +1,15 @@
+{
+  "id": "q096",
+  "name": "Frostsilver Run",
+  "description": "Collect 10 frostsilver.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "frostsilver",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 600,
+    "gold": 320
+  },
+  "requirements": {}
+}

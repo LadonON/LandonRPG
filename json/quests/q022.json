@@ -1,0 +1,15 @@
+{
+  "id": "q022",
+  "name": "Meadow Orc Hunt",
+  "description": "Defeat 8 meadow orcs.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "meadow_orc",
+    "amount": 8
+  },
+  "rewards": {
+    "xp": 140,
+    "gold": 80
+  },
+  "requirements": {}
+}

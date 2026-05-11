@@ -1,0 +1,52 @@
+{
+  "id": "marrow_crossbow",
+  "name": "Marrow Crossbow",
+  "description": "Bone-framed crossbow that fires bone bolts.",
+  "weapon_class": "ranged",
+  "value": 16000,
+  "damage_bonus": 140,
+  "requirements": {
+    "combat": 29
+  },
+  "attacks": [
+    {
+      "id": "bone_bolt",
+      "name": "Bone Bolt",
+      "damage_die": "3d8",
+      "damage_bonus": 17,
+      "poise_break": 5,
+      "to_hit_bonus": 6
+    },
+    {
+      "id": "rapid_bone",
+      "name": "Rapid Bone",
+      "damage_die": "2d10",
+      "damage_bonus": 14,
+      "poise_break": 2,
+      "to_hit_bonus": 9
+    },
+    {
+      "id": "marrow_shot",
+      "name": "Marrow Shot",
+      "damage_die": "3d6",
+      "damage_bonus": 19,
+      "poise_break": 6,
+      "to_hit_bonus": 5
+    }
+  ],
+  "upgrade": {
+    "max_level": 55,
+    "per_level_materials": [
+      {
+        "item": "shadowsteel",
+        "amount": 1
+      },
+      {
+        "item": "bonemarble",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 1.6,
+    "poise_per_level": 1.1
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "zone_id": "hollow",
+  "name": "The Marrow Keep",
+  "description": "The Hollowed King's bone fortress at the heart of the Marches.",
+  "spawn_pool": [
+    "hollow_knight",
+    "wraith",
+    "bone_collector",
+    "grave_orc"
+  ],
+  "rooms": [
+    {
+      "enemy_count": [
+        3,
+        5
+      ]
+    },
+    {
+      "enemy_count": [
+        3,
+        5
+      ]
+    },
+    {
+      "enemy_count": [
+        3,
+        5
+      ]
+    },
+    {
+      "enemy_count": [
+        3,
+        5
+      ]
+    },
+    {
+      "enemy_count": [
+        3,
+        5
+      ]
+    },
+    {
+      "enemy_count": [
+        3,
+        5
+      ]
+    }
+  ],
+  "boss_id": "the_hollowed_king"
+}

@@ -1,0 +1,38 @@
+{
+  "zone_id": "cave",
+  "name": "The Sunken Vein",
+  "description": "Deep mine shafts where a troll claims dominion.",
+  "spawn_pool": [
+    "cave_orc",
+    "cave_skeleton",
+    "kobold_miner",
+    "bat_swarm"
+  ],
+  "rooms": [
+    {
+      "enemy_count": [
+        2,
+        3
+      ]
+    },
+    {
+      "enemy_count": [
+        2,
+        3
+      ]
+    },
+    {
+      "enemy_count": [
+        2,
+        3
+      ]
+    },
+    {
+      "enemy_count": [
+        2,
+        3
+      ]
+    }
+  ],
+  "boss_id": "stonefist_troll"
+}

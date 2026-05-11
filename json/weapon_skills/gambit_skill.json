@@ -1,0 +1,14 @@
+{
+  "id": "gambit_skill",
+  "name": "Gambit",
+  "description": "High variance \u2014 wild dice, no bonuses. Roll and pray.",
+  "value": 130,
+  "attack": {
+    "id": "gambit",
+    "name": "Gambit",
+    "damage_die": "4d4",
+    "damage_bonus": 0,
+    "poise_break": 3,
+    "to_hit_bonus": 0
+  }
+}

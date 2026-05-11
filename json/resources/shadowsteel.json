@@ -1,0 +1,11 @@
+{
+  "id": "shadowsteel",
+  "name": "Shadowsteel",
+  "description": "Metal that absorbs light.",
+  "value": 38,
+  "drop_chance": 16,
+  "mining_xp": 38,
+  "min_mining_level": 20,
+  "min_pickaxe_level": 7,
+  "required_pickaxe": ""
+}

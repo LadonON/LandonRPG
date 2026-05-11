@@ -1,0 +1,15 @@
+{
+  "seed_id": "nightshade_seed",
+  "seed_name": "Nightshade Seed",
+  "seed_value": 6,
+  "crop_id": "nightshade",
+  "crop_name": "Nightshade",
+  "crop_description": "Deadly when misused.",
+  "crop_type": "herb",
+  "crop_value": 22,
+  "crop_heal": 40,
+  "grow_time_minutes": 10,
+  "yield_base": 1,
+  "farming_xp": 18,
+  "min_farming_level": 7
+}

@@ -1,0 +1,18 @@
+{
+  "id": "q177",
+  "name": "Hardened Miner IV",
+  "description": "Reach Mining Level 26.",
+  "objective": {
+    "type": "reach_stat_level",
+    "stat": "mining",
+    "level": 26
+  },
+  "rewards": {
+    "xp": 2200,
+    "gold": 1300,
+    "items": [
+      "celestial_pickaxe"
+    ]
+  },
+  "requirements": {}
+}

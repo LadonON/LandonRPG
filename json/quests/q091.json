@@ -1,0 +1,14 @@
+{
+  "id": "q091",
+  "name": "Snowbreaker",
+  "description": "Enter the Frostbound Peaks.",
+  "objective": {
+    "type": "visit_zone",
+    "zone_id": "frostbound"
+  },
+  "rewards": {
+    "xp": 300,
+    "gold": 180
+  },
+  "requirements": {}
+}

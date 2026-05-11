@@ -1,0 +1,11 @@
+{
+  "id": "seabed_quartz",
+  "name": "Seabed Quartz",
+  "description": "Pressure-formed quartz from the ocean floor.",
+  "value": 24,
+  "drop_chance": 18,
+  "mining_xp": 24,
+  "min_mining_level": 17,
+  "min_pickaxe_level": 6,
+  "required_pickaxe": ""
+}

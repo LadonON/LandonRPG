@@ -1,0 +1,11 @@
+{
+  "id": "hematite",
+  "name": "Hematite",
+  "description": "Blood-red iron oxide. Heavier than it looks.",
+  "value": 11,
+  "drop_chance": 38,
+  "mining_xp": 10,
+  "min_mining_level": 5,
+  "min_pickaxe_level": 3,
+  "required_pickaxe": ""
+}

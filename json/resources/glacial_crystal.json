@@ -1,0 +1,11 @@
+{
+  "id": "glacial_crystal",
+  "name": "Glacial Crystal",
+  "description": "Perfect blue crystal from a glacier core.",
+  "value": 30,
+  "drop_chance": 14,
+  "mining_xp": 30,
+  "min_mining_level": 15,
+  "min_pickaxe_level": 8,
+  "required_pickaxe": "crystal_pickaxe"
+}

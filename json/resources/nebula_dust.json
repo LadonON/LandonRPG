@@ -1,0 +1,11 @@
+{
+  "id": "nebula_dust",
+  "name": "Nebula Dust",
+  "description": "Compressed dust from a dying nebula. Cosmic.",
+  "value": 95,
+  "drop_chance": 9,
+  "mining_xp": 66,
+  "min_mining_level": 27,
+  "min_pickaxe_level": 10,
+  "required_pickaxe": "celestial_pickaxe"
+}

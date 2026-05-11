@@ -1,0 +1,18 @@
+{
+  "id": "q141",
+  "name": "Hollow Resolve",
+  "description": "Reach Combat Level 28.",
+  "objective": {
+    "type": "reach_stat_level",
+    "stat": "combat",
+    "level": 28
+  },
+  "rewards": {
+    "xp": 1100,
+    "gold": 600,
+    "items": [
+      "hollow_blade"
+    ]
+  },
+  "requirements": {}
+}

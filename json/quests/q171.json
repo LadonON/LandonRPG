@@ -1,0 +1,15 @@
+{
+  "id": "q171",
+  "name": "Warden Plate Run",
+  "description": "Collect 6 warden plates.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "warden_plate",
+    "amount": 6
+  },
+  "rewards": {
+    "xp": 1900,
+    "gold": 1100
+  },
+  "requirements": {}
+}

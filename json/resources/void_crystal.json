@@ -1,0 +1,11 @@
+{
+  "id": "void_crystal",
+  "name": "Void Crystal",
+  "description": "A crystal that absorbs all light around it.",
+  "value": 55,
+  "drop_chance": 14,
+  "mining_xp": 38,
+  "min_mining_level": 18,
+  "min_pickaxe_level": 7,
+  "required_pickaxe": ""
+}

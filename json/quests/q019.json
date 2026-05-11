@@ -1,0 +1,14 @@
+{
+  "id": "q019",
+  "name": "Sun Pilgrim",
+  "description": "Enter the Sunlit Meadow.",
+  "objective": {
+    "type": "visit_zone",
+    "zone_id": "meadow"
+  },
+  "rewards": {
+    "xp": 60,
+    "gold": 40
+  },
+  "requirements": {}
+}

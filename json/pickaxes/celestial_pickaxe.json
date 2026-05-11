@@ -1,0 +1,24 @@
+{
+  "id": "celestial_pickaxe",
+  "name": "Celestial Pickaxe",
+  "description": "Radiates starlight. The only tool that can harvest celestium.",
+  "pickaxe_level": 11,
+  "value": 20000,
+  "requirements": {
+    "mining": 20
+  },
+  "upgrade": {
+    "max_level": 100,
+    "per_level_materials": [
+      {
+        "item": "celestium",
+        "amount": 2
+      },
+      {
+        "item": "stardust",
+        "amount": 1
+      }
+    ],
+    "level_per_step": 0.22
+  }
+}

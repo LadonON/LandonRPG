@@ -1,0 +1,15 @@
+{
+  "id": "q045",
+  "name": "Rusty Blades",
+  "description": "Collect 4 rusted blades.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "rusted_blade",
+    "amount": 4
+  },
+  "rewards": {
+    "xp": 140,
+    "gold": 70
+  },
+  "requirements": {}
+}

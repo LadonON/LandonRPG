@@ -1,0 +1,15 @@
+{
+  "id": "q042",
+  "name": "Iron Run",
+  "description": "Collect 10 iron ore.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "iron_ore",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 160,
+    "gold": 80
+  },
+  "requirements": {}
+}

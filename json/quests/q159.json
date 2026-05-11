@@ -1,0 +1,15 @@
+{
+  "id": "q159",
+  "name": "Lightning Rod Run",
+  "description": "Collect 8 lightning rods.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "lightning_rod",
+    "amount": 8
+  },
+  "rewards": {
+    "xp": 1300,
+    "gold": 730
+  },
+  "requirements": {}
+}

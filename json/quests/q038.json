@@ -1,0 +1,15 @@
+{
+  "id": "q038",
+  "name": "Kobold Problem",
+  "description": "Defeat 6 kobold miners.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "kobold_miner",
+    "amount": 6
+  },
+  "rewards": {
+    "xp": 180,
+    "gold": 100
+  },
+  "requirements": {}
+}

@@ -1,0 +1,52 @@
+{
+  "id": "glacial_greatsword",
+  "name": "Glacial Greatsword",
+  "description": "A blade of condensed glacier ice.",
+  "weapon_class": "two_handed",
+  "value": 6500,
+  "damage_bonus": 115,
+  "requirements": {
+    "combat": 18
+  },
+  "attacks": [
+    {
+      "id": "glacier_cleave",
+      "name": "Glacier Cleave",
+      "damage_die": "3d8",
+      "damage_bonus": 13,
+      "poise_break": 7,
+      "to_hit_bonus": 3
+    },
+    {
+      "id": "frost_execute",
+      "name": "Frost Execute",
+      "damage_die": "3d10",
+      "damage_bonus": 12,
+      "poise_break": 6,
+      "to_hit_bonus": 3
+    },
+    {
+      "id": "cryo_guard_break",
+      "name": "Cryo Guard Break",
+      "damage_die": "2d12",
+      "damage_bonus": 10,
+      "poise_break": 13,
+      "to_hit_bonus": 3
+    }
+  ],
+  "upgrade": {
+    "max_level": 45,
+    "per_level_materials": [
+      {
+        "item": "frostsilver",
+        "amount": 1
+      },
+      {
+        "item": "iceshard",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 1.1,
+    "poise_per_level": 0.75
+  }
+}

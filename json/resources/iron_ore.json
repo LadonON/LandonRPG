@@ -1,0 +1,11 @@
+{
+  "id": "iron_ore",
+  "name": "Iron Ore",
+  "description": "Dull grey ore, dense and useful.",
+  "value": 8,
+  "drop_chance": 40,
+  "mining_xp": 10,
+  "min_mining_level": 4,
+  "min_pickaxe_level": 2,
+  "required_pickaxe": ""
+}

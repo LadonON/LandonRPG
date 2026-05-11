@@ -1,0 +1,19 @@
+{
+  "id": "q020",
+  "name": "Bee Problem",
+  "description": "Defeat 5 honey drakes.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "honey_drake",
+    "amount": 5
+  },
+  "rewards": {
+    "xp": 120,
+    "gold": 70,
+    "items": [
+      "honey_essence",
+      "honey_essence"
+    ]
+  },
+  "requirements": {}
+}

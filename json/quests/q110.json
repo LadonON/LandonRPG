@@ -1,0 +1,15 @@
+{
+  "id": "q110",
+  "name": "Drowner Hunt",
+  "description": "Defeat 10 reef drowners.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "reef_drowner",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 720,
+    "gold": 400
+  },
+  "requirements": {}
+}

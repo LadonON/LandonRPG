@@ -1,0 +1,15 @@
+{
+  "id": "q093",
+  "name": "Revenant Dust Run",
+  "description": "Collect 8 revenant dust.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "revenant_dust",
+    "amount": 8
+  },
+  "rewards": {
+    "xp": 540,
+    "gold": 290
+  },
+  "requirements": {}
+}

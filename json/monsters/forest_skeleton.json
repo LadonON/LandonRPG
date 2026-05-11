@@ -1,0 +1,17 @@
+{
+  "monster_id": "forest_skeleton",
+  "name": "Forest Skeleton",
+  "max_health": 16,
+  "damage": 2,
+  "attack_msg": "swipes with claws",
+  "xp_reward": 7,
+  "loot": [
+    "bone",
+    "skull"
+  ],
+  "damage_die": "1d6",
+  "to_hit_bonus": 2,
+  "defense": 1,
+  "poise": 5,
+  "poise_break": 1
+}

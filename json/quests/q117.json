@@ -1,0 +1,15 @@
+{
+  "id": "q117",
+  "name": "Kelp Garden",
+  "description": "Collect 8 kelp.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "kelp",
+    "amount": 8
+  },
+  "rewards": {
+    "xp": 700,
+    "gold": 380
+  },
+  "requirements": {}
+}

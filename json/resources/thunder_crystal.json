@@ -1,0 +1,11 @@
+{
+  "id": "thunder_crystal",
+  "name": "Thunder Crystal",
+  "description": "A crystal formed where lightning strikes quartz.",
+  "value": 65,
+  "drop_chance": 14,
+  "mining_xp": 46,
+  "min_mining_level": 22,
+  "min_pickaxe_level": 8,
+  "required_pickaxe": ""
+}

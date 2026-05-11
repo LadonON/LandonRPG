@@ -1,0 +1,24 @@
+{
+  "id": "gold_pickaxe",
+  "name": "Gold Pickaxe",
+  "description": "Heavier than you'd think. Prized for its conductivity.",
+  "pickaxe_level": 6,
+  "value": 800,
+  "requirements": {
+    "mining": 7
+  },
+  "upgrade": {
+    "max_level": 100,
+    "per_level_materials": [
+      {
+        "item": "gold_ore",
+        "amount": 1
+      },
+      {
+        "item": "iron_ore",
+        "amount": 2
+      }
+    ],
+    "level_per_step": 0.1
+  }
+}

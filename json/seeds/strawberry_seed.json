@@ -1,0 +1,15 @@
+{
+  "seed_id": "strawberry_seed",
+  "seed_name": "Strawberry Seed",
+  "seed_value": 2,
+  "crop_id": "strawberry",
+  "crop_name": "Strawberry",
+  "crop_description": "Sweet red berry.",
+  "crop_type": "food",
+  "crop_value": 5,
+  "crop_heal": 8,
+  "grow_time_minutes": 4,
+  "yield_base": 3,
+  "farming_xp": 6,
+  "min_farming_level": 3
+}

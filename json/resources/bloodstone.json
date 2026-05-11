@@ -1,0 +1,11 @@
+{
+  "id": "bloodstone",
+  "name": "Bloodstone",
+  "description": "Dark red ore flecked with bright crimson.",
+  "value": 20,
+  "drop_chance": 28,
+  "mining_xp": 16,
+  "min_mining_level": 7,
+  "min_pickaxe_level": 4,
+  "required_pickaxe": ""
+}

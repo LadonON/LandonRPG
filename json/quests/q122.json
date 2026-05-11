@@ -1,0 +1,15 @@
+{
+  "id": "q122",
+  "name": "Hatchling Breaker",
+  "description": "Defeat 3 kraken hatchlings.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "kraken_hatchling",
+    "amount": 3
+  },
+  "rewards": {
+    "xp": 900,
+    "gold": 500
+  },
+  "requirements": {}
+}

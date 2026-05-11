@@ -1,0 +1,15 @@
+{
+  "id": "q098",
+  "name": "Glacial Crystal Haul",
+  "description": "Collect 5 glacial crystals.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "glacial_crystal",
+    "amount": 5
+  },
+  "rewards": {
+    "xp": 640,
+    "gold": 340
+  },
+  "requirements": {}
+}

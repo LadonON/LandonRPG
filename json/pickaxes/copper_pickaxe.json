@@ -1,0 +1,24 @@
+{
+  "id": "copper_pickaxe",
+  "name": "Copper Pickaxe",
+  "description": "Softer than iron but lighter. Unlocks richer veins.",
+  "pickaxe_level": 3,
+  "value": 80,
+  "requirements": {
+    "mining": 2
+  },
+  "upgrade": {
+    "max_level": 100,
+    "per_level_materials": [
+      {
+        "item": "bone",
+        "amount": 1
+      },
+      {
+        "item": "stone",
+        "amount": 2
+      }
+    ],
+    "level_per_step": 0.06
+  }
+}

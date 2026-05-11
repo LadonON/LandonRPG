@@ -1,0 +1,19 @@
+{
+  "id": "q046",
+  "name": "Troll Reckoning",
+  "description": "Defeat the Stonefist Troll.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "stonefist_troll",
+    "amount": 1
+  },
+  "rewards": {
+    "xp": 450,
+    "gold": 250,
+    "items": [
+      "troll_heart"
+    ],
+    "unlock_zone": "swamp"
+  },
+  "requirements": {}
+}

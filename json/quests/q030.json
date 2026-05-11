@@ -1,0 +1,19 @@
+{
+  "id": "q030",
+  "name": "Hive Oath",
+  "description": "Defeat the Queen Pollenwing.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "queen_pollenwing",
+    "amount": 1
+  },
+  "rewards": {
+    "xp": 350,
+    "gold": 200,
+    "items": [
+      "royal_jelly"
+    ],
+    "unlock_zone": "cave"
+  },
+  "requirements": {}
+}

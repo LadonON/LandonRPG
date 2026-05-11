@@ -1,0 +1,52 @@
+{
+  "id": "bonecrown_axe",
+  "name": "Bonecrown Axe",
+  "description": "Crowned with the skulls of the fallen.",
+  "weapon_class": "heavy",
+  "value": 22000,
+  "damage_bonus": 215,
+  "requirements": {
+    "combat": 29
+  },
+  "attacks": [
+    {
+      "id": "crown_cleave",
+      "name": "Crown Cleave",
+      "damage_die": "3d10",
+      "damage_bonus": 19,
+      "poise_break": 11,
+      "to_hit_bonus": 2
+    },
+    {
+      "id": "bone_slam",
+      "name": "Bone Slam",
+      "damage_die": "4d6",
+      "damage_bonus": 17,
+      "poise_break": 12,
+      "to_hit_bonus": 1
+    },
+    {
+      "id": "marrow_break",
+      "name": "Marrow Break",
+      "damage_die": "3d8",
+      "damage_bonus": 20,
+      "poise_break": 13,
+      "to_hit_bonus": 0
+    }
+  ],
+  "upgrade": {
+    "max_level": 55,
+    "per_level_materials": [
+      {
+        "item": "shadowsteel",
+        "amount": 1
+      },
+      {
+        "item": "bonemarble",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 1.6,
+    "poise_per_level": 1.1
+  }
+}

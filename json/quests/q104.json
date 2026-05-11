@@ -1,0 +1,15 @@
+{
+  "id": "q104",
+  "name": "Salmon Run",
+  "description": "Collect 8 ice salmon.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "ice_salmon",
+    "amount": 8
+  },
+  "rewards": {
+    "xp": 480,
+    "gold": 260
+  },
+  "requirements": {}
+}

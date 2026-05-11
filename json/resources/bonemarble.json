@@ -1,0 +1,11 @@
+{
+  "id": "bonemarble",
+  "name": "Bonemarble",
+  "description": "Polished bone and stone fused by dark magic.",
+  "value": 30,
+  "drop_chance": 20,
+  "mining_xp": 30,
+  "min_mining_level": 19,
+  "min_pickaxe_level": 7,
+  "required_pickaxe": ""
+}

@@ -1,0 +1,15 @@
+{
+  "id": "q087",
+  "name": "Dragonweed Picker",
+  "description": "Collect 4 dragonweed seeds.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "dragonweed_seed",
+    "amount": 4
+  },
+  "rewards": {
+    "xp": 460,
+    "gold": 240
+  },
+  "requirements": {}
+}

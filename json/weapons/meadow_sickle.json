@@ -1,0 +1,48 @@
+{
+  "id": "meadow_sickle",
+  "name": "Meadow Sickle",
+  "description": "A curved farming blade repurposed for combat.",
+  "weapon_class": "finesse",
+  "value": 100,
+  "damage_bonus": 11,
+  "requirements": {
+    "combat": 3
+  },
+  "attacks": [
+    {
+      "id": "harvest_swing",
+      "name": "Harvest Swing",
+      "damage_die": "1d8",
+      "damage_bonus": 3,
+      "poise_break": 2,
+      "to_hit_bonus": 5
+    },
+    {
+      "id": "reap",
+      "name": "Reap",
+      "damage_die": "1d6",
+      "damage_bonus": 4,
+      "poise_break": 2,
+      "to_hit_bonus": 6
+    },
+    {
+      "id": "vine_cut",
+      "name": "Vine Cut",
+      "damage_die": "1d4",
+      "damage_bonus": 2,
+      "poise_break": 1,
+      "to_hit_bonus": 8
+    }
+  ],
+  "upgrade": {
+    "max_level": 25,
+    "per_level_materials": [
+      {
+        "item": "tooth",
+        "amount": 2
+      }
+    ],
+    "attack_per_level": 0.4,
+    "poise_per_level": 0.3
+  }
+}

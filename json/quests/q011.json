@@ -1,0 +1,19 @@
+{
+  "id": "q011",
+  "name": "Trial of the Hollow",
+  "description": "Defeat the Mossback Ogre.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "mossback_ogre",
+    "amount": 1
+  },
+  "rewards": {
+    "xp": 250,
+    "gold": 150,
+    "items": [
+      "hollow_charm"
+    ],
+    "unlock_zone": "meadow"
+  },
+  "requirements": {}
+}

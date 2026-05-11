@@ -1,0 +1,75 @@
+{
+  "id": "sun_eater",
+  "name": "Sun Eater",
+  "max_health": 800,
+  "defense": 8,
+  "poise": 200,
+  "poise_break": 15,
+  "initiative_bonus": 10,
+  "xp_reward": 50000,
+  "loot": [
+    "sunburst_core",
+    "photon_shard",
+    "stellar_essence",
+    "crucible_triumph_token"
+  ],
+  "dialogue": {
+    "on_spawn": [
+      "The Crucible of Reckoning darkens. The Sun Eater opens an eye the size of a sun.",
+      "\"YOU... are nothing before the light.\""
+    ],
+    "on_low_hp": [
+      "\"Cataclysm... approaches.\" All light bends toward the Sun Eater."
+    ],
+    "on_death": [
+      "The Sun Eater implodes. Silence. Then \u2014 dawn."
+    ]
+  },
+  "attacks": [
+    {
+      "id": "consuming_rays",
+      "name": "Consuming Rays",
+      "damage_die": "3d8",
+      "damage_bonus": 0,
+      "to_hit_bonus": 5,
+      "poise_break": 5,
+      "target_mode": "all"
+    },
+    {
+      "id": "photon_lash",
+      "name": "Photon Lash",
+      "damage_die": "4d10",
+      "damage_bonus": 5,
+      "to_hit_bonus": 6,
+      "poise_break": 8,
+      "target_mode": "single"
+    },
+    {
+      "id": "solar_flare",
+      "name": "Solar Flare",
+      "damage_die": "2d10",
+      "damage_bonus": 0,
+      "to_hit_bonus": 4,
+      "poise_break": 4,
+      "target_mode": "all"
+    },
+    {
+      "id": "radiant_collapse",
+      "name": "Radiant Collapse",
+      "damage_die": "2d12",
+      "damage_bonus": 0,
+      "to_hit_bonus": 3,
+      "poise_break": 6,
+      "target_mode": "all"
+    },
+    {
+      "id": "cataclysm",
+      "name": "Cataclysm",
+      "damage_die": "5d10",
+      "damage_bonus": 0,
+      "to_hit_bonus": 4,
+      "poise_break": 8,
+      "target_mode": "all"
+    }
+  ]
+}

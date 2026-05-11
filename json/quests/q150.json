@@ -1,0 +1,15 @@
+{
+  "id": "q150",
+  "name": "Stormsteel Haul",
+  "description": "Collect 12 stormsteel.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "stormsteel",
+    "amount": 12
+  },
+  "rewards": {
+    "xp": 1280,
+    "gold": 720
+  },
+  "requirements": {}
+}

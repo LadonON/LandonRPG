@@ -1,0 +1,52 @@
+{
+  "id": "bogfather_glaive",
+  "name": "Bogfather Glaive",
+  "description": "A glaive tipped with Bogfather's bone.",
+  "weapon_class": "two_handed",
+  "value": 1400,
+  "damage_bonus": 63,
+  "requirements": {
+    "combat": 9
+  },
+  "attacks": [
+    {
+      "id": "bog_sweep",
+      "name": "Bog Sweep",
+      "damage_die": "3d6",
+      "damage_bonus": 9,
+      "poise_break": 5,
+      "to_hit_bonus": 2
+    },
+    {
+      "id": "pole_crush",
+      "name": "Pole Crush",
+      "damage_die": "2d10",
+      "damage_bonus": 10,
+      "poise_break": 6,
+      "to_hit_bonus": 2
+    },
+    {
+      "id": "rot_slam",
+      "name": "Rot Slam",
+      "damage_die": "2d12",
+      "damage_bonus": 8,
+      "poise_break": 8,
+      "to_hit_bonus": 1
+    }
+  ],
+  "upgrade": {
+    "max_level": 35,
+    "per_level_materials": [
+      {
+        "item": "iron_ore",
+        "amount": 1
+      },
+      {
+        "item": "club_fragment",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 0.7,
+    "poise_per_level": 0.5
+  }
+}

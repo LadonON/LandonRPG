@@ -1,0 +1,15 @@
+{
+  "id": "q014",
+  "name": "Spider Silk Run",
+  "description": "Collect 6 spider silk.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "spider_silk",
+    "amount": 6
+  },
+  "rewards": {
+    "xp": 90,
+    "gold": 50
+  },
+  "requirements": {}
+}

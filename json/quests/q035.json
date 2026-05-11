@@ -1,0 +1,15 @@
+{
+  "id": "q035",
+  "name": "Sweet Offering",
+  "description": "Collect 3 honey essences.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "honey_essence",
+    "amount": 3
+  },
+  "rewards": {
+    "xp": 140,
+    "gold": 70
+  },
+  "requirements": {}
+}

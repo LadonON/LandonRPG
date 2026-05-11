@@ -1,0 +1,11 @@
+{
+  "id": "magnetite",
+  "name": "Magnetite",
+  "description": "A naturally magnetic iron ore.",
+  "value": 7,
+  "drop_chance": 40,
+  "mining_xp": 8,
+  "min_mining_level": 3,
+  "min_pickaxe_level": 2,
+  "required_pickaxe": ""
+}

@@ -1,0 +1,20 @@
+{
+  "id": "q072",
+  "name": "Bogfather Avenger",
+  "description": "Defeat the Bogfather again.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "bogfather",
+    "amount": 1
+  },
+  "rewards": {
+    "xp": 400,
+    "gold": 200,
+    "items": [
+      "lootbox_rare"
+    ]
+  },
+  "requirements": {
+    "combat": 10
+  }
+}

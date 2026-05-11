@@ -1,0 +1,11 @@
+{
+  "id": "tundra_iron",
+  "name": "Tundra Iron",
+  "description": "Iron ore frozen in permafrost for millennia.",
+  "value": 28,
+  "drop_chance": 26,
+  "mining_xp": 22,
+  "min_mining_level": 13,
+  "min_pickaxe_level": 5,
+  "required_pickaxe": ""
+}

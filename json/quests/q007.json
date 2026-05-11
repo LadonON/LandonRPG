@@ -1,0 +1,18 @@
+{
+  "id": "q007",
+  "name": "First Blade",
+  "description": "Reach Combat Level 3.",
+  "objective": {
+    "type": "reach_stat_level",
+    "stat": "combat",
+    "level": 3
+  },
+  "rewards": {
+    "xp": 100,
+    "gold": 50,
+    "items": [
+      "iron_sword"
+    ]
+  },
+  "requirements": {}
+}

@@ -1,0 +1,17 @@
+{
+  "monster_id": "cinder_imp",
+  "name": "Cinder Imp",
+  "max_health": 80,
+  "damage": 7,
+  "attack_msg": "spits cinders",
+  "xp_reward": 55,
+  "loot": [
+    "sulfur_chunk",
+    "imp_horn"
+  ],
+  "damage_die": "2d6",
+  "to_hit_bonus": 4,
+  "defense": 3,
+  "poise": 9,
+  "poise_break": 2
+}

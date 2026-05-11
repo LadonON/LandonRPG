@@ -1,0 +1,17 @@
+{
+  "id": "q036",
+  "name": "Hive Avenger",
+  "description": "Defeat the Queen Pollenwing again.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "queen_pollenwing",
+    "amount": 1
+  },
+  "rewards": {
+    "xp": 250,
+    "gold": 120
+  },
+  "requirements": {
+    "combat": 5
+  }
+}

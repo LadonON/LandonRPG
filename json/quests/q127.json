@@ -1,0 +1,14 @@
+{
+  "id": "q127",
+  "name": "Hollow Pilgrim",
+  "description": "Enter the Hollow Marches.",
+  "objective": {
+    "type": "visit_zone",
+    "zone_id": "hollow"
+  },
+  "rewards": {
+    "xp": 500,
+    "gold": 300
+  },
+  "requirements": {}
+}

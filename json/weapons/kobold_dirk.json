@@ -1,0 +1,52 @@
+{
+  "id": "kobold_dirk",
+  "name": "Kobold Dirk",
+  "description": "Stolen from a kobold miner. Surprisingly sharp.",
+  "weapon_class": "finesse",
+  "value": 320,
+  "damage_bonus": 19,
+  "requirements": {
+    "combat": 5
+  },
+  "attacks": [
+    {
+      "id": "quick_stab",
+      "name": "Quick Stab",
+      "damage_die": "1d8",
+      "damage_bonus": 5,
+      "poise_break": 2,
+      "to_hit_bonus": 7
+    },
+    {
+      "id": "dig",
+      "name": "Dig",
+      "damage_die": "1d10",
+      "damage_bonus": 5,
+      "poise_break": 3,
+      "to_hit_bonus": 6
+    },
+    {
+      "id": "riposte",
+      "name": "Riposte",
+      "damage_die": "1d6",
+      "damage_bonus": 3,
+      "poise_break": 1,
+      "to_hit_bonus": 9
+    }
+  ],
+  "upgrade": {
+    "max_level": 30,
+    "per_level_materials": [
+      {
+        "item": "skull",
+        "amount": 1
+      },
+      {
+        "item": "copper_ore",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 0.55,
+    "poise_per_level": 0.4
+  }
+}

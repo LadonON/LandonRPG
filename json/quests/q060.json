@@ -1,0 +1,15 @@
+{
+  "id": "q060",
+  "name": "Mythril Seeker",
+  "description": "Collect 3 mythril chunks.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "mythril_chunk",
+    "amount": 3
+  },
+  "rewards": {
+    "xp": 320,
+    "gold": 180
+  },
+  "requirements": {}
+}

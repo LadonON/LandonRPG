@@ -1,0 +1,15 @@
+{
+  "id": "q151",
+  "name": "Voltite Run",
+  "description": "Collect 10 voltite.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "voltite",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 1300,
+    "gold": 730
+  },
+  "requirements": {}
+}

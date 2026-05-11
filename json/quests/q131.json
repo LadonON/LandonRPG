@@ -1,0 +1,15 @@
+{
+  "id": "q131",
+  "name": "Bonemarble Haul",
+  "description": "Collect 10 bonemarble.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "bonemarble",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 960,
+    "gold": 530
+  },
+  "requirements": {}
+}

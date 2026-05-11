@@ -1,0 +1,14 @@
+{
+  "id": "cataclysm_strike_skill",
+  "name": "Cataclysm Strike",
+  "description": "When subtlety has run out.",
+  "value": 280,
+  "attack": {
+    "id": "cataclysm_strike",
+    "name": "Cataclysm Strike",
+    "damage_die": "4d6",
+    "damage_bonus": 4,
+    "poise_break": 4,
+    "to_hit_bonus": -2
+  }
+}

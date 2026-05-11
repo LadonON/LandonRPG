@@ -1,0 +1,20 @@
+{
+  "id": "q018",
+  "name": "Mossback Avenger",
+  "description": "Defeat the Mossback Ogre again.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "mossback_ogre",
+    "amount": 1
+  },
+  "rewards": {
+    "xp": 200,
+    "gold": 100,
+    "items": [
+      "lootbox_uncommon"
+    ]
+  },
+  "requirements": {
+    "combat": 3
+  }
+}

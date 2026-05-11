@@ -1,0 +1,15 @@
+{
+  "id": "q099",
+  "name": "Drake Breaker",
+  "description": "Defeat 4 glacial drakes.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "glacial_drake",
+    "amount": 4
+  },
+  "rewards": {
+    "xp": 700,
+    "gold": 400
+  },
+  "requirements": {}
+}

@@ -1,0 +1,15 @@
+{
+  "id": "q167",
+  "name": "Forgewraith Breaker",
+  "description": "Defeat 6 forgewraiths.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "forgewraith",
+    "amount": 6
+  },
+  "rewards": {
+    "xp": 2100,
+    "gold": 1200
+  },
+  "requirements": {}
+}

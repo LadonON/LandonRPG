@@ -1,0 +1,15 @@
+{
+  "id": "q175",
+  "name": "Celestial Lily Picker",
+  "description": "Collect 3 celestial lily seeds.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "celestial_lily_seed",
+    "amount": 3
+  },
+  "rewards": {
+    "xp": 2300,
+    "gold": 1400
+  },
+  "requirements": {}
+}

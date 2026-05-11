@@ -1,0 +1,15 @@
+{
+  "id": "q027",
+  "name": "Sun Caught",
+  "description": "Reach Fishing Level 4.",
+  "objective": {
+    "type": "reach_stat_level",
+    "stat": "fishing",
+    "level": 4
+  },
+  "rewards": {
+    "xp": 120,
+    "gold": 60
+  },
+  "requirements": {}
+}

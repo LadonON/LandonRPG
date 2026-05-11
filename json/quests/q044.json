@@ -1,0 +1,15 @@
+{
+  "id": "q044",
+  "name": "Cave Orc Hunt",
+  "description": "Defeat 10 cave orcs.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "cave_orc",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 200,
+    "gold": 100
+  },
+  "requirements": {}
+}

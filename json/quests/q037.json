@@ -1,0 +1,14 @@
+{
+  "id": "q037",
+  "name": "Spelunker",
+  "description": "Enter the Damp Cave.",
+  "objective": {
+    "type": "visit_zone",
+    "zone_id": "cave"
+  },
+  "rewards": {
+    "xp": 100,
+    "gold": 60
+  },
+  "requirements": {}
+}

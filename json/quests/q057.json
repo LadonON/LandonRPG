@@ -1,0 +1,15 @@
+{
+  "id": "q057",
+  "name": "Wisp Lantern",
+  "description": "Defeat 8 will-o-wisps.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "will_o_wisp",
+    "amount": 8
+  },
+  "rewards": {
+    "xp": 260,
+    "gold": 130
+  },
+  "requirements": {}
+}

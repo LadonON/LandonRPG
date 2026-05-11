@@ -1,0 +1,52 @@
+{
+  "id": "tideborn_sword",
+  "name": "Tideborn Sword",
+  "description": "Forged from seabed metals.",
+  "weapon_class": "light",
+  "value": 7000,
+  "damage_bonus": 85,
+  "requirements": {
+    "combat": 23
+  },
+  "attacks": [
+    {
+      "id": "tide_slash",
+      "name": "Tide Slash",
+      "damage_die": "2d8",
+      "damage_bonus": 9,
+      "poise_break": 5,
+      "to_hit_bonus": 6
+    },
+    {
+      "id": "surge_cut",
+      "name": "Surge Cut",
+      "damage_die": "2d6",
+      "damage_bonus": 11,
+      "poise_break": 4,
+      "to_hit_bonus": 7
+    },
+    {
+      "id": "riptide_jab",
+      "name": "Riptide Jab",
+      "damage_die": "1d12",
+      "damage_bonus": 6,
+      "poise_break": 2,
+      "to_hit_bonus": 9
+    }
+  ],
+  "upgrade": {
+    "max_level": 50,
+    "per_level_materials": [
+      {
+        "item": "pearl_coral",
+        "amount": 1
+      },
+      {
+        "item": "salt_crystal",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 1.35,
+    "poise_per_level": 0.9
+  }
+}

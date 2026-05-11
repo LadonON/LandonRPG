@@ -1,0 +1,15 @@
+{
+  "id": "q166",
+  "name": "Void Herald Culling",
+  "description": "Defeat 8 void heralds.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "void_herald",
+    "amount": 8
+  },
+  "rewards": {
+    "xp": 1900,
+    "gold": 1100
+  },
+  "requirements": {}
+}

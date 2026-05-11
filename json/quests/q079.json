@@ -1,0 +1,15 @@
+{
+  "id": "q079",
+  "name": "Salamander Hunt",
+  "description": "Defeat 6 salamander lords.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "salamander_lord",
+    "amount": 6
+  },
+  "rewards": {
+    "xp": 460,
+    "gold": 250
+  },
+  "requirements": {}
+}

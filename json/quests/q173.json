@@ -1,0 +1,15 @@
+{
+  "id": "q173",
+  "name": "Starbloom Picker",
+  "description": "Collect 5 starbloom seeds.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "starbloom_seed",
+    "amount": 5
+  },
+  "rewards": {
+    "xp": 1900,
+    "gold": 1100
+  },
+  "requirements": {}
+}

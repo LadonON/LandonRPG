@@ -1,0 +1,15 @@
+{
+  "id": "q006",
+  "name": "Tooth Gather",
+  "description": "Collect 10 teeth.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "tooth",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 50,
+    "gold": 25
+  },
+  "requirements": {}
+}

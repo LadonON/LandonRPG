@@ -1,0 +1,11 @@
+{
+  "id": "gold_ore",
+  "name": "Gold Ore",
+  "description": "Heavy gleam-streaked rock. Worth a sliver of risk.",
+  "value": 20,
+  "drop_chance": 25,
+  "mining_xp": 18,
+  "min_mining_level": 6,
+  "min_pickaxe_level": 3,
+  "required_pickaxe": ""
+}

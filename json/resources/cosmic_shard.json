@@ -1,0 +1,11 @@
+{
+  "id": "cosmic_shard",
+  "name": "Cosmic Shard",
+  "description": "A fragment of ancient cosmic debris.",
+  "value": 115,
+  "drop_chance": 8,
+  "mining_xp": 76,
+  "min_mining_level": 27,
+  "min_pickaxe_level": 10,
+  "required_pickaxe": "celestial_pickaxe"
+}

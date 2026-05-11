@@ -1,0 +1,52 @@
+{
+  "id": "cinder_longbow",
+  "name": "Cinder Longbow",
+  "description": "The string is woven from fire salamander sinew.",
+  "weapon_class": "ranged",
+  "value": 1800,
+  "damage_bonus": 42,
+  "requirements": {
+    "combat": 13
+  },
+  "attacks": [
+    {
+      "id": "fire_arrow",
+      "name": "Fire Arrow",
+      "damage_die": "2d6",
+      "damage_bonus": 9,
+      "poise_break": 3,
+      "to_hit_bonus": 5
+    },
+    {
+      "id": "rapid",
+      "name": "Rapid Fire",
+      "damage_die": "1d10",
+      "damage_bonus": 8,
+      "poise_break": 2,
+      "to_hit_bonus": 7
+    },
+    {
+      "id": "ember_shot",
+      "name": "Ember Shot",
+      "damage_die": "2d8",
+      "damage_bonus": 9,
+      "poise_break": 4,
+      "to_hit_bonus": 4
+    }
+  ],
+  "upgrade": {
+    "max_level": 40,
+    "per_level_materials": [
+      {
+        "item": "obsidian",
+        "amount": 1
+      },
+      {
+        "item": "sulfur_chunk",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 0.9,
+    "poise_per_level": 0.6
+  }
+}

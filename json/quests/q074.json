@@ -1,0 +1,15 @@
+{
+  "id": "q074",
+  "name": "Imp Culling",
+  "description": "Defeat 10 cinder imps.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "cinder_imp",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 380,
+    "gold": 200
+  },
+  "requirements": {}
+}

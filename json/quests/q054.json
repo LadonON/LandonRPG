@@ -1,0 +1,20 @@
+{
+  "id": "q054",
+  "name": "Troll Avenger",
+  "description": "Defeat the Stonefist Troll again.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "stonefist_troll",
+    "amount": 1
+  },
+  "rewards": {
+    "xp": 300,
+    "gold": 150,
+    "items": [
+      "lootbox_rare"
+    ]
+  },
+  "requirements": {
+    "combat": 7
+  }
+}

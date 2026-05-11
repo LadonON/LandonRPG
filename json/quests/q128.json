@@ -1,0 +1,15 @@
+{
+  "id": "q128",
+  "name": "Knight Culling",
+  "description": "Defeat 10 hollow knights.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "hollow_knight",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 940,
+    "gold": 520
+  },
+  "requirements": {}
+}

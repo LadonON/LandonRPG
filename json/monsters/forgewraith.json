@@ -1,0 +1,17 @@
+{
+  "monster_id": "forgewraith",
+  "name": "Forgewraith",
+  "max_health": 1600,
+  "damage": 25,
+  "attack_msg": "cleaves with a wraith-blade",
+  "xp_reward": 1080,
+  "loot": [
+    "aether_crystal",
+    "wraith_dust"
+  ],
+  "damage_die": "5d10",
+  "to_hit_bonus": 6,
+  "defense": 13,
+  "poise": 36,
+  "poise_break": 6
+}

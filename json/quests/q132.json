@@ -1,0 +1,15 @@
+{
+  "id": "q132",
+  "name": "Shadowsteel Run",
+  "description": "Collect 8 shadowsteel.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "shadowsteel",
+    "amount": 8
+  },
+  "rewards": {
+    "xp": 980,
+    "gold": 540
+  },
+  "requirements": {}
+}

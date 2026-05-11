@@ -1,0 +1,15 @@
+{
+  "id": "q097",
+  "name": "Snow Witch Culling",
+  "description": "Defeat 6 snow witches.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "snow_witch",
+    "amount": 6
+  },
+  "rewards": {
+    "xp": 580,
+    "gold": 310
+  },
+  "requirements": {}
+}

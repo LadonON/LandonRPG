@@ -1,0 +1,11 @@
+{
+  "id": "malachite",
+  "name": "Malachite",
+  "description": "A banded green copper mineral. Vivid and striking.",
+  "value": 16,
+  "drop_chance": 32,
+  "mining_xp": 12,
+  "min_mining_level": 5,
+  "min_pickaxe_level": 3,
+  "required_pickaxe": ""
+}

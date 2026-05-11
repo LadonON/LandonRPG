@@ -1,0 +1,11 @@
+{
+  "id": "mythril_chunk",
+  "name": "Mythril Chunk",
+  "description": "A shard of unnaturally light, blue-veined metal.",
+  "value": 60,
+  "drop_chance": 12,
+  "mining_xp": 30,
+  "min_mining_level": 9,
+  "min_pickaxe_level": 5,
+  "required_pickaxe": "mythril_pickaxe"
+}

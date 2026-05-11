@@ -1,0 +1,15 @@
+{
+  "id": "q149",
+  "name": "Giant Culling",
+  "description": "Defeat 4 storm giants.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "storm_giant",
+    "amount": 4
+  },
+  "rewards": {
+    "xp": 1500,
+    "gold": 850
+  },
+  "requirements": {}
+}

@@ -1,0 +1,15 @@
+{
+  "id": "q119",
+  "name": "Salt Crystal Haul",
+  "description": "Collect 12 salt crystals.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "salt_crystal",
+    "amount": 12
+  },
+  "rewards": {
+    "xp": 760,
+    "gold": 420
+  },
+  "requirements": {}
+}

@@ -1,0 +1,11 @@
+{
+  "id": "moonsilver",
+  "name": "Moonsilver",
+  "description": "Silver that seems to glow faintly in darkness.",
+  "value": 24,
+  "drop_chance": 26,
+  "mining_xp": 18,
+  "min_mining_level": 7,
+  "min_pickaxe_level": 4,
+  "required_pickaxe": ""
+}

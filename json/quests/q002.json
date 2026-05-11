@@ -1,0 +1,18 @@
+{
+  "id": "q002",
+  "name": "Wolf Culling",
+  "description": "Defeat 5 forest wolves.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "forest_wolf",
+    "amount": 5
+  },
+  "rewards": {
+    "xp": 60,
+    "gold": 30,
+    "items": [
+      "small_potion"
+    ]
+  },
+  "requirements": {}
+}

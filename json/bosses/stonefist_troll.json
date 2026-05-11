@@ -1,0 +1,56 @@
+{
+  "id": "stonefist_troll",
+  "name": "Stonefist Troll",
+  "max_health": 240,
+  "defense": 5,
+  "poise": 35,
+  "poise_break": 4,
+  "initiative_bonus": 1,
+  "xp_reward": 800,
+  "loot": [
+    "large_potion",
+    "troll_heart",
+    "obsidian"
+  ],
+  "dialogue": {
+    "on_spawn": [
+      "Stone grinds as the Troll rises from the cave floor.",
+      "\"You... small. Troll crush.\""
+    ],
+    "on_low_hp": [
+      "The Troll's skin hardens to stone. \"HURT TROLL. TROLL ANGRY.\""
+    ],
+    "on_death": [
+      "The Stonefist Troll crumbles into rubble."
+    ]
+  },
+  "attacks": [
+    {
+      "id": "stone_fist",
+      "name": "Stone Fist",
+      "damage_die": "2d8",
+      "damage_bonus": 3,
+      "to_hit_bonus": 2,
+      "poise_break": 5,
+      "target_mode": "single"
+    },
+    {
+      "id": "boulder_throw",
+      "name": "Boulder Throw",
+      "damage_die": "2d6",
+      "damage_bonus": 2,
+      "to_hit_bonus": 1,
+      "poise_break": 4,
+      "target_mode": "single"
+    },
+    {
+      "id": "ground_slam",
+      "name": "Ground Slam",
+      "damage_die": "1d10",
+      "damage_bonus": 2,
+      "to_hit_bonus": 1,
+      "poise_break": 6,
+      "target_mode": "all"
+    }
+  ]
+}

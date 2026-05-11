@@ -1,0 +1,52 @@
+{
+  "id": "voltsteel_dagger",
+  "name": "Voltsteel Dagger",
+  "description": "Steel that conducts electricity to targets.",
+  "weapon_class": "light",
+  "value": 28000,
+  "damage_bonus": 165,
+  "requirements": {
+    "combat": 36
+  },
+  "attacks": [
+    {
+      "id": "shock_stab",
+      "name": "Shock Stab",
+      "damage_die": "2d8",
+      "damage_bonus": 13,
+      "poise_break": 3,
+      "to_hit_bonus": 12
+    },
+    {
+      "id": "volt_cut",
+      "name": "Volt Cut",
+      "damage_die": "3d6",
+      "damage_bonus": 11,
+      "poise_break": 5,
+      "to_hit_bonus": 9
+    },
+    {
+      "id": "lightning_jab",
+      "name": "Lightning Jab",
+      "damage_die": "2d6",
+      "damage_bonus": 8,
+      "poise_break": 2,
+      "to_hit_bonus": 13
+    }
+  ],
+  "upgrade": {
+    "max_level": 60,
+    "per_level_materials": [
+      {
+        "item": "stormsteel",
+        "amount": 1
+      },
+      {
+        "item": "voltite",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 2.0,
+    "poise_per_level": 1.3
+  }
+}

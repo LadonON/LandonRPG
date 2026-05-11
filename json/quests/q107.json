@@ -1,0 +1,18 @@
+{
+  "id": "q107",
+  "name": "Frost Oath",
+  "description": "Reach Combat Level 18.",
+  "objective": {
+    "type": "reach_stat_level",
+    "stat": "combat",
+    "level": 18
+  },
+  "rewards": {
+    "xp": 700,
+    "gold": 380,
+    "items": [
+      "hoarsteel_sword"
+    ]
+  },
+  "requirements": {}
+}

@@ -1,0 +1,14 @@
+{
+  "id": "q145",
+  "name": "Stormwalker",
+  "description": "Enter the Stormvault Citadel.",
+  "objective": {
+    "type": "visit_zone",
+    "zone_id": "stormvault"
+  },
+  "rewards": {
+    "xp": 650,
+    "gold": 400
+  },
+  "requirements": {}
+}

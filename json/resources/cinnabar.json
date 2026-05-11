@@ -1,0 +1,11 @@
+{
+  "id": "cinnabar",
+  "name": "Cinnabar",
+  "description": "Toxic red mercury sulfide. Handle with care.",
+  "value": 26,
+  "drop_chance": 20,
+  "mining_xp": 20,
+  "min_mining_level": 10,
+  "min_pickaxe_level": 5,
+  "required_pickaxe": ""
+}

@@ -1,0 +1,15 @@
+{
+  "seed_id": "coral_seed",
+  "seed_name": "Coral Seed",
+  "seed_value": 15,
+  "crop_id": "coral_bud",
+  "crop_name": "Coral Bud",
+  "crop_description": "Living coral that absorbs poison.",
+  "crop_type": "herb",
+  "crop_value": 40,
+  "crop_heal": 50,
+  "grow_time_minutes": 18,
+  "yield_base": 1,
+  "farming_xp": 28,
+  "min_farming_level": 11
+}

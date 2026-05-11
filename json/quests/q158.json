@@ -1,0 +1,15 @@
+{
+  "id": "q158",
+  "name": "Sentinel Core Run",
+  "description": "Collect 6 sentinel cores.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "sentinel_core",
+    "amount": 6
+  },
+  "rewards": {
+    "xp": 1320,
+    "gold": 740
+  },
+  "requirements": {}
+}

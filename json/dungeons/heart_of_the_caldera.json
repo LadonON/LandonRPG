@@ -1,0 +1,44 @@
+{
+  "zone_id": "ashfall",
+  "name": "Heart of the Caldera",
+  "description": "A caldera filled with lava rivers and Magmaw's kin.",
+  "spawn_pool": [
+    "cinder_imp",
+    "ash_walker",
+    "salamander_lord",
+    "pyre_orc"
+  ],
+  "rooms": [
+    {
+      "enemy_count": [
+        2,
+        4
+      ]
+    },
+    {
+      "enemy_count": [
+        2,
+        4
+      ]
+    },
+    {
+      "enemy_count": [
+        2,
+        4
+      ]
+    },
+    {
+      "enemy_count": [
+        2,
+        4
+      ]
+    },
+    {
+      "enemy_count": [
+        2,
+        4
+      ]
+    }
+  ],
+  "boss_id": "magmaw_the_sundering"
+}

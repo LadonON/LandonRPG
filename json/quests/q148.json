@@ -1,0 +1,15 @@
+{
+  "id": "q148",
+  "name": "Arc Breaker",
+  "description": "Defeat 8 arc constructs.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "arc_construct",
+    "amount": 8
+  },
+  "rewards": {
+    "xp": 1320,
+    "gold": 740
+  },
+  "requirements": {}
+}

@@ -1,0 +1,52 @@
+{
+  "id": "frostfang_rapier",
+  "name": "Frostfang Rapier",
+  "description": "Blade of glacial ice-steel. Leaves frost on wounds.",
+  "weapon_class": "finesse",
+  "value": 3800,
+  "damage_bonus": 55,
+  "requirements": {
+    "combat": 18
+  },
+  "attacks": [
+    {
+      "id": "frost_thrust",
+      "name": "Frost Thrust",
+      "damage_die": "2d6",
+      "damage_bonus": 9,
+      "poise_break": 3,
+      "to_hit_bonus": 9
+    },
+    {
+      "id": "ice_lunge",
+      "name": "Ice Lunge",
+      "damage_die": "2d8",
+      "damage_bonus": 8,
+      "poise_break": 3,
+      "to_hit_bonus": 8
+    },
+    {
+      "id": "freeze_feint",
+      "name": "Freeze Feint",
+      "damage_die": "1d12",
+      "damage_bonus": 6,
+      "poise_break": 2,
+      "to_hit_bonus": 11
+    }
+  ],
+  "upgrade": {
+    "max_level": 45,
+    "per_level_materials": [
+      {
+        "item": "frostsilver",
+        "amount": 1
+      },
+      {
+        "item": "iceshard",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 1.1,
+    "poise_per_level": 0.75
+  }
+}

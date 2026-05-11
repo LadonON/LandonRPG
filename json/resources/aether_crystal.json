@@ -1,0 +1,11 @@
+{
+  "id": "aether_crystal",
+  "name": "Aether Crystal",
+  "description": "A conduit for cosmic energy.",
+  "value": 90,
+  "drop_chance": 8,
+  "mining_xp": 90,
+  "min_mining_level": 28,
+  "min_pickaxe_level": 10,
+  "required_pickaxe": "celestial_pickaxe"
+}

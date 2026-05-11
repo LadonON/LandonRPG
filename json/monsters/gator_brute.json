@@ -1,0 +1,17 @@
+{
+  "monster_id": "gator_brute",
+  "name": "Gator Brute",
+  "max_health": 110,
+  "damage": 8,
+  "attack_msg": "snaps its massive jaws",
+  "xp_reward": 68,
+  "loot": [
+    "gator_hide",
+    "fang"
+  ],
+  "damage_die": "2d8",
+  "to_hit_bonus": 2,
+  "defense": 4,
+  "poise": 14,
+  "poise_break": 3
+}

@@ -2,7 +2,8 @@ from collections import Counter
 from discord.ext import commands
 
 from ..services import players
-from ..world import items, recipes, weapons, weapon_skills
+from ..world import items, recipes, weapons, weapon_skills, pickaxes
+from ..world import upgrade_scaling
 from ..pvp import engine as pvp_engine
 from ..pve import engine as pve_engine
 from ._helpers import inventory_str
@@ -24,7 +25,8 @@ class Crafting(commands.Cog):
             await ctx.send(
                 "Usage:\n"
                 "`!craft <ingredient> [xN] ... [count]` — craft from a recipe\n"
-                "`!craft upgrade <weapon> <material> [<material> ...]` — upgrade a weapon\n"
+                "`!craft upgrade <weapon_or_pickaxe>` — preview the next-level cost\n"
+                "`!craft upgrade <weapon_or_pickaxe> <level>` — advance to that level (must be current + 1)\n"
                 "`!craft attach <weapon> <weapon_skill_id>` — attach a weapon skill (replaces existing)\n"
                 "`!craft recipes <page>` — view recipes"
             )
@@ -97,56 +99,97 @@ class Crafting(commands.Cog):
     async def _upgrade(self, ctx, args: tuple[str, ...]):
         if not args:
             await ctx.send(
-                "Usage: `!craft upgrade <weapon_id> <material> [<material> ...]`\n"
-                "Each material consumes one of the upgrade recipe's required items."
+                "Usage:\n"
+                "`!craft upgrade <weapon_or_pickaxe_id>` — preview the next level's cost\n"
+                "`!craft upgrade <weapon_or_pickaxe_id> <level>` — consume materials and advance to that level"
             )
             return
 
-        weapon_id = args[0].lower()
-        material_tokens = [a.lower() for a in args[1:]]
+        target_id = args[0].lower()
 
-        weapon = weapons.get(weapon_id)
-        if weapon is None:
+        # Dispatch to whichever subsystem owns this id.
+        weapon = weapons.get(target_id)
+        pickaxe = pickaxes.get(target_id)
+        if weapon is None and pickaxe is None:
             await ctx.send(
-                f"Unknown weapon `{weapon_id}`. "
-                f"Known weapons: {', '.join(sorted(weapons.WEAPONS.keys()))}."
+                f"Unknown weapon or pickaxe `{target_id}`. "
+                f"Weapons: {', '.join(sorted(weapons.WEAPONS.keys()))}. "
+                f"Pickaxes: {', '.join(sorted(pickaxes.PICKAXES.keys()))}."
             )
             return
+
+        is_pickaxe = pickaxe is not None
+        cfg = pickaxe if is_pickaxe else weapon
+        target_name = cfg.name
+        upgrade = cfg.upgrade
 
         player = players.get_or_create(ctx.author.id, ctx.author.display_name)
-
-        if weapon_id not in player.inventory and player.equipped_weapon != weapon_id:
-            await ctx.send(f"You don't own a **{weapon.name}**.")
+        equipped_slot = player.equipped_pickaxe if is_pickaxe else player.equipped_weapon
+        if target_id not in player.inventory and equipped_slot != target_id:
+            await ctx.send(f"You don't own a **{target_name}**.")
             return
 
-        inst = pvp_engine.get_instance(player, weapon_id)
+        inst = (pickaxes.get_instance(player, target_id) if is_pickaxe
+                else pvp_engine.get_instance(player, target_id))
         cur_lvl = inst["level"]
-        max_lvl = weapon.upgrade.max_level
+        max_lvl = upgrade.max_level
         if cur_lvl >= max_lvl:
-            await ctx.send(f"**{weapon.name}** is already at max level ({max_lvl}).")
+            await ctx.send(f"**{target_name}** is already at max level ({max_lvl}).")
             return
 
-        required = Counter(dict(weapon.upgrade.per_level_materials))
-        if not required:
-            await ctx.send(f"**{weapon.name}** has no upgrade recipe.")
+        if not upgrade.per_level_materials:
+            await ctx.send(f"**{target_name}** has no upgrade recipe.")
             return
 
-        provided = Counter(material_tokens)
-        # Validate: provided must equal required exactly
-        if provided != required:
-            req_str = ", ".join(f"{i} x{q}" for i, q in required.items())
+        # ── Preview mode (no level arg) ──────────────────────────────────────
+        if len(args) < 2:
+            target_level = cur_lvl + 1
+            tier = upgrade_scaling.tier_for(target_level)
+            required = upgrade_scaling.required_for(upgrade.per_level_materials, target_level)
+            have = Counter(player.inventory)
+            lines = []
+            for item_id, qty in required.items():
+                label = items.get(item_id).name if items.get(item_id) else item_id
+                lines.append(f"  {label} (`{item_id}`) — need {qty}, have {have.get(item_id, 0)}")
             await ctx.send(
-                f"Wrong materials. To upgrade **{weapon.name}** L{cur_lvl} → L{cur_lvl+1} you need: {req_str}."
+                f"**{target_name}** L{cur_lvl} → L{target_level} ({tier.label} tier):\n"
+                + "\n".join(lines)
+                + f"\nRun: `!craft upgrade {target_id} {target_level}`"
             )
             return
+
+        # ── Upgrade mode (level arg given) ───────────────────────────────────
+        try:
+            target_level = int(args[1])
+        except ValueError:
+            await ctx.send(
+                f"Second argument must be a level number. Example: `!craft upgrade {target_id} {cur_lvl + 1}`."
+            )
+            return
+
+        # Sequential constraint: each upgrade step advances by exactly one level.
+        if target_level != cur_lvl + 1:
+            await ctx.send(
+                f"**{target_name}** must be L{target_level - 1} to upgrade to L{target_level} "
+                f"(currently L{cur_lvl}). Run `!craft upgrade {target_id} {cur_lvl + 1}` instead."
+            )
+            return
+        if target_level > max_lvl:
+            await ctx.send(f"**{target_name}** caps at L{max_lvl}.")
+            return
+
+        tier = upgrade_scaling.tier_for(target_level)
+        required = upgrade_scaling.required_for(upgrade.per_level_materials, target_level)
 
         # Validate inventory has the materials
         have = Counter(player.inventory)
         for item_id, qty in required.items():
             if have[item_id] < qty:
                 label = items.get(item_id).name if items.get(item_id) else item_id
+                req_str = ", ".join(f"{i} x{q}" for i, q in required.items())
                 await ctx.send(
-                    f"Need {qty}x {label} (you have {have[item_id]})."
+                    f"Need {qty}x {label} (you have {have[item_id]}). "
+                    f"Full cost for L{cur_lvl} → L{target_level} ({tier.label}): {req_str}."
                 )
                 return
 
@@ -154,15 +197,23 @@ class Crafting(commands.Cog):
         for item_id, qty in required.items():
             for _ in range(qty):
                 player.inventory.remove(item_id)
-        inst["level"] = cur_lvl + 1
+        inst["level"] = target_level
 
-        new_atk_bonus = pvp_engine.total_damage_bonus(player, weapon_id)
-        await ctx.send(
-            f"**{weapon.name}** upgraded to **L{inst['level']}**!\n"
-            f"Attack bonus is now +{new_atk_bonus} "
-            f"(+{weapon.upgrade.attack_per_level} per level, "
-            f"+{weapon.upgrade.poise_per_level} poise/level)."
-        )
+        if is_pickaxe:
+            new_eff = pickaxes.effective_pickaxe_level(player, target_id)
+            await ctx.send(
+                f"**{target_name}** upgraded to **L{inst['level']}**!\n"
+                f"Effective pickaxe level is now **{new_eff}** "
+                f"(+{upgrade.level_per_step}/upgrade step)."
+            )
+        else:
+            new_atk_bonus = pvp_engine.total_damage_bonus(player, target_id)
+            await ctx.send(
+                f"**{target_name}** upgraded to **L{inst['level']}**!\n"
+                f"Attack bonus is now +{new_atk_bonus} "
+                f"(+{upgrade.attack_per_level} per level, "
+                f"+{upgrade.poise_per_level} poise/level)."
+            )
 
 
     async def _attach(self, ctx, args: tuple[str, ...]):

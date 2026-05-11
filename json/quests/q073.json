@@ -1,0 +1,14 @@
+{
+  "id": "q073",
+  "name": "Flameborn",
+  "description": "Enter the Ashfall Plateau.",
+  "objective": {
+    "type": "visit_zone",
+    "zone_id": "ashfall"
+  },
+  "rewards": {
+    "xp": 220,
+    "gold": 130
+  },
+  "requirements": {}
+}

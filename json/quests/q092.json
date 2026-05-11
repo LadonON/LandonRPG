@@ -1,0 +1,15 @@
+{
+  "id": "q092",
+  "name": "Frost Wolf Hunt",
+  "description": "Defeat 10 frost wolves.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "frost_wolf",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 520,
+    "gold": 280
+  },
+  "requirements": {}
+}

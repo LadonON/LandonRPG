@@ -1,0 +1,11 @@
+{
+  "id": "coal",
+  "name": "Coal",
+  "description": "Dense black rock. Burns hot and long.",
+  "value": 4,
+  "drop_chance": 45,
+  "mining_xp": 6,
+  "min_mining_level": 4,
+  "min_pickaxe_level": 2,
+  "required_pickaxe": ""
+}

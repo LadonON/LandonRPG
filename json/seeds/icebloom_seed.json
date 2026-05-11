@@ -1,0 +1,15 @@
+{
+  "seed_id": "icebloom_seed",
+  "seed_name": "Icebloom Seed",
+  "seed_value": 12,
+  "crop_id": "icebloom",
+  "crop_name": "Icebloom",
+  "crop_description": "Crystalline petals that never melt.",
+  "crop_type": "herb",
+  "crop_value": 45,
+  "crop_heal": 70,
+  "grow_time_minutes": 15,
+  "yield_base": 1,
+  "farming_xp": 32,
+  "min_farming_level": 10
+}

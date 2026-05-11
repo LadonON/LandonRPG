@@ -1,0 +1,15 @@
+{
+  "id": "q095",
+  "name": "Iceshard Haul",
+  "description": "Collect 14 iceshards.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "iceshard",
+    "amount": 14
+  },
+  "rewards": {
+    "xp": 540,
+    "gold": 290
+  },
+  "requirements": {}
+}

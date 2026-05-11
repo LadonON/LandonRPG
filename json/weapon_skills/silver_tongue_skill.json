@@ -1,0 +1,14 @@
+{
+  "id": "silver_tongue_skill",
+  "name": "Silver Tongue",
+  "description": "A distracting feint that slides a blade home.",
+  "value": 115,
+  "attack": {
+    "id": "silver_tongue",
+    "name": "Silver Tongue",
+    "damage_die": "1d8",
+    "damage_bonus": 4,
+    "poise_break": 1,
+    "to_hit_bonus": 9
+  }
+}

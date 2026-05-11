@@ -1,0 +1,15 @@
+{
+  "id": "q174",
+  "name": "Godsblood Picker",
+  "description": "Collect 4 godsblood seeds.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "godsblood_seed",
+    "amount": 4
+  },
+  "rewards": {
+    "xp": 2100,
+    "gold": 1200
+  },
+  "requirements": {}
+}

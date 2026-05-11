@@ -1,0 +1,11 @@
+{
+  "id": "silver_ore",
+  "name": "Silver Ore",
+  "description": "Bright metallic ore with a mirror sheen.",
+  "value": 12,
+  "drop_chance": 30,
+  "mining_xp": 12,
+  "min_mining_level": 5,
+  "min_pickaxe_level": 4,
+  "required_pickaxe": ""
+}

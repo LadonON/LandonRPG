@@ -1,0 +1,52 @@
+{
+  "id": "skyforge_maul",
+  "name": "Skyforge Maul",
+  "description": "The weight of the heavens in hammer form.",
+  "weapon_class": "heavy",
+  "value": 100000,
+  "damage_bonus": 370,
+  "requirements": {
+    "combat": 43
+  },
+  "attacks": [
+    {
+      "id": "celestial_slam",
+      "name": "Celestial Slam",
+      "damage_die": "4d10",
+      "damage_bonus": 25,
+      "poise_break": 12,
+      "to_hit_bonus": 3
+    },
+    {
+      "id": "star_crush",
+      "name": "Star Crush",
+      "damage_die": "5d6",
+      "damage_bonus": 23,
+      "poise_break": 13,
+      "to_hit_bonus": 2
+    },
+    {
+      "id": "forge_smash",
+      "name": "Forge Smash",
+      "damage_die": "4d8",
+      "damage_bonus": 28,
+      "poise_break": 14,
+      "to_hit_bonus": 1
+    }
+  ],
+  "upgrade": {
+    "max_level": 70,
+    "per_level_materials": [
+      {
+        "item": "celestium",
+        "amount": 1
+      },
+      {
+        "item": "stardust",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 2.5,
+    "poise_per_level": 1.6
+  }
+}

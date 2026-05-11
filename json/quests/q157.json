@@ -1,0 +1,18 @@
+{
+  "id": "q157",
+  "name": "Tempest Oath",
+  "description": "Reach Combat Level 35.",
+  "objective": {
+    "type": "reach_stat_level",
+    "stat": "combat",
+    "level": 35
+  },
+  "rewards": {
+    "xp": 1500,
+    "gold": 840,
+    "items": [
+      "stormcut_sword"
+    ]
+  },
+  "requirements": {}
+}

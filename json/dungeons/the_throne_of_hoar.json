@@ -1,0 +1,44 @@
+{
+  "zone_id": "frostbound",
+  "name": "The Throne of Hoar",
+  "description": "A glacial palace where Glacien holds frozen court.",
+  "spawn_pool": [
+    "frost_wolf",
+    "ice_revenant",
+    "yeti_brute",
+    "snow_witch"
+  ],
+  "rooms": [
+    {
+      "enemy_count": [
+        3,
+        4
+      ]
+    },
+    {
+      "enemy_count": [
+        3,
+        4
+      ]
+    },
+    {
+      "enemy_count": [
+        3,
+        4
+      ]
+    },
+    {
+      "enemy_count": [
+        3,
+        4
+      ]
+    },
+    {
+      "enemy_count": [
+        3,
+        4
+      ]
+    }
+  ],
+  "boss_id": "glacien_frostfanged"
+}

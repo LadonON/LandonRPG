@@ -1,0 +1,11 @@
+{
+  "id": "galena",
+  "name": "Galena",
+  "description": "Heavy silver-lead ore. Dense as solid grief.",
+  "value": 19,
+  "drop_chance": 24,
+  "mining_xp": 16,
+  "min_mining_level": 5,
+  "min_pickaxe_level": 5,
+  "required_pickaxe": ""
+}

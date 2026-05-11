@@ -1,0 +1,14 @@
+{
+  "id": "q163",
+  "name": "Crucible Arrival",
+  "description": "Enter the Skyforge Crucible.",
+  "objective": {
+    "type": "visit_zone",
+    "zone_id": "skyforge"
+  },
+  "rewards": {
+    "xp": 850,
+    "gold": 550
+  },
+  "requirements": {}
+}

@@ -1,0 +1,15 @@
+{
+  "id": "q064",
+  "name": "Swamp Pike Haul",
+  "description": "Collect 4 swamp pikes.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "swamp_pike",
+    "amount": 4
+  },
+  "rewards": {
+    "xp": 240,
+    "gold": 120
+  },
+  "requirements": {}
+}

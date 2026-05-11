@@ -1,0 +1,24 @@
+{
+  "id": "obsidian_pickaxe",
+  "name": "Obsidian Pickaxe",
+  "description": "Volcanic glass head \u2014 required for volcanic ores.",
+  "pickaxe_level": 8,
+  "value": 2000,
+  "requirements": {
+    "mining": 12
+  },
+  "upgrade": {
+    "max_level": 100,
+    "per_level_materials": [
+      {
+        "item": "obsidian",
+        "amount": 2
+      },
+      {
+        "item": "sulfur_chunk",
+        "amount": 1
+      }
+    ],
+    "level_per_step": 0.13
+  }
+}

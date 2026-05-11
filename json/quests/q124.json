@@ -1,0 +1,15 @@
+{
+  "id": "q124",
+  "name": "Siren Voice Run",
+  "description": "Collect 6 siren voices.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "siren_voice",
+    "amount": 6
+  },
+  "rewards": {
+    "xp": 780,
+    "gold": 420
+  },
+  "requirements": {}
+}

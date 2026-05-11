@@ -1,0 +1,11 @@
+{
+  "id": "aurora_dust",
+  "name": "Aurora Dust",
+  "description": "Magical particles that shimmer in polar light.",
+  "value": 38,
+  "drop_chance": 16,
+  "mining_xp": 30,
+  "min_mining_level": 14,
+  "min_pickaxe_level": 5,
+  "required_pickaxe": ""
+}

@@ -1,0 +1,52 @@
+{
+  "id": "magma_scythe",
+  "name": "Magma Scythe",
+  "description": "The blade is a solidified magma flow.",
+  "weapon_class": "two_handed",
+  "value": 3000,
+  "damage_bonus": 92,
+  "requirements": {
+    "combat": 13
+  },
+  "attacks": [
+    {
+      "id": "lava_reap",
+      "name": "Lava Reap",
+      "damage_die": "3d6",
+      "damage_bonus": 12,
+      "poise_break": 5,
+      "to_hit_bonus": 2
+    },
+    {
+      "id": "eruption_sweep",
+      "name": "Eruption Sweep",
+      "damage_die": "3d8",
+      "damage_bonus": 11,
+      "poise_break": 6,
+      "to_hit_bonus": 2
+    },
+    {
+      "id": "magma_slam",
+      "name": "Magma Slam",
+      "damage_die": "2d12",
+      "damage_bonus": 13,
+      "poise_break": 8,
+      "to_hit_bonus": 1
+    }
+  ],
+  "upgrade": {
+    "max_level": 40,
+    "per_level_materials": [
+      {
+        "item": "obsidian",
+        "amount": 1
+      },
+      {
+        "item": "sulfur_chunk",
+        "amount": 1
+      }
+    ],
+    "attack_per_level": 0.9,
+    "poise_per_level": 0.6
+  }
+}

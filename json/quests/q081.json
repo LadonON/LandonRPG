@@ -1,0 +1,15 @@
+{
+  "id": "q081",
+  "name": "Pyre Orc Hunt",
+  "description": "Defeat 8 pyre orcs.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "pyre_orc",
+    "amount": 8
+  },
+  "rewards": {
+    "xp": 420,
+    "gold": 220
+  },
+  "requirements": {}
+}

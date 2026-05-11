@@ -1,0 +1,17 @@
+{
+  "monster_id": "siren_thrall",
+  "name": "Siren Thrall",
+  "max_health": 240,
+  "damage": 12,
+  "attack_msg": "slashes with webbed claws",
+  "xp_reward": 162,
+  "loot": [
+    "siren_voice",
+    "scale"
+  ],
+  "damage_die": "3d6",
+  "to_hit_bonus": 5,
+  "defense": 4,
+  "poise": 14,
+  "poise_break": 3
+}

@@ -1,0 +1,15 @@
+{
+  "id": "q121",
+  "name": "Anglerfish Run",
+  "description": "Collect 4 anglerfish.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "anglerfish",
+    "amount": 4
+  },
+  "rewards": {
+    "xp": 780,
+    "gold": 420
+  },
+  "requirements": {}
+}

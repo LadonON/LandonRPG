@@ -1,0 +1,15 @@
+{
+  "seed_id": "carrot_seed",
+  "seed_name": "Carrot Seed",
+  "seed_value": 1,
+  "crop_id": "carrot",
+  "crop_name": "Carrot",
+  "crop_description": "A crunchy orange root.",
+  "crop_type": "food",
+  "crop_value": 3,
+  "crop_heal": 3,
+  "grow_time_minutes": 2,
+  "yield_base": 3,
+  "farming_xp": 4,
+  "min_farming_level": 1
+}

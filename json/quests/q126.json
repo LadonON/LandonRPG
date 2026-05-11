@@ -1,0 +1,20 @@
+{
+  "id": "q126",
+  "name": "Krakora Avenger",
+  "description": "Defeat Krakora, Tide-Spawn again.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "krakora_tide_spawn",
+    "amount": 1
+  },
+  "rewards": {
+    "xp": 1000,
+    "gold": 500,
+    "items": [
+      "lootbox_legendary"
+    ]
+  },
+  "requirements": {
+    "combat": 22
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q067",
+  "name": "Bogfather Trial",
+  "description": "Defeat the Bogfather.",
+  "objective": {
+    "type": "kill_monster",
+    "monster_id": "bogfather",
+    "amount": 1
+  },
+  "rewards": {
+    "xp": 600,
+    "gold": 350,
+    "items": [
+      "bogfather_heart"
+    ],
+    "unlock_zone": "ashfall"
+  },
+  "requirements": {}
+}

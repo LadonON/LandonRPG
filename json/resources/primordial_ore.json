@@ -1,0 +1,11 @@
+{
+  "id": "primordial_ore",
+  "name": "Primordial Ore",
+  "description": "Ore older than the world itself. Pre-creation.",
+  "value": 160,
+  "drop_chance": 6,
+  "mining_xp": 92,
+  "min_mining_level": 28,
+  "min_pickaxe_level": 10,
+  "required_pickaxe": "celestial_pickaxe"
+}

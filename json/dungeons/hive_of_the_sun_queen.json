@@ -1,0 +1,31 @@
+{
+  "zone_id": "meadow",
+  "name": "Hive of the Sun-Queen",
+  "description": "A vast honeycomb cavern ruled by a pollen queen.",
+  "spawn_pool": [
+    "meadow_orc",
+    "honey_drake",
+    "pollen_wisp"
+  ],
+  "rooms": [
+    {
+      "enemy_count": [
+        2,
+        3
+      ]
+    },
+    {
+      "enemy_count": [
+        2,
+        3
+      ]
+    },
+    {
+      "enemy_count": [
+        2,
+        3
+      ]
+    }
+  ],
+  "boss_id": "queen_pollenwing"
+}

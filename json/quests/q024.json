@@ -1,0 +1,15 @@
+{
+  "id": "q024",
+  "name": "Pollen Dust",
+  "description": "Collect 6 glow dust.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "glow_dust",
+    "amount": 6
+  },
+  "rewards": {
+    "xp": 110,
+    "gold": 60
+  },
+  "requirements": {}
+}

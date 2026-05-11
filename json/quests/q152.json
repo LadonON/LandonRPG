@@ -1,0 +1,15 @@
+{
+  "id": "q152",
+  "name": "Skyiron Haul",
+  "description": "Collect 10 skyiron.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "skyiron",
+    "amount": 10
+  },
+  "rewards": {
+    "xp": 1340,
+    "gold": 750
+  },
+  "requirements": {}
+}

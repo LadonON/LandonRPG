@@ -1,0 +1,15 @@
+{
+  "id": "q078",
+  "name": "Sulfur Run",
+  "description": "Collect 14 sulfur chunks.",
+  "objective": {
+    "type": "collect_item",
+    "item_id": "sulfur_chunk",
+    "amount": 14
+  },
+  "rewards": {
+    "xp": 380,
+    "gold": 200
+  },
+  "requirements": {}
+}

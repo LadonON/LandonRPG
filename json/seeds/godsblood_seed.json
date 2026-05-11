@@ -1,0 +1,15 @@
+{
+  "seed_id": "godsblood_seed",
+  "seed_name": "Godsblood Seed",
+  "seed_value": 50,
+  "crop_id": "godsblood",
+  "crop_name": "Godsblood",
+  "crop_description": "Crimson sap that burns. Divine origin.",
+  "crop_type": "herb",
+  "crop_value": 175,
+  "crop_heal": 180,
+  "grow_time_minutes": 35,
+  "yield_base": 1,
+  "farming_xp": 100,
+  "min_farming_level": 19
+}

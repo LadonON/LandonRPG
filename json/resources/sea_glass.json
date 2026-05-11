@@ -1,0 +1,11 @@
+{
+  "id": "sea_glass",
+  "name": "Sea Glass",
+  "description": "Weathered glass worn smooth by tidal currents.",
+  "value": 24,
+  "drop_chance": 28,
+  "mining_xp": 24,
+  "min_mining_level": 16,
+  "min_pickaxe_level": 6,
+  "required_pickaxe": ""
+}

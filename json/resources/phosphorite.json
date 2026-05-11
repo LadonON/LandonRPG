@@ -1,0 +1,11 @@
+{
+  "id": "phosphorite",
+  "name": "Phosphorite",
+  "description": "A glowing mineral from the ocean floor.",
+  "value": 36,
+  "drop_chance": 22,
+  "mining_xp": 27,
+  "min_mining_level": 17,
+  "min_pickaxe_level": 6,
+  "required_pickaxe": ""
+}
